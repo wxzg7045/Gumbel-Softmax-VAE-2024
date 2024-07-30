@@ -1,0 +1,1547 @@
+C:\Users\zhouf\.conda\envs\old12\python.exe F:\Users\zhouf\PycharmProjects\Gumbel-SoftmaxVAE_CelebA\Gumbel_VAE_celebA.py 
+C:\Users\zhouf\.conda\envs\old12\lib\site-packages\torch\nn\modules\conv.py:456: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\Conv_v8.cpp:919.)
+  return F.conv2d(input, weight, bias, self.stride,
+C:\Users\zhouf\.conda\envs\old12\lib\site-packages\torch\autograd\graph.py:744: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\Conv_v8.cpp:919.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Train Epoch: 0 	Model: 0 	Training Loss: 30372.522190824468 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 1 	Training Loss: 29737.846856299868 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 2 	Training Loss: 29947.319419049203 	Temperature Strategy: linear_increase 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 3 	Training Loss: 30255.082166306514 	Temperature Strategy: linear_decrease 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 4 	Training Loss: 30854.98239070811 	Temperature Strategy: exp_increase 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 5 	Training Loss: 30305.74319522939 	Temperature Strategy: exp_decrease 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 6 	Training Loss: 30749.95262632979 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 7 	Training Loss: 30424.251890791224 	Temperature Strategy: linear_increase 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 8 	Training Loss: 32374.76525099734 	Temperature Strategy: linear_decrease 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 0 	Model: 9 	Training Loss: 30246.63329039229 	Temperature Strategy: exp_increase 	tau_1: 1.0 	tau_2: 1.0
+Best model saved with index: 1 and loss: 29737.846856299868
+Epoch: 0 	Best Model Index: 1 	Best Temperature Strategy: fixed 	Best tau_1: 1.0 	Best tau_2: 1.0
+Train Epoch: 1 	Model: 0 	Training Loss: 28616.24590674867 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 1 	Model: 1 	Training Loss: 28229.627389461435 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 1 	Model: 2 	Training Loss: 27611.355364860374 	Temperature Strategy: linear_increase 	tau_1: 2.0 	tau_2: 2.0
+Train Epoch: 1 	Model: 3 	Training Loss: 28464.484375 	Temperature Strategy: linear_decrease 	tau_1: 0.9919999837875366 	tau_2: 0.9919999837875366
+Train Epoch: 1 	Model: 4 	Training Loss: 28639.31350772939 	Temperature Strategy: exp_increase 	tau_1: 1.0499999523162842 	tau_2: 1.0499999523162842
+Train Epoch: 1 	Model: 5 	Training Loss: 28639.09751080452 	Temperature Strategy: exp_decrease 	tau_1: 0.9950000047683716 	tau_2: 0.9950000047683716
+Train Epoch: 1 	Model: 6 	Training Loss: 28522.765978224736 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 1 	Model: 7 	Training Loss: 27797.17281000665 	Temperature Strategy: linear_increase 	tau_1: 2.0 	tau_2: 2.0
+Train Epoch: 1 	Model: 8 	Training Loss: 32152.361380069815 	Temperature Strategy: linear_decrease 	tau_1: 0.9919999837875366 	tau_2: 0.9919999837875366
+Train Epoch: 1 	Model: 9 	Training Loss: 28552.113229305185 	Temperature Strategy: exp_increase 	tau_1: 1.0499999523162842 	tau_2: 1.0499999523162842
+Best model saved with index: 2 and loss: 27611.355364860374
+Epoch: 1 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 2.0 	Best tau_2: 2.0
+Train Epoch: 2 	Model: 0 	Training Loss: 28290.319761884974 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 2 	Model: 1 	Training Loss: 27981.430071891624 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 2 	Model: 2 	Training Loss: 26788.65381898271 	Temperature Strategy: linear_increase 	tau_1: 3.0 	tau_2: 3.0
+Train Epoch: 2 	Model: 3 	Training Loss: 28172.06433884641 	Temperature Strategy: linear_decrease 	tau_1: 0.984000027179718 	tau_2: 0.984000027179718
+Train Epoch: 2 	Model: 4 	Training Loss: 28226.81478557181 	Temperature Strategy: exp_increase 	tau_1: 1.1024999618530273 	tau_2: 1.1024999618530273
+Train Epoch: 2 	Model: 5 	Training Loss: 28353.036039311835 	Temperature Strategy: exp_decrease 	tau_1: 0.990024983882904 	tau_2: 0.990024983882904
+Train Epoch: 2 	Model: 6 	Training Loss: 28121.105344082447 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 2 	Model: 7 	Training Loss: 26817.21499958444 	Temperature Strategy: linear_increase 	tau_1: 3.0 	tau_2: 3.0
+Train Epoch: 2 	Model: 8 	Training Loss: 32155.62647523271 	Temperature Strategy: linear_decrease 	tau_1: 0.984000027179718 	tau_2: 0.984000027179718
+Train Epoch: 2 	Model: 9 	Training Loss: 28272.343801944815 	Temperature Strategy: exp_increase 	tau_1: 1.1024999618530273 	tau_2: 1.1024999618530273
+Best model saved with index: 2 and loss: 26788.65381898271
+Epoch: 2 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 3.0 	Best tau_2: 3.0
+Train Epoch: 3 	Model: 0 	Training Loss: 28162.146131150264 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 3 	Model: 1 	Training Loss: 27848.97475482048 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 3 	Model: 2 	Training Loss: 26389.752992021276 	Temperature Strategy: linear_increase 	tau_1: 4.0 	tau_2: 4.0
+Train Epoch: 3 	Model: 3 	Training Loss: 28029.52306349734 	Temperature Strategy: linear_decrease 	tau_1: 0.9760000109672546 	tau_2: 0.9760000109672546
+Train Epoch: 3 	Model: 4 	Training Loss: 27997.42897066157 	Temperature Strategy: exp_increase 	tau_1: 1.1576249599456787 	tau_2: 1.1576249599456787
+Train Epoch: 3 	Model: 5 	Training Loss: 28187.834254488032 	Temperature Strategy: exp_decrease 	tau_1: 0.9850748777389526 	tau_2: 0.9850748777389526
+Train Epoch: 3 	Model: 6 	Training Loss: 27958.041285738032 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 3 	Model: 7 	Training Loss: 26379.491636884974 	Temperature Strategy: linear_increase 	tau_1: 4.0 	tau_2: 4.0
+Train Epoch: 3 	Model: 8 	Training Loss: 32153.52393617021 	Temperature Strategy: linear_decrease 	tau_1: 0.9760000109672546 	tau_2: 0.9760000109672546
+Train Epoch: 3 	Model: 9 	Training Loss: 28043.88258394282 	Temperature Strategy: exp_increase 	tau_1: 1.1576249599456787 	tau_2: 1.1576249599456787
+Best model saved with index: 7 and loss: 26379.491636884974
+Epoch: 3 	Best Model Index: 7 	Best Temperature Strategy: linear_increase 	Best tau_1: 4.0 	Best tau_2: 4.0
+Train Epoch: 4 	Model: 0 	Training Loss: 28058.36764461436 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 4 	Model: 1 	Training Loss: 27769.56114943484 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 4 	Model: 2 	Training Loss: 26162.89806349734 	Temperature Strategy: linear_increase 	tau_1: 5.0 	tau_2: 5.0
+Train Epoch: 4 	Model: 3 	Training Loss: 27941.960584275264 	Temperature Strategy: linear_decrease 	tau_1: 0.9679999947547913 	tau_2: 0.9679999947547913
+Train Epoch: 4 	Model: 4 	Training Loss: 27821.702501662236 	Temperature Strategy: exp_increase 	tau_1: 1.2155061960220337 	tau_2: 1.2155061960220337
+Train Epoch: 4 	Model: 5 	Training Loss: 28058.928097988697 	Temperature Strategy: exp_decrease 	tau_1: 0.980149507522583 	tau_2: 0.980149507522583
+Train Epoch: 4 	Model: 6 	Training Loss: 27859.27524517952 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 4 	Model: 7 	Training Loss: 26132.477933843085 	Temperature Strategy: linear_increase 	tau_1: 5.0 	tau_2: 5.0
+Train Epoch: 4 	Model: 8 	Training Loss: 32150.061419547874 	Temperature Strategy: linear_decrease 	tau_1: 0.9679999947547913 	tau_2: 0.9679999947547913
+Train Epoch: 4 	Model: 9 	Training Loss: 27862.363946143618 	Temperature Strategy: exp_increase 	tau_1: 1.2155061960220337 	tau_2: 1.2155061960220337
+Best model saved with index: 7 and loss: 26132.477933843085
+Epoch: 4 	Best Model Index: 7 	Best Temperature Strategy: linear_increase 	Best tau_1: 5.0 	Best tau_2: 5.0
+Train Epoch: 5 	Model: 0 	Training Loss: 27956.60716215093 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 5 	Model: 1 	Training Loss: 27697.37079247008 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 5 	Model: 2 	Training Loss: 26009.3315014129 	Temperature Strategy: linear_increase 	tau_1: 6.0 	tau_2: 6.0
+Train Epoch: 5 	Model: 3 	Training Loss: 27867.400806183512 	Temperature Strategy: linear_decrease 	tau_1: 0.9599999785423279 	tau_2: 0.9599999785423279
+Train Epoch: 5 	Model: 4 	Training Loss: 27650.422643783244 	Temperature Strategy: exp_increase 	tau_1: 1.2762815952301025 	tau_2: 1.2762815952301025
+Train Epoch: 5 	Model: 5 	Training Loss: 27963.618434175532 	Temperature Strategy: exp_decrease 	tau_1: 0.9752487540245056 	tau_2: 0.9752487540245056
+Train Epoch: 5 	Model: 6 	Training Loss: 27799.823553856382 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 5 	Model: 7 	Training Loss: 25979.677973321144 	Temperature Strategy: linear_increase 	tau_1: 6.0 	tau_2: 6.0
+Train Epoch: 5 	Model: 8 	Training Loss: 32146.82797955452 	Temperature Strategy: linear_decrease 	tau_1: 0.9599999785423279 	tau_2: 0.9599999785423279
+Train Epoch: 5 	Model: 9 	Training Loss: 27704.065034906915 	Temperature Strategy: exp_increase 	tau_1: 1.2762815952301025 	tau_2: 1.2762815952301025
+Best model saved with index: 7 and loss: 25979.677973321144
+Epoch: 5 	Best Model Index: 7 	Best Temperature Strategy: linear_increase 	Best tau_1: 6.0 	Best tau_2: 6.0
+Train Epoch: 6 	Model: 0 	Training Loss: 27879.928814827126 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 6 	Model: 1 	Training Loss: 27639.21412691157 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 6 	Model: 2 	Training Loss: 25849.41259765625 	Temperature Strategy: linear_increase 	tau_1: 7.0 	tau_2: 7.0
+Train Epoch: 6 	Model: 3 	Training Loss: 27804.51724567819 	Temperature Strategy: linear_decrease 	tau_1: 0.9520000219345093 	tau_2: 0.9520000219345093
+Train Epoch: 6 	Model: 4 	Training Loss: 27483.161402925532 	Temperature Strategy: exp_increase 	tau_1: 1.3400956392288208 	tau_2: 1.3400956392288208
+Train Epoch: 6 	Model: 5 	Training Loss: 27890.99037982048 	Temperature Strategy: exp_decrease 	tau_1: 0.9703724980354309 	tau_2: 0.9703724980354309
+Train Epoch: 6 	Model: 6 	Training Loss: 27729.62172747673 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 6 	Model: 7 	Training Loss: 25870.869140625 	Temperature Strategy: linear_increase 	tau_1: 7.0 	tau_2: 7.0
+Train Epoch: 6 	Model: 8 	Training Loss: 32147.641009391624 	Temperature Strategy: linear_decrease 	tau_1: 0.9520000219345093 	tau_2: 0.9520000219345093
+Train Epoch: 6 	Model: 9 	Training Loss: 27548.43666888298 	Temperature Strategy: exp_increase 	tau_1: 1.3400956392288208 	tau_2: 1.3400956392288208
+Best model saved with index: 2 and loss: 25849.41259765625
+Epoch: 6 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 7.0 	Best tau_2: 7.0
+Train Epoch: 7 	Model: 0 	Training Loss: 27805.8979907746 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 7 	Model: 1 	Training Loss: 27588.643689744014 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 7 	Model: 2 	Training Loss: 25695.95621052194 	Temperature Strategy: linear_increase 	tau_1: 8.0 	tau_2: 8.0
+Train Epoch: 7 	Model: 3 	Training Loss: 27752.371041805185 	Temperature Strategy: linear_decrease 	tau_1: 0.9440000057220459 	tau_2: 0.9440000057220459
+Train Epoch: 7 	Model: 4 	Training Loss: 27343.592409823803 	Temperature Strategy: exp_increase 	tau_1: 1.4071004390716553 	tau_2: 1.4071004390716553
+Train Epoch: 7 	Model: 5 	Training Loss: 27823.849692486703 	Temperature Strategy: exp_decrease 	tau_1: 0.9655206203460693 	tau_2: 0.9655206203460693
+Train Epoch: 7 	Model: 6 	Training Loss: 27665.214771027262 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 7 	Model: 7 	Training Loss: 25800.266508061835 	Temperature Strategy: linear_increase 	tau_1: 8.0 	tau_2: 8.0
+Train Epoch: 7 	Model: 8 	Training Loss: 32146.96239195479 	Temperature Strategy: linear_decrease 	tau_1: 0.9440000057220459 	tau_2: 0.9440000057220459
+Train Epoch: 7 	Model: 9 	Training Loss: 27378.311097490026 	Temperature Strategy: exp_increase 	tau_1: 1.4071004390716553 	tau_2: 1.4071004390716553
+Best model saved with index: 2 and loss: 25695.95621052194
+Epoch: 7 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 8.0 	Best tau_2: 8.0
+Train Epoch: 8 	Model: 0 	Training Loss: 27751.957249418218 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 8 	Model: 1 	Training Loss: 27549.71239195479 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 8 	Model: 2 	Training Loss: 25588.190637466756 	Temperature Strategy: linear_increase 	tau_1: 9.0 	tau_2: 9.0
+Train Epoch: 8 	Model: 3 	Training Loss: 27702.06802692819 	Temperature Strategy: linear_decrease 	tau_1: 0.9359999895095825 	tau_2: 0.9359999895095825
+Train Epoch: 8 	Model: 4 	Training Loss: 27177.904296875 	Temperature Strategy: exp_increase 	tau_1: 1.477455496788025 	tau_2: 1.477455496788025
+Train Epoch: 8 	Model: 5 	Training Loss: 27781.861650182847 	Temperature Strategy: exp_decrease 	tau_1: 0.9606930613517761 	tau_2: 0.9606930613517761
+Train Epoch: 8 	Model: 6 	Training Loss: 27625.926518866356 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 8 	Model: 7 	Training Loss: 25680.992852393618 	Temperature Strategy: linear_increase 	tau_1: 9.0 	tau_2: 9.0
+Train Epoch: 8 	Model: 8 	Training Loss: 32143.61688622008 	Temperature Strategy: linear_decrease 	tau_1: 0.9359999895095825 	tau_2: 0.9359999895095825
+Train Epoch: 8 	Model: 9 	Training Loss: 27215.232743932847 	Temperature Strategy: exp_increase 	tau_1: 1.477455496788025 	tau_2: 1.477455496788025
+Best model saved with index: 2 and loss: 25588.190637466756
+Epoch: 8 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 9.0 	Best tau_2: 9.0
+Train Epoch: 9 	Model: 0 	Training Loss: 27685.75294007646 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 9 	Model: 1 	Training Loss: 27500.95243932846 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 9 	Model: 2 	Training Loss: 25525.45571185173 	Temperature Strategy: linear_increase 	tau_1: 10.0 	tau_2: 10.0
+Train Epoch: 9 	Model: 3 	Training Loss: 27668.76156291556 	Temperature Strategy: linear_decrease 	tau_1: 0.9279999732971191 	tau_2: 0.9279999732971191
+Train Epoch: 9 	Model: 4 	Training Loss: 27031.615182430185 	Temperature Strategy: exp_increase 	tau_1: 1.551328182220459 	tau_2: 1.551328182220459
+Train Epoch: 9 	Model: 5 	Training Loss: 27726.38554479721 	Temperature Strategy: exp_decrease 	tau_1: 0.9558895826339722 	tau_2: 0.9558895826339722
+Train Epoch: 9 	Model: 6 	Training Loss: 27580.756752825797 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 9 	Model: 7 	Training Loss: 25565.71758643617 	Temperature Strategy: linear_increase 	tau_1: 10.0 	tau_2: 10.0
+Train Epoch: 9 	Model: 8 	Training Loss: 32143.04803856383 	Temperature Strategy: linear_decrease 	tau_1: 0.9279999732971191 	tau_2: 0.9279999732971191
+Train Epoch: 9 	Model: 9 	Training Loss: 27051.930051113697 	Temperature Strategy: exp_increase 	tau_1: 1.551328182220459 	tau_2: 1.551328182220459
+Best model saved with index: 2 and loss: 25525.45571185173
+Epoch: 9 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 10.0 	Best tau_2: 10.0
+Train Epoch: 10 	Model: 0 	Training Loss: 27648.27196226729 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 10 	Model: 1 	Training Loss: 27463.015947057847 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 10 	Model: 2 	Training Loss: 25466.24098238032 	Temperature Strategy: linear_increase 	tau_1: 11.0 	tau_2: 11.0
+Train Epoch: 10 	Model: 3 	Training Loss: 27628.730489527927 	Temperature Strategy: linear_decrease 	tau_1: 0.9200000166893005 	tau_2: 0.9200000166893005
+Train Epoch: 10 	Model: 4 	Training Loss: 26879.100076878323 	Temperature Strategy: exp_increase 	tau_1: 1.628894567489624 	tau_2: 1.628894567489624
+Train Epoch: 10 	Model: 5 	Training Loss: 27682.09847697806 	Temperature Strategy: exp_decrease 	tau_1: 0.9511101245880127 	tau_2: 0.9511101245880127
+Train Epoch: 10 	Model: 6 	Training Loss: 27538.370293799868 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 10 	Model: 7 	Training Loss: 25493.41274310173 	Temperature Strategy: linear_increase 	tau_1: 11.0 	tau_2: 11.0
+Train Epoch: 10 	Model: 8 	Training Loss: 32141.1044921875 	Temperature Strategy: linear_decrease 	tau_1: 0.9200000166893005 	tau_2: 0.9200000166893005
+Train Epoch: 10 	Model: 9 	Training Loss: 26903.609551612368 	Temperature Strategy: exp_increase 	tau_1: 1.628894567489624 	tau_2: 1.628894567489624
+Best model saved with index: 2 and loss: 25466.24098238032
+Epoch: 10 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 11.0 	Best tau_2: 11.0
+Train Epoch: 11 	Model: 0 	Training Loss: 27582.919797207447 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 11 	Model: 1 	Training Loss: 27421.60610247673 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 11 	Model: 2 	Training Loss: 25419.309892370347 	Temperature Strategy: linear_increase 	tau_1: 12.0 	tau_2: 12.0
+Train Epoch: 11 	Model: 3 	Training Loss: 27616.375238946144 	Temperature Strategy: linear_decrease 	tau_1: 0.9120000004768372 	tau_2: 0.9120000004768372
+Train Epoch: 11 	Model: 4 	Training Loss: 26756.060754654256 	Temperature Strategy: exp_increase 	tau_1: 1.7103393077850342 	tau_2: 1.7103393077850342
+Train Epoch: 11 	Model: 5 	Training Loss: 27644.403237200797 	Temperature Strategy: exp_decrease 	tau_1: 0.9463545680046082 	tau_2: 0.9463545680046082
+Train Epoch: 11 	Model: 6 	Training Loss: 27497.235278839762 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 11 	Model: 7 	Training Loss: 25444.796023105053 	Temperature Strategy: linear_increase 	tau_1: 12.0 	tau_2: 12.0
+Train Epoch: 11 	Model: 8 	Training Loss: 32143.71171667221 	Temperature Strategy: linear_decrease 	tau_1: 0.9120000004768372 	tau_2: 0.9120000004768372
+Train Epoch: 11 	Model: 9 	Training Loss: 26765.559476811835 	Temperature Strategy: exp_increase 	tau_1: 1.7103393077850342 	tau_2: 1.7103393077850342
+Best model saved with index: 2 and loss: 25419.309892370347
+Epoch: 11 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 12.0 	Best tau_2: 12.0
+Train Epoch: 12 	Model: 0 	Training Loss: 27539.38382022939 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 12 	Model: 1 	Training Loss: 27379.690118018618 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 12 	Model: 2 	Training Loss: 25383.56625041556 	Temperature Strategy: linear_increase 	tau_1: 13.0 	tau_2: 13.0
+Train Epoch: 12 	Model: 3 	Training Loss: 27565.146837599736 	Temperature Strategy: linear_decrease 	tau_1: 0.9039999842643738 	tau_2: 0.9039999842643738
+Train Epoch: 12 	Model: 4 	Training Loss: 26614.34656540891 	Temperature Strategy: exp_increase 	tau_1: 1.7958563566207886 	tau_2: 1.7958563566207886
+Train Epoch: 12 	Model: 5 	Training Loss: 27602.237055352394 	Temperature Strategy: exp_decrease 	tau_1: 0.941622793674469 	tau_2: 0.941622793674469
+Train Epoch: 12 	Model: 6 	Training Loss: 27456.458901263297 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 12 	Model: 7 	Training Loss: 25394.82305518617 	Temperature Strategy: linear_increase 	tau_1: 13.0 	tau_2: 13.0
+Train Epoch: 12 	Model: 8 	Training Loss: 32145.1547436004 	Temperature Strategy: linear_decrease 	tau_1: 0.9039999842643738 	tau_2: 0.9039999842643738
+Train Epoch: 12 	Model: 9 	Training Loss: 26637.52591007314 	Temperature Strategy: exp_increase 	tau_1: 1.7958563566207886 	tau_2: 1.7958563566207886
+Best model saved with index: 2 and loss: 25383.56625041556
+Epoch: 12 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 13.0 	Best tau_2: 13.0
+Train Epoch: 13 	Model: 0 	Training Loss: 27497.540839012632 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 13 	Model: 1 	Training Loss: 27356.102809175532 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 13 	Model: 2 	Training Loss: 25345.386334358376 	Temperature Strategy: linear_increase 	tau_1: 14.0 	tau_2: 14.0
+Train Epoch: 13 	Model: 3 	Training Loss: 27548.06385056516 	Temperature Strategy: linear_decrease 	tau_1: 0.8960000276565552 	tau_2: 0.8960000276565552
+Train Epoch: 13 	Model: 4 	Training Loss: 26505.95559757314 	Temperature Strategy: exp_increase 	tau_1: 1.8856490850448608 	tau_2: 1.8856490850448608
+Train Epoch: 13 	Model: 5 	Training Loss: 27576.782496675532 	Temperature Strategy: exp_decrease 	tau_1: 0.9369146823883057 	tau_2: 0.9369146823883057
+Train Epoch: 13 	Model: 6 	Training Loss: 27417.66309632646 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 13 	Model: 7 	Training Loss: 25359.02437250665 	Temperature Strategy: linear_increase 	tau_1: 14.0 	tau_2: 14.0
+Train Epoch: 13 	Model: 8 	Training Loss: 32144.73426072141 	Temperature Strategy: linear_decrease 	tau_1: 0.8960000276565552 	tau_2: 0.8960000276565552
+Train Epoch: 13 	Model: 9 	Training Loss: 26528.465747589762 	Temperature Strategy: exp_increase 	tau_1: 1.8856490850448608 	tau_2: 1.8856490850448608
+Best model saved with index: 2 and loss: 25345.386334358376
+Epoch: 13 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 14.0 	Best tau_2: 14.0
+Train Epoch: 14 	Model: 0 	Training Loss: 27449.352133892953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 14 	Model: 1 	Training Loss: 27320.428305767953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 14 	Model: 2 	Training Loss: 25316.336737450132 	Temperature Strategy: linear_increase 	tau_1: 15.0 	tau_2: 15.0
+Train Epoch: 14 	Model: 3 	Training Loss: 27513.22671833444 	Temperature Strategy: linear_decrease 	tau_1: 0.8880000114440918 	tau_2: 0.8880000114440918
+Train Epoch: 14 	Model: 4 	Training Loss: 26399.978733793218 	Temperature Strategy: exp_increase 	tau_1: 1.9799315929412842 	tau_2: 1.9799315929412842
+Train Epoch: 14 	Model: 5 	Training Loss: 27540.532320063165 	Temperature Strategy: exp_decrease 	tau_1: 0.9322301149368286 	tau_2: 0.9322301149368286
+Train Epoch: 14 	Model: 6 	Training Loss: 27384.98385555186 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 14 	Model: 7 	Training Loss: 25331.746976811835 	Temperature Strategy: linear_increase 	tau_1: 15.0 	tau_2: 15.0
+Train Epoch: 14 	Model: 8 	Training Loss: 32142.00215051529 	Temperature Strategy: linear_decrease 	tau_1: 0.8880000114440918 	tau_2: 0.8880000114440918
+Train Epoch: 14 	Model: 9 	Training Loss: 26415.075808261303 	Temperature Strategy: exp_increase 	tau_1: 1.9799315929412842 	tau_2: 1.9799315929412842
+Best model saved with index: 2 and loss: 25316.336737450132
+Epoch: 14 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 15.0 	Best tau_2: 15.0
+Train Epoch: 15 	Model: 0 	Training Loss: 27421.709555767953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 15 	Model: 1 	Training Loss: 27286.72250041556 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 15 	Model: 2 	Training Loss: 25279.94606050532 	Temperature Strategy: linear_increase 	tau_1: 16.0 	tau_2: 16.0
+Train Epoch: 15 	Model: 3 	Training Loss: 27490.390843168218 	Temperature Strategy: linear_decrease 	tau_1: 0.8799999952316284 	tau_2: 0.8799999952316284
+Train Epoch: 15 	Model: 4 	Training Loss: 26302.788106715427 	Temperature Strategy: exp_increase 	tau_1: 2.078928232192993 	tau_2: 2.078928232192993
+Train Epoch: 15 	Model: 5 	Training Loss: 27510.694886552526 	Temperature Strategy: exp_decrease 	tau_1: 0.9275689721107483 	tau_2: 0.9275689721107483
+Train Epoch: 15 	Model: 6 	Training Loss: 27357.887632978724 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 15 	Model: 7 	Training Loss: 25298.01746384641 	Temperature Strategy: linear_increase 	tau_1: 16.0 	tau_2: 16.0
+Train Epoch: 15 	Model: 8 	Training Loss: 32144.28416929854 	Temperature Strategy: linear_decrease 	tau_1: 0.8799999952316284 	tau_2: 0.8799999952316284
+Train Epoch: 15 	Model: 9 	Training Loss: 26305.449873254653 	Temperature Strategy: exp_increase 	tau_1: 2.078928232192993 	tau_2: 2.078928232192993
+Best model saved with index: 2 and loss: 25279.94606050532
+Epoch: 15 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 16.0 	Best tau_2: 16.0
+Train Epoch: 16 	Model: 0 	Training Loss: 27384.836218001994 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 16 	Model: 1 	Training Loss: 27258.259973404256 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 16 	Model: 2 	Training Loss: 25260.204953457447 	Temperature Strategy: linear_increase 	tau_1: 17.0 	tau_2: 17.0
+Train Epoch: 16 	Model: 3 	Training Loss: 27486.98506067154 	Temperature Strategy: linear_decrease 	tau_1: 0.871999979019165 	tau_2: 0.871999979019165
+Train Epoch: 16 	Model: 4 	Training Loss: 26190.14723238032 	Temperature Strategy: exp_increase 	tau_1: 2.1828746795654297 	tau_2: 2.1828746795654297
+Train Epoch: 16 	Model: 5 	Training Loss: 27482.11669921875 	Temperature Strategy: exp_decrease 	tau_1: 0.9229311347007751 	tau_2: 0.9229311347007751
+Train Epoch: 16 	Model: 6 	Training Loss: 27339.899694564494 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 16 	Model: 7 	Training Loss: 25274.409501745347 	Temperature Strategy: linear_increase 	tau_1: 17.0 	tau_2: 17.0
+Train Epoch: 16 	Model: 8 	Training Loss: 32142.784106964762 	Temperature Strategy: linear_decrease 	tau_1: 0.871999979019165 	tau_2: 0.871999979019165
+Train Epoch: 16 	Model: 9 	Training Loss: 26178.464334690823 	Temperature Strategy: exp_increase 	tau_1: 2.1828746795654297 	tau_2: 2.1828746795654297
+Best model saved with index: 2 and loss: 25260.204953457447
+Epoch: 16 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 17.0 	Best tau_2: 17.0
+Train Epoch: 17 	Model: 0 	Training Loss: 27363.29667760971 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 17 	Model: 1 	Training Loss: 27227.93232629654 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 17 	Model: 2 	Training Loss: 25239.43423786569 	Temperature Strategy: linear_increase 	tau_1: 18.0 	tau_2: 18.0
+Train Epoch: 17 	Model: 3 	Training Loss: 27471.886469414894 	Temperature Strategy: linear_decrease 	tau_1: 0.8640000224113464 	tau_2: 0.8640000224113464
+Train Epoch: 17 	Model: 4 	Training Loss: 26066.843324052526 	Temperature Strategy: exp_increase 	tau_1: 2.292018413543701 	tau_2: 2.292018413543701
+Train Epoch: 17 	Model: 5 	Training Loss: 27462.40846284907 	Temperature Strategy: exp_decrease 	tau_1: 0.9183164834976196 	tau_2: 0.9183164834976196
+Train Epoch: 17 	Model: 6 	Training Loss: 27310.868756233376 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 17 	Model: 7 	Training Loss: 25262.83788023604 	Temperature Strategy: linear_increase 	tau_1: 18.0 	tau_2: 18.0
+Train Epoch: 17 	Model: 8 	Training Loss: 32142.2880859375 	Temperature Strategy: linear_decrease 	tau_1: 0.8640000224113464 	tau_2: 0.8640000224113464
+Train Epoch: 17 	Model: 9 	Training Loss: 26064.444200880986 	Temperature Strategy: exp_increase 	tau_1: 2.292018413543701 	tau_2: 2.292018413543701
+Best model saved with index: 2 and loss: 25239.43423786569
+Epoch: 17 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 18.0 	Best tau_2: 18.0
+Train Epoch: 18 	Model: 0 	Training Loss: 27325.889336768618 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 18 	Model: 1 	Training Loss: 27192.29121301529 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 18 	Model: 2 	Training Loss: 25216.65208402593 	Temperature Strategy: linear_increase 	tau_1: 19.0 	tau_2: 19.0
+Train Epoch: 18 	Model: 3 	Training Loss: 27459.583132480053 	Temperature Strategy: linear_decrease 	tau_1: 0.8560000061988831 	tau_2: 0.8560000061988831
+Train Epoch: 18 	Model: 4 	Training Loss: 25971.768689744014 	Temperature Strategy: exp_increase 	tau_1: 2.4066193103790283 	tau_2: 2.4066193103790283
+Train Epoch: 18 	Model: 5 	Training Loss: 27439.88169049202 	Temperature Strategy: exp_decrease 	tau_1: 0.9137248992919922 	tau_2: 0.9137248992919922
+Train Epoch: 18 	Model: 6 	Training Loss: 27274.41064453125 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 18 	Model: 7 	Training Loss: 25231.360590508644 	Temperature Strategy: linear_increase 	tau_1: 19.0 	tau_2: 19.0
+Train Epoch: 18 	Model: 8 	Training Loss: 32144.120501579124 	Temperature Strategy: linear_decrease 	tau_1: 0.8560000061988831 	tau_2: 0.8560000061988831
+Train Epoch: 18 	Model: 9 	Training Loss: 25972.62094830452 	Temperature Strategy: exp_increase 	tau_1: 2.4066193103790283 	tau_2: 2.4066193103790283
+Best model saved with index: 2 and loss: 25216.65208402593
+Epoch: 18 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 19.0 	Best tau_2: 19.0
+Train Epoch: 19 	Model: 0 	Training Loss: 27302.145902593085 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 19 	Model: 1 	Training Loss: 27160.770642869014 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 19 	Model: 2 	Training Loss: 25194.46018949468 	Temperature Strategy: linear_increase 	tau_1: 20.0 	tau_2: 20.0
+Train Epoch: 19 	Model: 3 	Training Loss: 27430.97716505984 	Temperature Strategy: linear_decrease 	tau_1: 0.8479999899864197 	tau_2: 0.8479999899864197
+Train Epoch: 19 	Model: 4 	Training Loss: 25886.45131732048 	Temperature Strategy: exp_increase 	tau_1: 2.5269501209259033 	tau_2: 2.5269501209259033
+Train Epoch: 19 	Model: 5 	Training Loss: 27418.221742021276 	Temperature Strategy: exp_decrease 	tau_1: 0.9091562628746033 	tau_2: 0.9091562628746033
+Train Epoch: 19 	Model: 6 	Training Loss: 27253.647024601065 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 19 	Model: 7 	Training Loss: 25210.886801861703 	Temperature Strategy: linear_increase 	tau_1: 20.0 	tau_2: 20.0
+Train Epoch: 19 	Model: 8 	Training Loss: 32144.138245927526 	Temperature Strategy: linear_decrease 	tau_1: 0.8479999899864197 	tau_2: 0.8479999899864197
+Train Epoch: 19 	Model: 9 	Training Loss: 25891.748368932847 	Temperature Strategy: exp_increase 	tau_1: 2.5269501209259033 	tau_2: 2.5269501209259033
+Best model saved with index: 2 and loss: 25194.46018949468
+Epoch: 19 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 20.0 	Best tau_2: 20.0
+Train Epoch: 20 	Model: 0 	Training Loss: 27277.785021193486 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 20 	Model: 1 	Training Loss: 27136.268232629653 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 20 	Model: 2 	Training Loss: 25185.32035405585 	Temperature Strategy: linear_increase 	tau_1: 21.0 	tau_2: 21.0
+Train Epoch: 20 	Model: 3 	Training Loss: 27422.476157330453 	Temperature Strategy: linear_decrease 	tau_1: 0.8399999737739563 	tau_2: 0.8399999737739563
+Train Epoch: 20 	Model: 4 	Training Loss: 25817.713202293882 	Temperature Strategy: exp_increase 	tau_1: 2.6532976627349854 	tau_2: 2.6532976627349854
+Train Epoch: 20 	Model: 5 	Training Loss: 27407.864237034573 	Temperature Strategy: exp_decrease 	tau_1: 0.9046104550361633 	tau_2: 0.9046104550361633
+Train Epoch: 20 	Model: 6 	Training Loss: 27229.05586145279 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 20 	Model: 7 	Training Loss: 25194.955836519282 	Temperature Strategy: linear_increase 	tau_1: 21.0 	tau_2: 21.0
+Train Epoch: 20 	Model: 8 	Training Loss: 32141.685328706782 	Temperature Strategy: linear_decrease 	tau_1: 0.8399999737739563 	tau_2: 0.8399999737739563
+Train Epoch: 20 	Model: 9 	Training Loss: 25816.348986037236 	Temperature Strategy: exp_increase 	tau_1: 2.6532976627349854 	tau_2: 2.6532976627349854
+Best model saved with index: 2 and loss: 25185.32035405585
+Epoch: 20 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 21.0 	Best tau_2: 21.0
+Train Epoch: 21 	Model: 0 	Training Loss: 27247.210282995347 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 21 	Model: 1 	Training Loss: 27110.55821974734 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 21 	Model: 2 	Training Loss: 25162.987917636303 	Temperature Strategy: linear_increase 	tau_1: 22.0 	tau_2: 22.0
+Train Epoch: 21 	Model: 3 	Training Loss: 27414.10501163564 	Temperature Strategy: linear_decrease 	tau_1: 0.8320000171661377 	tau_2: 0.8320000171661377
+Train Epoch: 21 	Model: 4 	Training Loss: 25747.294745262632 	Temperature Strategy: exp_increase 	tau_1: 2.7859625816345215 	tau_2: 2.7859625816345215
+Train Epoch: 21 	Model: 5 	Training Loss: 27379.35250789561 	Temperature Strategy: exp_decrease 	tau_1: 0.9000874161720276 	tau_2: 0.9000874161720276
+Train Epoch: 21 	Model: 6 	Training Loss: 27191.978619514626 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 21 	Model: 7 	Training Loss: 25173.234021775264 	Temperature Strategy: linear_increase 	tau_1: 22.0 	tau_2: 22.0
+Train Epoch: 21 	Model: 8 	Training Loss: 32141.399279005986 	Temperature Strategy: linear_decrease 	tau_1: 0.8320000171661377 	tau_2: 0.8320000171661377
+Train Epoch: 21 	Model: 9 	Training Loss: 25748.964293134974 	Temperature Strategy: exp_increase 	tau_1: 2.7859625816345215 	tau_2: 2.7859625816345215
+Best model saved with index: 2 and loss: 25162.987917636303
+Epoch: 21 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 22.0 	Best tau_2: 22.0
+Train Epoch: 22 	Model: 0 	Training Loss: 27230.77280377327 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 22 	Model: 1 	Training Loss: 27088.288106715427 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 22 	Model: 2 	Training Loss: 25146.106912815823 	Temperature Strategy: linear_increase 	tau_1: 23.0 	tau_2: 23.0
+Train Epoch: 22 	Model: 3 	Training Loss: 27408.53868849734 	Temperature Strategy: linear_decrease 	tau_1: 0.8240000009536743 	tau_2: 0.8240000009536743
+Train Epoch: 22 	Model: 4 	Training Loss: 25688.58687250665 	Temperature Strategy: exp_increase 	tau_1: 2.9252607822418213 	tau_2: 2.9252607822418213
+Train Epoch: 22 	Model: 5 	Training Loss: 27364.57081117021 	Temperature Strategy: exp_decrease 	tau_1: 0.8955869674682617 	tau_2: 0.8955869674682617
+Train Epoch: 22 	Model: 6 	Training Loss: 27179.83694522939 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 22 	Model: 7 	Training Loss: 25161.75731382979 	Temperature Strategy: linear_increase 	tau_1: 23.0 	tau_2: 23.0
+Train Epoch: 22 	Model: 8 	Training Loss: 32140.575932928856 	Temperature Strategy: linear_decrease 	tau_1: 0.8240000009536743 	tau_2: 0.8240000009536743
+Train Epoch: 22 	Model: 9 	Training Loss: 25689.60528174867 	Temperature Strategy: exp_increase 	tau_1: 2.9252607822418213 	tau_2: 2.9252607822418213
+Best model saved with index: 2 and loss: 25146.106912815823
+Epoch: 22 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 23.0 	Best tau_2: 23.0
+Train Epoch: 23 	Model: 0 	Training Loss: 27196.347864029256 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 23 	Model: 1 	Training Loss: 27064.694928108376 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 23 	Model: 2 	Training Loss: 25131.621530086435 	Temperature Strategy: linear_increase 	tau_1: 24.0 	tau_2: 24.0
+Train Epoch: 23 	Model: 3 	Training Loss: 27394.29750872673 	Temperature Strategy: linear_decrease 	tau_1: 0.8159999847412109 	tau_2: 0.8159999847412109
+Train Epoch: 23 	Model: 4 	Training Loss: 25636.632116439494 	Temperature Strategy: exp_increase 	tau_1: 3.071523666381836 	tau_2: 3.071523666381836
+Train Epoch: 23 	Model: 5 	Training Loss: 27353.12255859375 	Temperature Strategy: exp_decrease 	tau_1: 0.891109049320221 	tau_2: 0.891109049320221
+Train Epoch: 23 	Model: 6 	Training Loss: 27158.753968583776 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 23 	Model: 7 	Training Loss: 25155.321008560506 	Temperature Strategy: linear_increase 	tau_1: 24.0 	tau_2: 24.0
+Train Epoch: 23 	Model: 8 	Training Loss: 32140.738603307847 	Temperature Strategy: linear_decrease 	tau_1: 0.8159999847412109 	tau_2: 0.8159999847412109
+Train Epoch: 23 	Model: 9 	Training Loss: 25639.953779504653 	Temperature Strategy: exp_increase 	tau_1: 3.071523666381836 	tau_2: 3.071523666381836
+Best model saved with index: 2 and loss: 25131.621530086435
+Epoch: 23 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 24.0 	Best tau_2: 24.0
+Train Epoch: 24 	Model: 0 	Training Loss: 27175.502877742685 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 24 	Model: 1 	Training Loss: 27043.41014586104 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 24 	Model: 2 	Training Loss: 25116.65542927194 	Temperature Strategy: linear_increase 	tau_1: 25.0 	tau_2: 25.0
+Train Epoch: 24 	Model: 3 	Training Loss: 27386.572140957447 	Temperature Strategy: linear_decrease 	tau_1: 0.8080000281333923 	tau_2: 0.8080000281333923
+Train Epoch: 24 	Model: 4 	Training Loss: 25590.392941738697 	Temperature Strategy: exp_increase 	tau_1: 3.225100040435791 	tau_2: 3.225100040435791
+Train Epoch: 24 	Model: 5 	Training Loss: 27335.26525099734 	Temperature Strategy: exp_decrease 	tau_1: 0.886653482913971 	tau_2: 0.886653482913971
+Train Epoch: 24 	Model: 6 	Training Loss: 27141.076525099736 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 24 	Model: 7 	Training Loss: 25131.659647190823 	Temperature Strategy: linear_increase 	tau_1: 25.0 	tau_2: 25.0
+Train Epoch: 24 	Model: 8 	Training Loss: 32138.98926820146 	Temperature Strategy: linear_decrease 	tau_1: 0.8080000281333923 	tau_2: 0.8080000281333923
+Train Epoch: 24 	Model: 9 	Training Loss: 25590.126444065823 	Temperature Strategy: exp_increase 	tau_1: 3.225100040435791 	tau_2: 3.225100040435791
+Best model saved with index: 2 and loss: 25116.65542927194
+Epoch: 24 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 25.0 	Best tau_2: 25.0
+Train Epoch: 25 	Model: 0 	Training Loss: 27156.887123919547 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 25 	Model: 1 	Training Loss: 27020.902883976065 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 25 	Model: 2 	Training Loss: 25108.439089511303 	Temperature Strategy: linear_increase 	tau_1: 26.0 	tau_2: 26.0
+Train Epoch: 25 	Model: 3 	Training Loss: 27376.38292677859 	Temperature Strategy: linear_decrease 	tau_1: 0.800000011920929 	tau_2: 0.800000011920929
+Train Epoch: 25 	Model: 4 	Training Loss: 25540.55547706117 	Temperature Strategy: exp_increase 	tau_1: 3.386354923248291 	tau_2: 3.386354923248291
+Train Epoch: 25 	Model: 5 	Training Loss: 27322.423911236703 	Temperature Strategy: exp_decrease 	tau_1: 0.8822202682495117 	tau_2: 0.8822202682495117
+Train Epoch: 25 	Model: 6 	Training Loss: 27115.723019863697 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 25 	Model: 7 	Training Loss: 25127.227144281915 	Temperature Strategy: linear_increase 	tau_1: 26.0 	tau_2: 26.0
+Train Epoch: 25 	Model: 8 	Training Loss: 32141.914987117685 	Temperature Strategy: linear_decrease 	tau_1: 0.800000011920929 	tau_2: 0.800000011920929
+Train Epoch: 25 	Model: 9 	Training Loss: 25543.714708693486 	Temperature Strategy: exp_increase 	tau_1: 3.386354923248291 	tau_2: 3.386354923248291
+Best model saved with index: 2 and loss: 25108.439089511303
+Epoch: 25 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 26.0 	Best tau_2: 26.0
+Train Epoch: 26 	Model: 0 	Training Loss: 27144.894603972738 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 26 	Model: 1 	Training Loss: 26994.024393284573 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 26 	Model: 2 	Training Loss: 25093.577740608376 	Temperature Strategy: linear_increase 	tau_1: 27.0 	tau_2: 27.0
+Train Epoch: 26 	Model: 3 	Training Loss: 27371.58191697141 	Temperature Strategy: linear_decrease 	tau_1: 0.7919999957084656 	tau_2: 0.7919999957084656
+Train Epoch: 26 	Model: 4 	Training Loss: 25504.277811253323 	Temperature Strategy: exp_increase 	tau_1: 3.5556726455688477 	tau_2: 3.5556726455688477
+Train Epoch: 26 	Model: 5 	Training Loss: 27311.08679978391 	Temperature Strategy: exp_decrease 	tau_1: 0.8778091669082642 	tau_2: 0.8778091669082642
+Train Epoch: 26 	Model: 6 	Training Loss: 27098.98417760971 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 26 	Model: 7 	Training Loss: 25112.427308427526 	Temperature Strategy: linear_increase 	tau_1: 27.0 	tau_2: 27.0
+Train Epoch: 26 	Model: 8 	Training Loss: 32140.67972905585 	Temperature Strategy: linear_decrease 	tau_1: 0.7919999957084656 	tau_2: 0.7919999957084656
+Train Epoch: 26 	Model: 9 	Training Loss: 25504.537576878323 	Temperature Strategy: exp_increase 	tau_1: 3.5556726455688477 	tau_2: 3.5556726455688477
+Best model saved with index: 2 and loss: 25093.577740608376
+Epoch: 26 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 27.0 	Best tau_2: 27.0
+Train Epoch: 27 	Model: 0 	Training Loss: 27129.225606715427 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 27 	Model: 1 	Training Loss: 26979.459451878323 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 27 	Model: 2 	Training Loss: 25075.95266788564 	Temperature Strategy: linear_increase 	tau_1: 28.0 	tau_2: 28.0
+Train Epoch: 27 	Model: 3 	Training Loss: 27366.94952002992 	Temperature Strategy: linear_decrease 	tau_1: 0.7839999794960022 	tau_2: 0.7839999794960022
+Train Epoch: 27 	Model: 4 	Training Loss: 25464.956896193486 	Temperature Strategy: exp_increase 	tau_1: 3.7334563732147217 	tau_2: 3.7334563732147217
+Train Epoch: 27 	Model: 5 	Training Loss: 27295.32060339096 	Temperature Strategy: exp_decrease 	tau_1: 0.8734201192855835 	tau_2: 0.8734201192855835
+Train Epoch: 27 	Model: 6 	Training Loss: 27078.269894863697 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 27 	Model: 7 	Training Loss: 25106.394926030585 	Temperature Strategy: linear_increase 	tau_1: 28.0 	tau_2: 28.0
+Train Epoch: 27 	Model: 8 	Training Loss: 32140.594456449468 	Temperature Strategy: linear_decrease 	tau_1: 0.7839999794960022 	tau_2: 0.7839999794960022
+Train Epoch: 27 	Model: 9 	Training Loss: 25468.646401263297 	Temperature Strategy: exp_increase 	tau_1: 3.7334563732147217 	tau_2: 3.7334563732147217
+Best model saved with index: 2 and loss: 25075.95266788564
+Epoch: 27 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 28.0 	Best tau_2: 28.0
+Train Epoch: 28 	Model: 0 	Training Loss: 27098.23321143617 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 28 	Model: 1 	Training Loss: 26956.41532995346 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 28 	Model: 2 	Training Loss: 25070.692621758644 	Temperature Strategy: linear_increase 	tau_1: 29.0 	tau_2: 29.0
+Train Epoch: 28 	Model: 3 	Training Loss: 27365.406800615026 	Temperature Strategy: linear_decrease 	tau_1: 0.7760000228881836 	tau_2: 0.7760000228881836
+Train Epoch: 28 	Model: 4 	Training Loss: 25432.346949800532 	Temperature Strategy: exp_increase 	tau_1: 3.9201290607452393 	tau_2: 3.9201290607452393
+Train Epoch: 28 	Model: 5 	Training Loss: 27292.235143783244 	Temperature Strategy: exp_decrease 	tau_1: 0.8690530061721802 	tau_2: 0.8690530061721802
+Train Epoch: 28 	Model: 6 	Training Loss: 27056.684705369014 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 28 	Model: 7 	Training Loss: 25083.72776761968 	Temperature Strategy: linear_increase 	tau_1: 29.0 	tau_2: 29.0
+Train Epoch: 28 	Model: 8 	Training Loss: 32140.736899517953 	Temperature Strategy: linear_decrease 	tau_1: 0.7760000228881836 	tau_2: 0.7760000228881836
+Train Epoch: 28 	Model: 9 	Training Loss: 25427.836550448803 	Temperature Strategy: exp_increase 	tau_1: 3.9201290607452393 	tau_2: 3.9201290607452393
+Best model saved with index: 2 and loss: 25070.692621758644
+Epoch: 28 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 29.0 	Best tau_2: 29.0
+Train Epoch: 29 	Model: 0 	Training Loss: 27076.72595994016 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 29 	Model: 1 	Training Loss: 26942.65986535904 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 29 	Model: 2 	Training Loss: 25065.274362117685 	Temperature Strategy: linear_increase 	tau_1: 30.0 	tau_2: 30.0
+Train Epoch: 29 	Model: 3 	Training Loss: 27363.920690658244 	Temperature Strategy: linear_decrease 	tau_1: 0.7680000066757202 	tau_2: 0.7680000066757202
+Train Epoch: 29 	Model: 4 	Training Loss: 25396.99541846742 	Temperature Strategy: exp_increase 	tau_1: 4.116135597229004 	tau_2: 4.116135597229004
+Train Epoch: 29 	Model: 5 	Training Loss: 27276.282008394282 	Temperature Strategy: exp_decrease 	tau_1: 0.8647077083587646 	tau_2: 0.8647077083587646
+Train Epoch: 29 	Model: 6 	Training Loss: 27052.640188663565 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 29 	Model: 7 	Training Loss: 25082.282621343085 	Temperature Strategy: linear_increase 	tau_1: 30.0 	tau_2: 30.0
+Train Epoch: 29 	Model: 8 	Training Loss: 32140.705732629653 	Temperature Strategy: linear_decrease 	tau_1: 0.7680000066757202 	tau_2: 0.7680000066757202
+Train Epoch: 29 	Model: 9 	Training Loss: 25391.444803440823 	Temperature Strategy: exp_increase 	tau_1: 4.116135597229004 	tau_2: 4.116135597229004
+Best model saved with index: 2 and loss: 25065.274362117685
+Epoch: 29 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 30.0 	Best tau_2: 30.0
+Train Epoch: 30 	Model: 0 	Training Loss: 27052.187406499335 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 30 	Model: 1 	Training Loss: 26921.99335106383 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 30 	Model: 2 	Training Loss: 25043.616574551197 	Temperature Strategy: linear_increase 	tau_1: 31.0 	tau_2: 31.0
+Train Epoch: 30 	Model: 3 	Training Loss: 27355.365587599736 	Temperature Strategy: linear_decrease 	tau_1: 0.7599999904632568 	tau_2: 0.7599999904632568
+Train Epoch: 30 	Model: 4 	Training Loss: 25365.32973528923 	Temperature Strategy: exp_increase 	tau_1: 4.321942329406738 	tau_2: 4.321942329406738
+Train Epoch: 30 	Model: 5 	Training Loss: 27260.93663771609 	Temperature Strategy: exp_decrease 	tau_1: 0.8603841662406921 	tau_2: 0.8603841662406921
+Train Epoch: 30 	Model: 6 	Training Loss: 27035.162057430185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 30 	Model: 7 	Training Loss: 25066.18280418883 	Temperature Strategy: linear_increase 	tau_1: 31.0 	tau_2: 31.0
+Train Epoch: 30 	Model: 8 	Training Loss: 32140.78095910904 	Temperature Strategy: linear_decrease 	tau_1: 0.7599999904632568 	tau_2: 0.7599999904632568
+Train Epoch: 30 	Model: 9 	Training Loss: 25369.952989943486 	Temperature Strategy: exp_increase 	tau_1: 4.321942329406738 	tau_2: 4.321942329406738
+Best model saved with index: 2 and loss: 25043.616574551197
+Epoch: 30 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 31.0 	Best tau_2: 31.0
+Train Epoch: 31 	Model: 0 	Training Loss: 27031.32305518617 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 31 	Model: 1 	Training Loss: 26899.705005402262 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 31 	Model: 2 	Training Loss: 25038.723092586435 	Temperature Strategy: linear_increase 	tau_1: 32.0 	tau_2: 32.0
+Train Epoch: 31 	Model: 3 	Training Loss: 27359.795846492685 	Temperature Strategy: linear_decrease 	tau_1: 0.7519999742507935 	tau_2: 0.7519999742507935
+Train Epoch: 31 	Model: 4 	Training Loss: 25334.9208984375 	Temperature Strategy: exp_increase 	tau_1: 4.538039684295654 	tau_2: 4.538039684295654
+Train Epoch: 31 	Model: 5 	Training Loss: 27248.526533410903 	Temperature Strategy: exp_decrease 	tau_1: 0.8560822606086731 	tau_2: 0.8560822606086731
+Train Epoch: 31 	Model: 6 	Training Loss: 27011.7978515625 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 31 	Model: 7 	Training Loss: 25066.00686710439 	Temperature Strategy: linear_increase 	tau_1: 32.0 	tau_2: 32.0
+Train Epoch: 31 	Model: 8 	Training Loss: 32138.65921085439 	Temperature Strategy: linear_decrease 	tau_1: 0.7519999742507935 	tau_2: 0.7519999742507935
+Train Epoch: 31 	Model: 9 	Training Loss: 25330.49496135306 	Temperature Strategy: exp_increase 	tau_1: 4.538039684295654 	tau_2: 4.538039684295654
+Best model saved with index: 2 and loss: 25038.723092586435
+Epoch: 31 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 32.0 	Best tau_2: 32.0
+Train Epoch: 32 	Model: 0 	Training Loss: 27012.968698055185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 32 	Model: 1 	Training Loss: 26886.874428607047 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 32 	Model: 2 	Training Loss: 25029.920576379653 	Temperature Strategy: linear_increase 	tau_1: 33.0 	tau_2: 33.0
+Train Epoch: 32 	Model: 3 	Training Loss: 27362.21487491689 	Temperature Strategy: linear_decrease 	tau_1: 0.7440000176429749 	tau_2: 0.7440000176429749
+Train Epoch: 32 	Model: 4 	Training Loss: 25309.771806432847 	Temperature Strategy: exp_increase 	tau_1: 4.764941692352295 	tau_2: 4.764941692352295
+Train Epoch: 32 	Model: 5 	Training Loss: 27250.200787483376 	Temperature Strategy: exp_decrease 	tau_1: 0.851801872253418 	tau_2: 0.851801872253418
+Train Epoch: 32 	Model: 6 	Training Loss: 27000.92713181516 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 32 	Model: 7 	Training Loss: 25049.46139461436 	Temperature Strategy: linear_increase 	tau_1: 33.0 	tau_2: 33.0
+Train Epoch: 32 	Model: 8 	Training Loss: 32140.117125166224 	Temperature Strategy: linear_decrease 	tau_1: 0.7440000176429749 	tau_2: 0.7440000176429749
+Train Epoch: 32 	Model: 9 	Training Loss: 25310.143014461435 	Temperature Strategy: exp_increase 	tau_1: 4.764941692352295 	tau_2: 4.764941692352295
+Best model saved with index: 2 and loss: 25029.920576379653
+Epoch: 32 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 33.0 	Best tau_2: 33.0
+Train Epoch: 33 	Model: 0 	Training Loss: 26997.17964594415 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 33 	Model: 1 	Training Loss: 26880.861743683512 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 33 	Model: 2 	Training Loss: 25025.832124750665 	Temperature Strategy: linear_increase 	tau_1: 34.0 	tau_2: 34.0
+Train Epoch: 33 	Model: 3 	Training Loss: 27362.822826628988 	Temperature Strategy: linear_decrease 	tau_1: 0.7360000014305115 	tau_2: 0.7360000014305115
+Train Epoch: 33 	Model: 4 	Training Loss: 25279.735922955453 	Temperature Strategy: exp_increase 	tau_1: 5.003188610076904 	tau_2: 5.003188610076904
+Train Epoch: 33 	Model: 5 	Training Loss: 27224.252836186835 	Temperature Strategy: exp_decrease 	tau_1: 0.8475428223609924 	tau_2: 0.8475428223609924
+Train Epoch: 33 	Model: 6 	Training Loss: 26979.470910904256 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 33 	Model: 7 	Training Loss: 25043.247693650264 	Temperature Strategy: linear_increase 	tau_1: 34.0 	tau_2: 34.0
+Train Epoch: 33 	Model: 8 	Training Loss: 32140.231829704124 	Temperature Strategy: linear_decrease 	tau_1: 0.7360000014305115 	tau_2: 0.7360000014305115
+Train Epoch: 33 	Model: 9 	Training Loss: 25279.043405086435 	Temperature Strategy: exp_increase 	tau_1: 5.003188610076904 	tau_2: 5.003188610076904
+Best model saved with index: 2 and loss: 25025.832124750665
+Epoch: 33 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 34.0 	Best tau_2: 34.0
+Train Epoch: 34 	Model: 0 	Training Loss: 26985.47509765625 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 34 	Model: 1 	Training Loss: 26857.11982629654 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 34 	Model: 2 	Training Loss: 25012.19564494681 	Temperature Strategy: linear_increase 	tau_1: 35.0 	tau_2: 35.0
+Train Epoch: 34 	Model: 3 	Training Loss: 27354.032538231382 	Temperature Strategy: linear_decrease 	tau_1: 0.7279999852180481 	tau_2: 0.7279999852180481
+Train Epoch: 34 	Model: 4 	Training Loss: 25260.211695894282 	Temperature Strategy: exp_increase 	tau_1: 5.253347873687744 	tau_2: 5.253347873687744
+Train Epoch: 34 	Model: 5 	Training Loss: 27218.053430435506 	Temperature Strategy: exp_decrease 	tau_1: 0.8433051109313965 	tau_2: 0.8433051109313965
+Train Epoch: 34 	Model: 6 	Training Loss: 26972.289633892953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 34 	Model: 7 	Training Loss: 25035.530522772606 	Temperature Strategy: linear_increase 	tau_1: 35.0 	tau_2: 35.0
+Train Epoch: 34 	Model: 8 	Training Loss: 32141.046438663565 	Temperature Strategy: linear_decrease 	tau_1: 0.7279999852180481 	tau_2: 0.7279999852180481
+Train Epoch: 34 	Model: 9 	Training Loss: 25254.95872465093 	Temperature Strategy: exp_increase 	tau_1: 5.253347873687744 	tau_2: 5.253347873687744
+Best model saved with index: 2 and loss: 25012.19564494681
+Epoch: 34 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 35.0 	Best tau_2: 35.0
+Train Epoch: 35 	Model: 0 	Training Loss: 26962.01333942819 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 35 	Model: 1 	Training Loss: 26844.382417719415 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 35 	Model: 2 	Training Loss: 25001.752908909573 	Temperature Strategy: linear_increase 	tau_1: 36.0 	tau_2: 36.0
+Train Epoch: 35 	Model: 3 	Training Loss: 27353.28030460439 	Temperature Strategy: linear_decrease 	tau_1: 0.7200000286102295 	tau_2: 0.7200000286102295
+Train Epoch: 35 	Model: 4 	Training Loss: 25238.786486037236 	Temperature Strategy: exp_increase 	tau_1: 5.516015529632568 	tau_2: 5.516015529632568
+Train Epoch: 35 	Model: 5 	Training Loss: 27206.279224152262 	Temperature Strategy: exp_decrease 	tau_1: 0.8390886187553406 	tau_2: 0.8390886187553406
+Train Epoch: 35 	Model: 6 	Training Loss: 26946.064920628323 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 35 	Model: 7 	Training Loss: 25025.792158410903 	Temperature Strategy: linear_increase 	tau_1: 36.0 	tau_2: 36.0
+Train Epoch: 35 	Model: 8 	Training Loss: 32139.63120221077 	Temperature Strategy: linear_decrease 	tau_1: 0.7200000286102295 	tau_2: 0.7200000286102295
+Train Epoch: 35 	Model: 9 	Training Loss: 25227.868714677526 	Temperature Strategy: exp_increase 	tau_1: 5.516015529632568 	tau_2: 5.516015529632568
+Best model saved with index: 2 and loss: 25001.752908909573
+Epoch: 35 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 36.0 	Best tau_2: 36.0
+Train Epoch: 36 	Model: 0 	Training Loss: 26947.32530959109 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 36 	Model: 1 	Training Loss: 26829.624948055185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 36 	Model: 2 	Training Loss: 24997.137757646276 	Temperature Strategy: linear_increase 	tau_1: 37.0 	tau_2: 37.0
+Train Epoch: 36 	Model: 3 	Training Loss: 27357.00657621343 	Temperature Strategy: linear_decrease 	tau_1: 0.7120000123977661 	tau_2: 0.7120000123977661
+Train Epoch: 36 	Model: 4 	Training Loss: 25213.65579288564 	Temperature Strategy: exp_increase 	tau_1: 5.791816234588623 	tau_2: 5.791816234588623
+Train Epoch: 36 	Model: 5 	Training Loss: 27211.96123877992 	Temperature Strategy: exp_decrease 	tau_1: 0.8348931670188904 	tau_2: 0.8348931670188904
+Train Epoch: 36 	Model: 6 	Training Loss: 26925.04526471077 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 36 	Model: 7 	Training Loss: 25018.228203956118 	Temperature Strategy: linear_increase 	tau_1: 37.0 	tau_2: 37.0
+Train Epoch: 36 	Model: 8 	Training Loss: 32138.4033203125 	Temperature Strategy: linear_decrease 	tau_1: 0.7120000123977661 	tau_2: 0.7120000123977661
+Train Epoch: 36 	Model: 9 	Training Loss: 25209.727113115026 	Temperature Strategy: exp_increase 	tau_1: 5.791816234588623 	tau_2: 5.791816234588623
+Best model saved with index: 2 and loss: 24997.137757646276
+Epoch: 36 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 37.0 	Best tau_2: 37.0
+Train Epoch: 37 	Model: 0 	Training Loss: 26934.58401554189 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 37 	Model: 1 	Training Loss: 26809.982993267953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 37 	Model: 2 	Training Loss: 24988.80224609375 	Temperature Strategy: linear_increase 	tau_1: 38.0 	tau_2: 38.0
+Train Epoch: 37 	Model: 3 	Training Loss: 27352.91600523604 	Temperature Strategy: linear_decrease 	tau_1: 0.7039999961853027 	tau_2: 0.7039999961853027
+Train Epoch: 37 	Model: 4 	Training Loss: 25195.381129488032 	Temperature Strategy: exp_increase 	tau_1: 6.081407070159912 	tau_2: 6.081407070159912
+Train Epoch: 37 	Model: 5 	Training Loss: 27201.037026263297 	Temperature Strategy: exp_decrease 	tau_1: 0.8307186961174011 	tau_2: 0.8307186961174011
+Train Epoch: 37 	Model: 6 	Training Loss: 26918.746218417553 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 37 	Model: 7 	Training Loss: 25013.691156914894 	Temperature Strategy: linear_increase 	tau_1: 38.0 	tau_2: 38.0
+Train Epoch: 37 	Model: 8 	Training Loss: 32140.711851728724 	Temperature Strategy: linear_decrease 	tau_1: 0.7039999961853027 	tau_2: 0.7039999961853027
+Train Epoch: 37 	Model: 9 	Training Loss: 25187.190679022606 	Temperature Strategy: exp_increase 	tau_1: 6.081407070159912 	tau_2: 6.081407070159912
+Best model saved with index: 2 and loss: 24988.80224609375
+Epoch: 37 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 38.0 	Best tau_2: 38.0
+Train Epoch: 38 	Model: 0 	Training Loss: 26918.930414727394 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 38 	Model: 1 	Training Loss: 26790.621488530585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 38 	Model: 2 	Training Loss: 24977.939099900264 	Temperature Strategy: linear_increase 	tau_1: 39.0 	tau_2: 39.0
+Train Epoch: 38 	Model: 3 	Training Loss: 27358.387570644947 	Temperature Strategy: linear_decrease 	tau_1: 0.6959999799728394 	tau_2: 0.6959999799728394
+Train Epoch: 38 	Model: 4 	Training Loss: 25175.02998254654 	Temperature Strategy: exp_increase 	tau_1: 6.385477066040039 	tau_2: 6.385477066040039
+Train Epoch: 38 	Model: 5 	Training Loss: 27186.54428814827 	Temperature Strategy: exp_decrease 	tau_1: 0.8265650868415833 	tau_2: 0.8265650868415833
+Train Epoch: 38 	Model: 6 	Training Loss: 26902.510160405585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 38 	Model: 7 	Training Loss: 25001.911558759974 	Temperature Strategy: linear_increase 	tau_1: 39.0 	tau_2: 39.0
+Train Epoch: 38 	Model: 8 	Training Loss: 32138.603785738032 	Temperature Strategy: linear_decrease 	tau_1: 0.6959999799728394 	tau_2: 0.6959999799728394
+Train Epoch: 38 	Model: 9 	Training Loss: 25167.958589594415 	Temperature Strategy: exp_increase 	tau_1: 6.385477066040039 	tau_2: 6.385477066040039
+Best model saved with index: 2 and loss: 24977.939099900264
+Epoch: 38 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 39.0 	Best tau_2: 39.0
+Train Epoch: 39 	Model: 0 	Training Loss: 26901.691499750665 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 39 	Model: 1 	Training Loss: 26787.565045295876 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 39 	Model: 2 	Training Loss: 24974.882448886303 	Temperature Strategy: linear_increase 	tau_1: 40.0 	tau_2: 40.0
+Train Epoch: 39 	Model: 3 	Training Loss: 27352.27557762633 	Temperature Strategy: linear_decrease 	tau_1: 0.6880000233650208 	tau_2: 0.6880000233650208
+Train Epoch: 39 	Model: 4 	Training Loss: 25156.66913231383 	Temperature Strategy: exp_increase 	tau_1: 6.704751014709473 	tau_2: 6.704751014709473
+Train Epoch: 39 	Model: 5 	Training Loss: 27188.465259308512 	Temperature Strategy: exp_decrease 	tau_1: 0.822432279586792 	tau_2: 0.822432279586792
+Train Epoch: 39 	Model: 6 	Training Loss: 26887.10106382979 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 39 	Model: 7 	Training Loss: 24997.03282912234 	Temperature Strategy: linear_increase 	tau_1: 40.0 	tau_2: 40.0
+Train Epoch: 39 	Model: 8 	Training Loss: 32138.83397398604 	Temperature Strategy: linear_decrease 	tau_1: 0.6880000233650208 	tau_2: 0.6880000233650208
+Train Epoch: 39 	Model: 9 	Training Loss: 25148.279878656915 	Temperature Strategy: exp_increase 	tau_1: 6.704751014709473 	tau_2: 6.704751014709473
+Best model saved with index: 2 and loss: 24974.882448886303
+Epoch: 39 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 40.0 	Best tau_2: 40.0
+Train Epoch: 40 	Model: 0 	Training Loss: 26884.03075132979 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 40 	Model: 1 	Training Loss: 26769.527416472738 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 40 	Model: 2 	Training Loss: 24965.471752410238 	Temperature Strategy: linear_increase 	tau_1: 41.0 	tau_2: 41.0
+Train Epoch: 40 	Model: 3 	Training Loss: 27370.867353723403 	Temperature Strategy: linear_decrease 	tau_1: 0.6800000071525574 	tau_2: 0.6800000071525574
+Train Epoch: 40 	Model: 4 	Training Loss: 25138.47288480718 	Temperature Strategy: exp_increase 	tau_1: 7.0399885177612305 	tau_2: 7.0399885177612305
+Train Epoch: 40 	Model: 5 	Training Loss: 27180.94892785904 	Temperature Strategy: exp_decrease 	tau_1: 0.818320095539093 	tau_2: 0.818320095539093
+Train Epoch: 40 	Model: 6 	Training Loss: 26874.11756150266 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 40 	Model: 7 	Training Loss: 24992.369036735374 	Temperature Strategy: linear_increase 	tau_1: 41.0 	tau_2: 41.0
+Train Epoch: 40 	Model: 8 	Training Loss: 32141.075413480718 	Temperature Strategy: linear_decrease 	tau_1: 0.6800000071525574 	tau_2: 0.6800000071525574
+Train Epoch: 40 	Model: 9 	Training Loss: 25135.695582613032 	Temperature Strategy: exp_increase 	tau_1: 7.0399885177612305 	tau_2: 7.0399885177612305
+Best model saved with index: 2 and loss: 24965.471752410238
+Epoch: 40 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 41.0 	Best tau_2: 41.0
+Train Epoch: 41 	Model: 0 	Training Loss: 26876.508363115026 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 41 	Model: 1 	Training Loss: 26765.239673371012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 41 	Model: 2 	Training Loss: 24958.11106840093 	Temperature Strategy: linear_increase 	tau_1: 42.0 	tau_2: 42.0
+Train Epoch: 41 	Model: 3 	Training Loss: 27362.506274933512 	Temperature Strategy: linear_decrease 	tau_1: 0.671999990940094 	tau_2: 0.671999990940094
+Train Epoch: 41 	Model: 4 	Training Loss: 25125.14576753657 	Temperature Strategy: exp_increase 	tau_1: 7.391988277435303 	tau_2: 7.391988277435303
+Train Epoch: 41 	Model: 5 	Training Loss: 27182.244535405585 	Temperature Strategy: exp_decrease 	tau_1: 0.8142285346984863 	tau_2: 0.8142285346984863
+Train Epoch: 41 	Model: 6 	Training Loss: 26861.36643949468 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 41 	Model: 7 	Training Loss: 24980.37203914561 	Temperature Strategy: linear_increase 	tau_1: 42.0 	tau_2: 42.0
+Train Epoch: 41 	Model: 8 	Training Loss: 32139.65868101729 	Temperature Strategy: linear_decrease 	tau_1: 0.671999990940094 	tau_2: 0.671999990940094
+Train Epoch: 41 	Model: 9 	Training Loss: 25114.506742436835 	Temperature Strategy: exp_increase 	tau_1: 7.391988277435303 	tau_2: 7.391988277435303
+Best model saved with index: 2 and loss: 24958.11106840093
+Epoch: 41 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 42.0 	Best tau_2: 42.0
+Train Epoch: 42 	Model: 0 	Training Loss: 26865.764180934177 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 42 	Model: 1 	Training Loss: 26746.97479637633 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 42 	Model: 2 	Training Loss: 24947.997236535903 	Temperature Strategy: linear_increase 	tau_1: 43.0 	tau_2: 43.0
+Train Epoch: 42 	Model: 3 	Training Loss: 27374.453073055185 	Temperature Strategy: linear_decrease 	tau_1: 0.6639999747276306 	tau_2: 0.6639999747276306
+Train Epoch: 42 	Model: 4 	Training Loss: 25102.677464261968 	Temperature Strategy: exp_increase 	tau_1: 7.761587619781494 	tau_2: 7.761587619781494
+Train Epoch: 42 	Model: 5 	Training Loss: 27180.070665724736 	Temperature Strategy: exp_decrease 	tau_1: 0.8101573586463928 	tau_2: 0.8101573586463928
+Train Epoch: 42 	Model: 6 	Training Loss: 26844.851458610374 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 42 	Model: 7 	Training Loss: 24976.777073636968 	Temperature Strategy: linear_increase 	tau_1: 43.0 	tau_2: 43.0
+Train Epoch: 42 	Model: 8 	Training Loss: 32138.16110164561 	Temperature Strategy: linear_decrease 	tau_1: 0.6639999747276306 	tau_2: 0.6639999747276306
+Train Epoch: 42 	Model: 9 	Training Loss: 25089.213451628988 	Temperature Strategy: exp_increase 	tau_1: 7.761587619781494 	tau_2: 7.761587619781494
+Best model saved with index: 2 and loss: 24947.997236535903
+Epoch: 42 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 43.0 	Best tau_2: 43.0
+Train Epoch: 43 	Model: 0 	Training Loss: 26847.245221077126 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 43 	Model: 1 	Training Loss: 26728.38597074468 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 43 	Model: 2 	Training Loss: 24941.385877244014 	Temperature Strategy: linear_increase 	tau_1: 44.0 	tau_2: 44.0
+Train Epoch: 43 	Model: 3 	Training Loss: 27364.893159906915 	Temperature Strategy: linear_decrease 	tau_1: 0.656000018119812 	tau_2: 0.656000018119812
+Train Epoch: 43 	Model: 4 	Training Loss: 25091.48338804854 	Temperature Strategy: exp_increase 	tau_1: 8.149666786193848 	tau_2: 8.149666786193848
+Train Epoch: 43 	Model: 5 	Training Loss: 27166.612657912236 	Temperature Strategy: exp_decrease 	tau_1: 0.8061065673828125 	tau_2: 0.8061065673828125
+Train Epoch: 43 	Model: 6 	Training Loss: 26833.055684840427 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 43 	Model: 7 	Training Loss: 24972.606092087764 	Temperature Strategy: linear_increase 	tau_1: 44.0 	tau_2: 44.0
+Train Epoch: 43 	Model: 8 	Training Loss: 32139.666441572474 	Temperature Strategy: linear_decrease 	tau_1: 0.656000018119812 	tau_2: 0.656000018119812
+Train Epoch: 43 	Model: 9 	Training Loss: 25087.72266663896 	Temperature Strategy: exp_increase 	tau_1: 8.149666786193848 	tau_2: 8.149666786193848
+Best model saved with index: 2 and loss: 24941.385877244014
+Epoch: 43 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 44.0 	Best tau_2: 44.0
+Train Epoch: 44 	Model: 0 	Training Loss: 26831.095464178856 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 44 	Model: 1 	Training Loss: 26725.207955867685 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 44 	Model: 2 	Training Loss: 24937.275899684177 	Temperature Strategy: linear_increase 	tau_1: 45.0 	tau_2: 45.0
+Train Epoch: 44 	Model: 3 	Training Loss: 27378.375394780585 	Temperature Strategy: linear_decrease 	tau_1: 0.6480000019073486 	tau_2: 0.6480000019073486
+Train Epoch: 44 	Model: 4 	Training Loss: 25072.14532081117 	Temperature Strategy: exp_increase 	tau_1: 8.557149887084961 	tau_2: 8.557149887084961
+Train Epoch: 44 	Model: 5 	Training Loss: 27160.98497755984 	Temperature Strategy: exp_decrease 	tau_1: 0.8020760416984558 	tau_2: 0.8020760416984558
+Train Epoch: 44 	Model: 6 	Training Loss: 26818.115546043882 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 44 	Model: 7 	Training Loss: 24964.780668218085 	Temperature Strategy: linear_increase 	tau_1: 45.0 	tau_2: 45.0
+Train Epoch: 44 	Model: 8 	Training Loss: 32139.518575465427 	Temperature Strategy: linear_decrease 	tau_1: 0.6480000019073486 	tau_2: 0.6480000019073486
+Train Epoch: 44 	Model: 9 	Training Loss: 25063.49117977061 	Temperature Strategy: exp_increase 	tau_1: 8.557149887084961 	tau_2: 8.557149887084961
+Best model saved with index: 2 and loss: 24937.275899684177
+Epoch: 44 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 45.0 	Best tau_2: 45.0
+Train Epoch: 45 	Model: 0 	Training Loss: 26822.346658909573 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 45 	Model: 1 	Training Loss: 26715.517682014626 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 45 	Model: 2 	Training Loss: 24931.049295628323 	Temperature Strategy: linear_increase 	tau_1: 46.0 	tau_2: 46.0
+Train Epoch: 45 	Model: 3 	Training Loss: 27383.298215176197 	Temperature Strategy: linear_decrease 	tau_1: 0.6399999856948853 	tau_2: 0.6399999856948853
+Train Epoch: 45 	Model: 4 	Training Loss: 25062.386625249335 	Temperature Strategy: exp_increase 	tau_1: 8.985008239746094 	tau_2: 8.985008239746094
+Train Epoch: 45 	Model: 5 	Training Loss: 27159.523032330453 	Temperature Strategy: exp_decrease 	tau_1: 0.7980656623840332 	tau_2: 0.7980656623840332
+Train Epoch: 45 	Model: 6 	Training Loss: 26807.26483543883 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 45 	Model: 7 	Training Loss: 24960.19986286569 	Temperature Strategy: linear_increase 	tau_1: 46.0 	tau_2: 46.0
+Train Epoch: 45 	Model: 8 	Training Loss: 32140.299191738697 	Temperature Strategy: linear_decrease 	tau_1: 0.6399999856948853 	tau_2: 0.6399999856948853
+Train Epoch: 45 	Model: 9 	Training Loss: 25054.99890915891 	Temperature Strategy: exp_increase 	tau_1: 8.985008239746094 	tau_2: 8.985008239746094
+Best model saved with index: 2 and loss: 24931.049295628323
+Epoch: 45 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 46.0 	Best tau_2: 46.0
+Train Epoch: 46 	Model: 0 	Training Loss: 26814.004498420876 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 46 	Model: 1 	Training Loss: 26704.09799908577 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 46 	Model: 2 	Training Loss: 24921.346264128988 	Temperature Strategy: linear_increase 	tau_1: 47.0 	tau_2: 47.0
+Train Epoch: 46 	Model: 3 	Training Loss: 27385.335386884974 	Temperature Strategy: linear_decrease 	tau_1: 0.6320000290870667 	tau_2: 0.6320000290870667
+Train Epoch: 46 	Model: 4 	Training Loss: 25043.94258020279 	Temperature Strategy: exp_increase 	tau_1: 9.434258460998535 	tau_2: 9.434258460998535
+Train Epoch: 46 	Model: 5 	Training Loss: 27157.522512882315 	Temperature Strategy: exp_decrease 	tau_1: 0.7940753698348999 	tau_2: 0.7940753698348999
+Train Epoch: 46 	Model: 6 	Training Loss: 26796.731227144282 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 46 	Model: 7 	Training Loss: 24958.219300615026 	Temperature Strategy: linear_increase 	tau_1: 47.0 	tau_2: 47.0
+Train Epoch: 46 	Model: 8 	Training Loss: 32139.29360247673 	Temperature Strategy: linear_decrease 	tau_1: 0.6320000290870667 	tau_2: 0.6320000290870667
+Train Epoch: 46 	Model: 9 	Training Loss: 25035.084202543218 	Temperature Strategy: exp_increase 	tau_1: 9.434258460998535 	tau_2: 9.434258460998535
+Best model saved with index: 2 and loss: 24921.346264128988
+Epoch: 46 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 47.0 	Best tau_2: 47.0
+Train Epoch: 47 	Model: 0 	Training Loss: 26801.89694148936 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 47 	Model: 1 	Training Loss: 26687.16634807181 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 47 	Model: 2 	Training Loss: 24919.638505651597 	Temperature Strategy: linear_increase 	tau_1: 48.0 	tau_2: 48.0
+Train Epoch: 47 	Model: 3 	Training Loss: 27385.794901097073 	Temperature Strategy: linear_decrease 	tau_1: 0.6240000128746033 	tau_2: 0.6240000128746033
+Train Epoch: 47 	Model: 4 	Training Loss: 25033.470983626994 	Temperature Strategy: exp_increase 	tau_1: 9.90597152709961 	tau_2: 9.90597152709961
+Train Epoch: 47 	Model: 5 	Training Loss: 27155.247828706782 	Temperature Strategy: exp_decrease 	tau_1: 0.7901049852371216 	tau_2: 0.7901049852371216
+Train Epoch: 47 	Model: 6 	Training Loss: 26780.20781042221 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 47 	Model: 7 	Training Loss: 24948.46175822806 	Temperature Strategy: linear_increase 	tau_1: 48.0 	tau_2: 48.0
+Train Epoch: 47 	Model: 8 	Training Loss: 32139.58860746343 	Temperature Strategy: linear_decrease 	tau_1: 0.6240000128746033 	tau_2: 0.6240000128746033
+Train Epoch: 47 	Model: 9 	Training Loss: 25023.40853557181 	Temperature Strategy: exp_increase 	tau_1: 9.90597152709961 	tau_2: 9.90597152709961
+Best model saved with index: 2 and loss: 24919.638505651597
+Epoch: 47 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 48.0 	Best tau_2: 48.0
+Train Epoch: 48 	Model: 0 	Training Loss: 26797.142817071144 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 48 	Model: 1 	Training Loss: 26683.83737117686 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 48 	Model: 2 	Training Loss: 24911.79954496343 	Temperature Strategy: linear_increase 	tau_1: 49.0 	tau_2: 49.0
+Train Epoch: 48 	Model: 3 	Training Loss: 27412.126215508644 	Temperature Strategy: linear_decrease 	tau_1: 0.6159999966621399 	tau_2: 0.6159999966621399
+Train Epoch: 48 	Model: 4 	Training Loss: 25024.762913480718 	Temperature Strategy: exp_increase 	tau_1: 10.401269912719727 	tau_2: 10.401269912719727
+Train Epoch: 48 	Model: 5 	Training Loss: 27154.252036236703 	Temperature Strategy: exp_decrease 	tau_1: 0.7861544489860535 	tau_2: 0.7861544489860535
+Train Epoch: 48 	Model: 6 	Training Loss: 26779.23550739694 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 48 	Model: 7 	Training Loss: 24942.50064411569 	Temperature Strategy: linear_increase 	tau_1: 49.0 	tau_2: 49.0
+Train Epoch: 48 	Model: 8 	Training Loss: 32139.27257521609 	Temperature Strategy: linear_decrease 	tau_1: 0.6159999966621399 	tau_2: 0.6159999966621399
+Train Epoch: 48 	Model: 9 	Training Loss: 25010.492956283244 	Temperature Strategy: exp_increase 	tau_1: 10.401269912719727 	tau_2: 10.401269912719727
+Best model saved with index: 2 and loss: 24911.79954496343
+Epoch: 48 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 49.0 	Best tau_2: 49.0
+Train Epoch: 49 	Model: 0 	Training Loss: 26784.097271858376 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 49 	Model: 1 	Training Loss: 26659.635378573803 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 49 	Model: 2 	Training Loss: 24904.80811585771 	Temperature Strategy: linear_increase 	tau_1: 50.0 	tau_2: 50.0
+Train Epoch: 49 	Model: 3 	Training Loss: 27401.94838763298 	Temperature Strategy: linear_decrease 	tau_1: 0.6079999804496765 	tau_2: 0.6079999804496765
+Train Epoch: 49 	Model: 4 	Training Loss: 25005.9052734375 	Temperature Strategy: exp_increase 	tau_1: 10.921333312988281 	tau_2: 10.921333312988281
+Train Epoch: 49 	Model: 5 	Training Loss: 27150.73354388298 	Temperature Strategy: exp_decrease 	tau_1: 0.7822237014770508 	tau_2: 0.7822237014770508
+Train Epoch: 49 	Model: 6 	Training Loss: 26763.639825049868 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 49 	Model: 7 	Training Loss: 24934.458288314494 	Temperature Strategy: linear_increase 	tau_1: 50.0 	tau_2: 50.0
+Train Epoch: 49 	Model: 8 	Training Loss: 32137.92695520279 	Temperature Strategy: linear_decrease 	tau_1: 0.6079999804496765 	tau_2: 0.6079999804496765
+Train Epoch: 49 	Model: 9 	Training Loss: 24995.03189411569 	Temperature Strategy: exp_increase 	tau_1: 10.921333312988281 	tau_2: 10.921333312988281
+Best model saved with index: 2 and loss: 24904.80811585771
+Epoch: 49 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 50.0 	Best tau_2: 50.0
+Train Epoch: 50 	Model: 0 	Training Loss: 26782.308209358376 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 50 	Model: 1 	Training Loss: 26651.28903133311 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 50 	Model: 2 	Training Loss: 24901.680799119014 	Temperature Strategy: linear_increase 	tau_1: 51.0 	tau_2: 51.0
+Train Epoch: 50 	Model: 3 	Training Loss: 27414.42141788564 	Temperature Strategy: linear_decrease 	tau_1: 0.6000000238418579 	tau_2: 0.6000000238418579
+Train Epoch: 50 	Model: 4 	Training Loss: 24994.253002410238 	Temperature Strategy: exp_increase 	tau_1: 11.467399597167969 	tau_2: 11.467399597167969
+Train Epoch: 50 	Model: 5 	Training Loss: 27140.336592004653 	Temperature Strategy: exp_decrease 	tau_1: 0.7783125638961792 	tau_2: 0.7783125638961792
+Train Epoch: 50 	Model: 6 	Training Loss: 26757.0078125 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 50 	Model: 7 	Training Loss: 24933.83688289561 	Temperature Strategy: linear_increase 	tau_1: 51.0 	tau_2: 51.0
+Train Epoch: 50 	Model: 8 	Training Loss: 32139.718698055185 	Temperature Strategy: linear_decrease 	tau_1: 0.6000000238418579 	tau_2: 0.6000000238418579
+Train Epoch: 50 	Model: 9 	Training Loss: 24993.205348238032 	Temperature Strategy: exp_increase 	tau_1: 11.467399597167969 	tau_2: 11.467399597167969
+Best model saved with index: 2 and loss: 24901.680799119014
+Epoch: 50 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 51.0 	Best tau_2: 51.0
+Train Epoch: 51 	Model: 0 	Training Loss: 26766.85478307846 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 51 	Model: 1 	Training Loss: 26644.214895694815 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 51 	Model: 2 	Training Loss: 24899.049409906915 	Temperature Strategy: linear_increase 	tau_1: 52.0 	tau_2: 52.0
+Train Epoch: 51 	Model: 3 	Training Loss: 27409.721617353724 	Temperature Strategy: linear_decrease 	tau_1: 0.5920000076293945 	tau_2: 0.5920000076293945
+Train Epoch: 51 	Model: 4 	Training Loss: 24983.269250748006 	Temperature Strategy: exp_increase 	tau_1: 12.040769577026367 	tau_2: 12.040769577026367
+Train Epoch: 51 	Model: 5 	Training Loss: 27142.731860871012 	Temperature Strategy: exp_decrease 	tau_1: 0.774420976638794 	tau_2: 0.774420976638794
+Train Epoch: 51 	Model: 6 	Training Loss: 26746.52745802859 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 51 	Model: 7 	Training Loss: 24931.321154005986 	Temperature Strategy: linear_increase 	tau_1: 52.0 	tau_2: 52.0
+Train Epoch: 51 	Model: 8 	Training Loss: 32138.369691240026 	Temperature Strategy: linear_decrease 	tau_1: 0.5920000076293945 	tau_2: 0.5920000076293945
+Train Epoch: 51 	Model: 9 	Training Loss: 24974.307004238697 	Temperature Strategy: exp_increase 	tau_1: 12.040769577026367 	tau_2: 12.040769577026367
+Best model saved with index: 2 and loss: 24899.049409906915
+Epoch: 51 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 52.0 	Best tau_2: 52.0
+Train Epoch: 52 	Model: 0 	Training Loss: 26753.588586685506 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 52 	Model: 1 	Training Loss: 26638.508695561835 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 52 	Model: 2 	Training Loss: 24888.50928773271 	Temperature Strategy: linear_increase 	tau_1: 53.0 	tau_2: 53.0
+Train Epoch: 52 	Model: 3 	Training Loss: 27430.439692071144 	Temperature Strategy: linear_decrease 	tau_1: 0.5839999914169312 	tau_2: 0.5839999914169312
+Train Epoch: 52 	Model: 4 	Training Loss: 24984.840009973403 	Temperature Strategy: exp_increase 	tau_1: 12.642807960510254 	tau_2: 12.642807960510254
+Train Epoch: 52 	Model: 5 	Training Loss: 27140.851801446144 	Temperature Strategy: exp_decrease 	tau_1: 0.7705488801002502 	tau_2: 0.7705488801002502
+Train Epoch: 52 	Model: 6 	Training Loss: 26740.924524185506 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 52 	Model: 7 	Training Loss: 24929.90760056516 	Temperature Strategy: linear_increase 	tau_1: 53.0 	tau_2: 53.0
+Train Epoch: 52 	Model: 8 	Training Loss: 32138.668363530585 	Temperature Strategy: linear_decrease 	tau_1: 0.5839999914169312 	tau_2: 0.5839999914169312
+Train Epoch: 52 	Model: 9 	Training Loss: 24962.785696476065 	Temperature Strategy: exp_increase 	tau_1: 12.642807960510254 	tau_2: 12.642807960510254
+Best model saved with index: 2 and loss: 24888.50928773271
+Epoch: 52 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 53.0 	Best tau_2: 53.0
+Train Epoch: 53 	Model: 0 	Training Loss: 26746.275286735374 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 53 	Model: 1 	Training Loss: 26628.824842087764 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 53 	Model: 2 	Training Loss: 24888.293373919547 	Temperature Strategy: linear_increase 	tau_1: 54.0 	tau_2: 54.0
+Train Epoch: 53 	Model: 3 	Training Loss: 27441.93745844415 	Temperature Strategy: linear_decrease 	tau_1: 0.5759999752044678 	tau_2: 0.5759999752044678
+Train Epoch: 53 	Model: 4 	Training Loss: 24961.33668550532 	Temperature Strategy: exp_increase 	tau_1: 13.274949073791504 	tau_2: 13.274949073791504
+Train Epoch: 53 	Model: 5 	Training Loss: 27146.20462101064 	Temperature Strategy: exp_decrease 	tau_1: 0.7666961550712585 	tau_2: 0.7666961550712585
+Train Epoch: 53 	Model: 6 	Training Loss: 26717.922311336435 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 53 	Model: 7 	Training Loss: 24919.031644780585 	Temperature Strategy: linear_increase 	tau_1: 54.0 	tau_2: 54.0
+Train Epoch: 53 	Model: 8 	Training Loss: 32138.23512300532 	Temperature Strategy: linear_decrease 	tau_1: 0.5759999752044678 	tau_2: 0.5759999752044678
+Train Epoch: 53 	Model: 9 	Training Loss: 24955.375 	Temperature Strategy: exp_increase 	tau_1: 13.274949073791504 	tau_2: 13.274949073791504
+Best model saved with index: 2 and loss: 24888.293373919547
+Epoch: 53 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 54.0 	Best tau_2: 54.0
+Train Epoch: 54 	Model: 0 	Training Loss: 26740.516019780585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 54 	Model: 1 	Training Loss: 26625.251392121012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 54 	Model: 2 	Training Loss: 24876.712828291224 	Temperature Strategy: linear_increase 	tau_1: 55.0 	tau_2: 55.0
+Train Epoch: 54 	Model: 3 	Training Loss: 27438.28260056516 	Temperature Strategy: linear_decrease 	tau_1: 0.5680000185966492 	tau_2: 0.5680000185966492
+Train Epoch: 54 	Model: 4 	Training Loss: 24962.01901180186 	Temperature Strategy: exp_increase 	tau_1: 13.938695907592773 	tau_2: 13.938695907592773
+Train Epoch: 54 	Model: 5 	Training Loss: 27144.119566572474 	Temperature Strategy: exp_decrease 	tau_1: 0.7628626823425293 	tau_2: 0.7628626823425293
+Train Epoch: 54 	Model: 6 	Training Loss: 26713.84405127992 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 54 	Model: 7 	Training Loss: 24916.441468583776 	Temperature Strategy: linear_increase 	tau_1: 55.0 	tau_2: 55.0
+Train Epoch: 54 	Model: 8 	Training Loss: 32139.12023146609 	Temperature Strategy: linear_decrease 	tau_1: 0.5680000185966492 	tau_2: 0.5680000185966492
+Train Epoch: 54 	Model: 9 	Training Loss: 24944.32042677859 	Temperature Strategy: exp_increase 	tau_1: 13.938695907592773 	tau_2: 13.938695907592773
+Best model saved with index: 2 and loss: 24876.712828291224
+Epoch: 54 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 55.0 	Best tau_2: 55.0
+Train Epoch: 55 	Model: 0 	Training Loss: 26728.671407496677 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 55 	Model: 1 	Training Loss: 26609.479544132315 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 55 	Model: 2 	Training Loss: 24877.06442195811 	Temperature Strategy: linear_increase 	tau_1: 56.0 	tau_2: 56.0
+Train Epoch: 55 	Model: 3 	Training Loss: 27453.512871924868 	Temperature Strategy: linear_decrease 	tau_1: 0.5600000023841858 	tau_2: 0.5600000023841858
+Train Epoch: 55 	Model: 4 	Training Loss: 24946.341900764626 	Temperature Strategy: exp_increase 	tau_1: 14.63563060760498 	tau_2: 14.63563060760498
+Train Epoch: 55 	Model: 5 	Training Loss: 27139.50669049202 	Temperature Strategy: exp_decrease 	tau_1: 0.759048342704773 	tau_2: 0.759048342704773
+Train Epoch: 55 	Model: 6 	Training Loss: 26717.51051363032 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 55 	Model: 7 	Training Loss: 24910.81821392952 	Temperature Strategy: linear_increase 	tau_1: 56.0 	tau_2: 56.0
+Train Epoch: 55 	Model: 8 	Training Loss: 32139.039613115026 	Temperature Strategy: linear_decrease 	tau_1: 0.5600000023841858 	tau_2: 0.5600000023841858
+Train Epoch: 55 	Model: 9 	Training Loss: 24934.950995262632 	Temperature Strategy: exp_increase 	tau_1: 14.63563060760498 	tau_2: 14.63563060760498
+Epoch: 55 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 56.0 	Best tau_2: 56.0
+Train Epoch: 56 	Model: 0 	Training Loss: 26723.218438331118 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 56 	Model: 1 	Training Loss: 26602.438892121012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 56 	Model: 2 	Training Loss: 24874.671656831782 	Temperature Strategy: linear_increase 	tau_1: 57.0 	tau_2: 57.0
+Train Epoch: 56 	Model: 3 	Training Loss: 27458.923578789894 	Temperature Strategy: linear_decrease 	tau_1: 0.5519999861717224 	tau_2: 0.5519999861717224
+Train Epoch: 56 	Model: 4 	Training Loss: 24936.614985039894 	Temperature Strategy: exp_increase 	tau_1: 15.367412567138672 	tau_2: 15.367412567138672
+Train Epoch: 56 	Model: 5 	Training Loss: 27138.26077335439 	Temperature Strategy: exp_decrease 	tau_1: 0.7552531361579895 	tau_2: 0.7552531361579895
+Train Epoch: 56 	Model: 6 	Training Loss: 26689.023364777262 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 56 	Model: 7 	Training Loss: 24907.582498753323 	Temperature Strategy: linear_increase 	tau_1: 57.0 	tau_2: 57.0
+Train Epoch: 56 	Model: 8 	Training Loss: 32138.045088098403 	Temperature Strategy: linear_decrease 	tau_1: 0.5519999861717224 	tau_2: 0.5519999861717224
+Train Epoch: 56 	Model: 9 	Training Loss: 24925.782922623006 	Temperature Strategy: exp_increase 	tau_1: 15.367412567138672 	tau_2: 15.367412567138672
+Best model saved with index: 2 and loss: 24874.671656831782
+Epoch: 56 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 57.0 	Best tau_2: 57.0
+Train Epoch: 57 	Model: 0 	Training Loss: 26712.310484541224 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 57 	Model: 1 	Training Loss: 26597.450434258644 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 57 	Model: 2 	Training Loss: 24867.584857047874 	Temperature Strategy: linear_increase 	tau_1: 58.0 	tau_2: 58.0
+Train Epoch: 57 	Model: 3 	Training Loss: 27474.99106549202 	Temperature Strategy: linear_decrease 	tau_1: 0.5440000295639038 	tau_2: 0.5440000295639038
+Train Epoch: 57 	Model: 4 	Training Loss: 24930.046262051197 	Temperature Strategy: exp_increase 	tau_1: 16.13578224182129 	tau_2: 16.13578224182129
+Train Epoch: 57 	Model: 5 	Training Loss: 27133.339771027262 	Temperature Strategy: exp_decrease 	tau_1: 0.7514768242835999 	tau_2: 0.7514768242835999
+Train Epoch: 57 	Model: 6 	Training Loss: 26691.960542719415 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 57 	Model: 7 	Training Loss: 24899.41621301529 	Temperature Strategy: linear_increase 	tau_1: 58.0 	tau_2: 58.0
+Train Epoch: 57 	Model: 8 	Training Loss: 32137.643824800532 	Temperature Strategy: linear_decrease 	tau_1: 0.5440000295639038 	tau_2: 0.5440000295639038
+Train Epoch: 57 	Model: 9 	Training Loss: 24917.43077834109 	Temperature Strategy: exp_increase 	tau_1: 16.13578224182129 	tau_2: 16.13578224182129
+Best model saved with index: 2 and loss: 24867.584857047874
+Epoch: 57 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 58.0 	Best tau_2: 58.0
+Train Epoch: 58 	Model: 0 	Training Loss: 26700.989642204124 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 58 	Model: 1 	Training Loss: 26582.74166805186 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 58 	Model: 2 	Training Loss: 24865.756763214762 	Temperature Strategy: linear_increase 	tau_1: 59.0 	tau_2: 59.0
+Train Epoch: 58 	Model: 3 	Training Loss: 27477.658857629653 	Temperature Strategy: linear_decrease 	tau_1: 0.5360000133514404 	tau_2: 0.5360000133514404
+Train Epoch: 58 	Model: 4 	Training Loss: 24922.08477393617 	Temperature Strategy: exp_increase 	tau_1: 16.94257164001465 	tau_2: 16.94257164001465
+Train Epoch: 58 	Model: 5 	Training Loss: 27129.98160114694 	Temperature Strategy: exp_decrease 	tau_1: 0.7477194666862488 	tau_2: 0.7477194666862488
+Train Epoch: 58 	Model: 6 	Training Loss: 26681.87155086436 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 58 	Model: 7 	Training Loss: 24894.996187250665 	Temperature Strategy: linear_increase 	tau_1: 59.0 	tau_2: 59.0
+Train Epoch: 58 	Model: 8 	Training Loss: 32139.567206200132 	Temperature Strategy: linear_decrease 	tau_1: 0.5360000133514404 	tau_2: 0.5360000133514404
+Train Epoch: 58 	Model: 9 	Training Loss: 24907.51731840093 	Temperature Strategy: exp_increase 	tau_1: 16.94257164001465 	tau_2: 16.94257164001465
+Best model saved with index: 2 and loss: 24865.756763214762
+Epoch: 58 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 59.0 	Best tau_2: 59.0
+Train Epoch: 59 	Model: 0 	Training Loss: 26694.928492769282 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 59 	Model: 1 	Training Loss: 26566.059809258644 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 59 	Model: 2 	Training Loss: 24861.03561336436 	Temperature Strategy: linear_increase 	tau_1: 60.0 	tau_2: 60.0
+Train Epoch: 59 	Model: 3 	Training Loss: 27489.347095246012 	Temperature Strategy: linear_decrease 	tau_1: 0.527999997138977 	tau_2: 0.527999997138977
+Train Epoch: 59 	Model: 4 	Training Loss: 24916.089521692153 	Temperature Strategy: exp_increase 	tau_1: 17.789701461791992 	tau_2: 17.789701461791992
+Train Epoch: 59 	Model: 5 	Training Loss: 27140.685463763297 	Temperature Strategy: exp_decrease 	tau_1: 0.743980884552002 	tau_2: 0.743980884552002
+Train Epoch: 59 	Model: 6 	Training Loss: 26672.46401263298 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 59 	Model: 7 	Training Loss: 24893.747652094415 	Temperature Strategy: linear_increase 	tau_1: 60.0 	tau_2: 60.0
+Train Epoch: 59 	Model: 8 	Training Loss: 32136.940564744014 	Temperature Strategy: linear_decrease 	tau_1: 0.527999997138977 	tau_2: 0.527999997138977
+Train Epoch: 59 	Model: 9 	Training Loss: 24898.81913854721 	Temperature Strategy: exp_increase 	tau_1: 17.789701461791992 	tau_2: 17.789701461791992
+Best model saved with index: 2 and loss: 24861.03561336436
+Epoch: 59 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 60.0 	Best tau_2: 60.0
+Train Epoch: 60 	Model: 0 	Training Loss: 26683.917553191488 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 60 	Model: 1 	Training Loss: 26560.391466505986 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 60 	Model: 2 	Training Loss: 24859.242603058512 	Temperature Strategy: linear_increase 	tau_1: 61.0 	tau_2: 61.0
+Train Epoch: 60 	Model: 3 	Training Loss: 27503.028974817153 	Temperature Strategy: linear_decrease 	tau_1: 0.5199999809265137 	tau_2: 0.5199999809265137
+Train Epoch: 60 	Model: 4 	Training Loss: 24906.33169880319 	Temperature Strategy: exp_increase 	tau_1: 18.67918586730957 	tau_2: 18.67918586730957
+Train Epoch: 60 	Model: 5 	Training Loss: 27134.004519198803 	Temperature Strategy: exp_decrease 	tau_1: 0.7402609586715698 	tau_2: 0.7402609586715698
+Train Epoch: 60 	Model: 6 	Training Loss: 26665.43965051529 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 60 	Model: 7 	Training Loss: 24885.99448346077 	Temperature Strategy: linear_increase 	tau_1: 61.0 	tau_2: 61.0
+Train Epoch: 60 	Model: 8 	Training Loss: 32138.764378324468 	Temperature Strategy: linear_decrease 	tau_1: 0.5199999809265137 	tau_2: 0.5199999809265137
+Train Epoch: 60 	Model: 9 	Training Loss: 24897.505942486703 	Temperature Strategy: exp_increase 	tau_1: 18.67918586730957 	tau_2: 18.67918586730957
+Best model saved with index: 2 and loss: 24859.242603058512
+Epoch: 60 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 61.0 	Best tau_2: 61.0
+Train Epoch: 61 	Model: 0 	Training Loss: 26670.917096077126 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 61 	Model: 1 	Training Loss: 26550.762903091756 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 61 	Model: 2 	Training Loss: 24853.724297706118 	Temperature Strategy: linear_increase 	tau_1: 62.0 	tau_2: 62.0
+Train Epoch: 61 	Model: 3 	Training Loss: 27507.606279089097 	Temperature Strategy: linear_decrease 	tau_1: 0.5120000243186951 	tau_2: 0.5120000243186951
+Train Epoch: 61 	Model: 4 	Training Loss: 24893.88657330452 	Temperature Strategy: exp_increase 	tau_1: 19.61314582824707 	tau_2: 19.61314582824707
+Train Epoch: 61 	Model: 5 	Training Loss: 27131.828561336435 	Temperature Strategy: exp_decrease 	tau_1: 0.7365596294403076 	tau_2: 0.7365596294403076
+Train Epoch: 61 	Model: 6 	Training Loss: 26655.83153257979 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 61 	Model: 7 	Training Loss: 24880.624459773935 	Temperature Strategy: linear_increase 	tau_1: 62.0 	tau_2: 62.0
+Train Epoch: 61 	Model: 8 	Training Loss: 32140.47071351396 	Temperature Strategy: linear_decrease 	tau_1: 0.5120000243186951 	tau_2: 0.5120000243186951
+Train Epoch: 61 	Model: 9 	Training Loss: 24883.20094331782 	Temperature Strategy: exp_increase 	tau_1: 19.61314582824707 	tau_2: 19.61314582824707
+Best model saved with index: 2 and loss: 24853.724297706118
+Epoch: 61 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 62.0 	Best tau_2: 62.0
+Train Epoch: 62 	Model: 0 	Training Loss: 26668.566489361703 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 62 	Model: 1 	Training Loss: 26556.451535488697 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 62 	Model: 2 	Training Loss: 24852.505163314494 	Temperature Strategy: linear_increase 	tau_1: 63.0 	tau_2: 63.0
+Train Epoch: 62 	Model: 3 	Training Loss: 27516.843209773935 	Temperature Strategy: linear_decrease 	tau_1: 0.5040000081062317 	tau_2: 0.5040000081062317
+Train Epoch: 62 	Model: 4 	Training Loss: 24890.09769780585 	Temperature Strategy: exp_increase 	tau_1: 20.593801498413086 	tau_2: 20.593801498413086
+Train Epoch: 62 	Model: 5 	Training Loss: 27132.30032413564 	Temperature Strategy: exp_decrease 	tau_1: 0.7328768372535706 	tau_2: 0.7328768372535706
+Train Epoch: 62 	Model: 6 	Training Loss: 26640.87797124335 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 62 	Model: 7 	Training Loss: 24876.526315242685 	Temperature Strategy: linear_increase 	tau_1: 63.0 	tau_2: 63.0
+Train Epoch: 62 	Model: 8 	Training Loss: 32137.77196226729 	Temperature Strategy: linear_decrease 	tau_1: 0.5040000081062317 	tau_2: 0.5040000081062317
+Train Epoch: 62 	Model: 9 	Training Loss: 24872.49557430186 	Temperature Strategy: exp_increase 	tau_1: 20.593801498413086 	tau_2: 20.593801498413086
+Best model saved with index: 2 and loss: 24852.505163314494
+Epoch: 62 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 63.0 	Best tau_2: 63.0
+Train Epoch: 63 	Model: 0 	Training Loss: 26666.418820644947 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 63 	Model: 1 	Training Loss: 26541.89820894282 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 63 	Model: 2 	Training Loss: 24844.59799908577 	Temperature Strategy: linear_increase 	tau_1: 64.0 	tau_2: 64.0
+Train Epoch: 63 	Model: 3 	Training Loss: 27530.89840633311 	Temperature Strategy: linear_decrease 	tau_1: 0.4959999918937683 	tau_2: 0.4959999918937683
+Train Epoch: 63 	Model: 4 	Training Loss: 24881.813642785903 	Temperature Strategy: exp_increase 	tau_1: 21.623493194580078 	tau_2: 21.623493194580078
+Train Epoch: 63 	Model: 5 	Training Loss: 27129.944356715427 	Temperature Strategy: exp_decrease 	tau_1: 0.7292124629020691 	tau_2: 0.7292124629020691
+Train Epoch: 63 	Model: 6 	Training Loss: 26638.65511760306 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 63 	Model: 7 	Training Loss: 24877.781904504653 	Temperature Strategy: linear_increase 	tau_1: 64.0 	tau_2: 64.0
+Train Epoch: 63 	Model: 8 	Training Loss: 32138.605063580453 	Temperature Strategy: linear_decrease 	tau_1: 0.4959999918937683 	tau_2: 0.4959999918937683
+Train Epoch: 63 	Model: 9 	Training Loss: 24867.68051861702 	Temperature Strategy: exp_increase 	tau_1: 21.623493194580078 	tau_2: 21.623493194580078
+Best model saved with index: 2 and loss: 24844.59799908577
+Epoch: 63 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 64.0 	Best tau_2: 64.0
+Train Epoch: 64 	Model: 0 	Training Loss: 26660.843053939494 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 64 	Model: 1 	Training Loss: 26529.06119099069 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 64 	Model: 2 	Training Loss: 24844.411745761303 	Temperature Strategy: linear_increase 	tau_1: 65.0 	tau_2: 65.0
+Train Epoch: 64 	Model: 3 	Training Loss: 27541.805944564494 	Temperature Strategy: linear_decrease 	tau_1: 0.4880000054836273 	tau_2: 0.4880000054836273
+Train Epoch: 64 	Model: 4 	Training Loss: 24873.21288023604 	Temperature Strategy: exp_increase 	tau_1: 22.704668045043945 	tau_2: 22.704668045043945
+Train Epoch: 64 	Model: 5 	Training Loss: 27133.21976811835 	Temperature Strategy: exp_decrease 	tau_1: 0.7255663871765137 	tau_2: 0.7255663871765137
+Train Epoch: 64 	Model: 6 	Training Loss: 26636.73246343085 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 64 	Model: 7 	Training Loss: 24872.500083111703 	Temperature Strategy: linear_increase 	tau_1: 65.0 	tau_2: 65.0
+Train Epoch: 64 	Model: 8 	Training Loss: 32137.177859042553 	Temperature Strategy: linear_decrease 	tau_1: 0.4880000054836273 	tau_2: 0.4880000054836273
+Train Epoch: 64 	Model: 9 	Training Loss: 24858.664717004653 	Temperature Strategy: exp_increase 	tau_1: 22.704668045043945 	tau_2: 22.704668045043945
+Best model saved with index: 2 and loss: 24844.411745761303
+Epoch: 64 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 65.0 	Best tau_2: 65.0
+Train Epoch: 65 	Model: 0 	Training Loss: 26648.058531416224 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 65 	Model: 1 	Training Loss: 26521.35137549867 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 65 	Model: 2 	Training Loss: 24836.522627160903 	Temperature Strategy: linear_increase 	tau_1: 66.0 	tau_2: 66.0
+Train Epoch: 65 	Model: 3 	Training Loss: 27550.726988447474 	Temperature Strategy: linear_decrease 	tau_1: 0.47999998927116394 	tau_2: 0.47999998927116394
+Train Epoch: 65 	Model: 4 	Training Loss: 24864.428118766624 	Temperature Strategy: exp_increase 	tau_1: 23.839900970458984 	tau_2: 23.839900970458984
+Train Epoch: 65 	Model: 5 	Training Loss: 27137.075808261303 	Temperature Strategy: exp_decrease 	tau_1: 0.7219385504722595 	tau_2: 0.7219385504722595
+Train Epoch: 65 	Model: 6 	Training Loss: 26620.22641705452 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 65 	Model: 7 	Training Loss: 24867.538169049203 	Temperature Strategy: linear_increase 	tau_1: 66.0 	tau_2: 66.0
+Train Epoch: 65 	Model: 8 	Training Loss: 32139.210023271276 	Temperature Strategy: linear_decrease 	tau_1: 0.47999998927116394 	tau_2: 0.47999998927116394
+Train Epoch: 65 	Model: 9 	Training Loss: 24855.846129072474 	Temperature Strategy: exp_increase 	tau_1: 23.839900970458984 	tau_2: 23.839900970458984
+Best model saved with index: 2 and loss: 24836.522627160903
+Epoch: 65 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 66.0 	Best tau_2: 66.0
+Train Epoch: 66 	Model: 0 	Training Loss: 26638.07667054521 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 66 	Model: 1 	Training Loss: 26512.88510846077 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 66 	Model: 2 	Training Loss: 24838.01739112367 	Temperature Strategy: linear_increase 	tau_1: 67.0 	tau_2: 67.0
+Train Epoch: 66 	Model: 3 	Training Loss: 27573.457311751994 	Temperature Strategy: linear_decrease 	tau_1: 0.47200000286102295 	tau_2: 0.47200000286102295
+Train Epoch: 66 	Model: 4 	Training Loss: 24855.440107629653 	Temperature Strategy: exp_increase 	tau_1: 25.03189468383789 	tau_2: 25.03189468383789
+Train Epoch: 66 	Model: 5 	Training Loss: 27121.407642121012 	Temperature Strategy: exp_decrease 	tau_1: 0.7183288931846619 	tau_2: 0.7183288931846619
+Train Epoch: 66 	Model: 6 	Training Loss: 26618.791680518618 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 66 	Model: 7 	Training Loss: 24861.95015375665 	Temperature Strategy: linear_increase 	tau_1: 67.0 	tau_2: 67.0
+Train Epoch: 66 	Model: 8 	Training Loss: 32139.07552775931 	Temperature Strategy: linear_decrease 	tau_1: 0.47200000286102295 	tau_2: 0.47200000286102295
+Train Epoch: 66 	Model: 9 	Training Loss: 24844.63784075798 	Temperature Strategy: exp_increase 	tau_1: 25.03189468383789 	tau_2: 25.03189468383789
+Epoch: 66 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 67.0 	Best tau_2: 67.0
+Train Epoch: 67 	Model: 0 	Training Loss: 26634.65493060173 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 67 	Model: 1 	Training Loss: 26510.496072972073 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 67 	Model: 2 	Training Loss: 24834.655699384974 	Temperature Strategy: linear_increase 	tau_1: 68.0 	tau_2: 68.0
+Train Epoch: 67 	Model: 3 	Training Loss: 27569.627171293218 	Temperature Strategy: linear_decrease 	tau_1: 0.46399998664855957 	tau_2: 0.46399998664855957
+Train Epoch: 67 	Model: 4 	Training Loss: 24851.228941572474 	Temperature Strategy: exp_increase 	tau_1: 26.283491134643555 	tau_2: 26.283491134643555
+Train Epoch: 67 	Model: 5 	Training Loss: 27138.968209773935 	Temperature Strategy: exp_decrease 	tau_1: 0.7147372364997864 	tau_2: 0.7147372364997864
+Train Epoch: 67 	Model: 6 	Training Loss: 26604.79299991689 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 67 	Model: 7 	Training Loss: 24863.97393409242 	Temperature Strategy: linear_increase 	tau_1: 68.0 	tau_2: 68.0
+Train Epoch: 67 	Model: 8 	Training Loss: 32138.942777593085 	Temperature Strategy: linear_decrease 	tau_1: 0.46399998664855957 	tau_2: 0.46399998664855957
+Train Epoch: 67 	Model: 9 	Training Loss: 24838.062364943486 	Temperature Strategy: exp_increase 	tau_1: 26.283491134643555 	tau_2: 26.283491134643555
+Best model saved with index: 2 and loss: 24834.655699384974
+Epoch: 67 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 68.0 	Best tau_2: 68.0
+Train Epoch: 68 	Model: 0 	Training Loss: 26623.27426861702 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 68 	Model: 1 	Training Loss: 26496.68036278258 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 68 	Model: 2 	Training Loss: 24833.122465093085 	Temperature Strategy: linear_increase 	tau_1: 69.0 	tau_2: 69.0
+Train Epoch: 68 	Model: 3 	Training Loss: 27581.962090674868 	Temperature Strategy: linear_decrease 	tau_1: 0.4560000002384186 	tau_2: 0.4560000002384186
+Train Epoch: 68 	Model: 4 	Training Loss: 24841.623327376994 	Temperature Strategy: exp_increase 	tau_1: 27.597665786743164 	tau_2: 27.597665786743164
+Train Epoch: 68 	Model: 5 	Training Loss: 27135.367468001994 	Temperature Strategy: exp_decrease 	tau_1: 0.7111635804176331 	tau_2: 0.7111635804176331
+Train Epoch: 68 	Model: 6 	Training Loss: 26598.71079205452 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 68 	Model: 7 	Training Loss: 24850.44467877327 	Temperature Strategy: linear_increase 	tau_1: 69.0 	tau_2: 69.0
+Train Epoch: 68 	Model: 8 	Training Loss: 32138.307928856382 	Temperature Strategy: linear_decrease 	tau_1: 0.4560000002384186 	tau_2: 0.4560000002384186
+Train Epoch: 68 	Model: 9 	Training Loss: 24830.445042386968 	Temperature Strategy: exp_increase 	tau_1: 27.597665786743164 	tau_2: 27.597665786743164
+Best model saved with index: 9 and loss: 24830.445042386968
+Epoch: 68 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 27.597665786743164 	Best tau_2: 27.597665786743164
+Train Epoch: 69 	Model: 0 	Training Loss: 26622.20226271609 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 69 	Model: 1 	Training Loss: 26492.018450797874 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 69 	Model: 2 	Training Loss: 24825.56629197141 	Temperature Strategy: linear_increase 	tau_1: 70.0 	tau_2: 70.0
+Train Epoch: 69 	Model: 3 	Training Loss: 27594.246415807847 	Temperature Strategy: linear_decrease 	tau_1: 0.4480000138282776 	tau_2: 0.4480000138282776
+Train Epoch: 69 	Model: 4 	Training Loss: 24842.073325299203 	Temperature Strategy: exp_increase 	tau_1: 28.977548599243164 	tau_2: 28.977548599243164
+Train Epoch: 69 	Model: 5 	Training Loss: 27132.946756565823 	Temperature Strategy: exp_decrease 	tau_1: 0.7076077461242676 	tau_2: 0.7076077461242676
+Train Epoch: 69 	Model: 6 	Training Loss: 26592.17721492686 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 69 	Model: 7 	Training Loss: 24850.049887799203 	Temperature Strategy: linear_increase 	tau_1: 70.0 	tau_2: 70.0
+Train Epoch: 69 	Model: 8 	Training Loss: 32139.45861037234 	Temperature Strategy: linear_decrease 	tau_1: 0.4480000138282776 	tau_2: 0.4480000138282776
+Train Epoch: 69 	Model: 9 	Training Loss: 24828.10547913896 	Temperature Strategy: exp_increase 	tau_1: 28.977548599243164 	tau_2: 28.977548599243164
+Best model saved with index: 2 and loss: 24825.56629197141
+Epoch: 69 	Best Model Index: 2 	Best Temperature Strategy: linear_increase 	Best tau_1: 70.0 	Best tau_2: 70.0
+Train Epoch: 70 	Model: 0 	Training Loss: 26610.565492021276 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 70 	Model: 1 	Training Loss: 26491.01941697141 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 70 	Model: 2 	Training Loss: 24821.40929396609 	Temperature Strategy: linear_increase 	tau_1: 71.0 	tau_2: 71.0
+Train Epoch: 70 	Model: 3 	Training Loss: 27615.523531000665 	Temperature Strategy: linear_decrease 	tau_1: 0.4399999976158142 	tau_2: 0.4399999976158142
+Train Epoch: 70 	Model: 4 	Training Loss: 24827.52021692154 	Temperature Strategy: exp_increase 	tau_1: 30.42642593383789 	tau_2: 30.42642593383789
+Train Epoch: 70 	Model: 5 	Training Loss: 27135.068868434177 	Temperature Strategy: exp_decrease 	tau_1: 0.7040696740150452 	tau_2: 0.7040696740150452
+Train Epoch: 70 	Model: 6 	Training Loss: 26595.91578706782 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 70 	Model: 7 	Training Loss: 24848.22235497008 	Temperature Strategy: linear_increase 	tau_1: 71.0 	tau_2: 71.0
+Train Epoch: 70 	Model: 8 	Training Loss: 32138.166597406915 	Temperature Strategy: linear_decrease 	tau_1: 0.4399999976158142 	tau_2: 0.4399999976158142
+Train Epoch: 70 	Model: 9 	Training Loss: 24816.093438331118 	Temperature Strategy: exp_increase 	tau_1: 30.42642593383789 	tau_2: 30.42642593383789
+Best model saved with index: 9 and loss: 24816.093438331118
+Epoch: 70 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 30.42642593383789 	Best tau_2: 30.42642593383789
+Train Epoch: 71 	Model: 0 	Training Loss: 26606.39307679521 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 71 	Model: 1 	Training Loss: 26482.63885887633 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 71 	Model: 2 	Training Loss: 24826.84566156915 	Temperature Strategy: linear_increase 	tau_1: 72.0 	tau_2: 72.0
+Train Epoch: 71 	Model: 3 	Training Loss: 27623.145580535238 	Temperature Strategy: linear_decrease 	tau_1: 0.4320000112056732 	tau_2: 0.4320000112056732
+Train Epoch: 71 	Model: 4 	Training Loss: 24827.536828873006 	Temperature Strategy: exp_increase 	tau_1: 31.94774627685547 	tau_2: 31.94774627685547
+Train Epoch: 71 	Model: 5 	Training Loss: 27137.46217378657 	Temperature Strategy: exp_decrease 	tau_1: 0.7005493640899658 	tau_2: 0.7005493640899658
+Train Epoch: 71 	Model: 6 	Training Loss: 26573.503480302526 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 71 	Model: 7 	Training Loss: 24842.1528735871 	Temperature Strategy: linear_increase 	tau_1: 72.0 	tau_2: 72.0
+Train Epoch: 71 	Model: 8 	Training Loss: 32136.74098238032 	Temperature Strategy: linear_decrease 	tau_1: 0.4320000112056732 	tau_2: 0.4320000112056732
+Train Epoch: 71 	Model: 9 	Training Loss: 24812.12187292221 	Temperature Strategy: exp_increase 	tau_1: 31.94774627685547 	tau_2: 31.94774627685547
+Best model saved with index: 9 and loss: 24812.12187292221
+Epoch: 71 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 31.94774627685547 	Best tau_2: 31.94774627685547
+Train Epoch: 72 	Model: 0 	Training Loss: 26603.239361702126 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 72 	Model: 1 	Training Loss: 26477.33714261968 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 72 	Model: 2 	Training Loss: 24816.757199551197 	Temperature Strategy: linear_increase 	tau_1: 73.0 	tau_2: 73.0
+Train Epoch: 72 	Model: 3 	Training Loss: 27638.29720744681 	Temperature Strategy: linear_decrease 	tau_1: 0.42399999499320984 	tau_2: 0.42399999499320984
+Train Epoch: 72 	Model: 4 	Training Loss: 24818.270861037236 	Temperature Strategy: exp_increase 	tau_1: 33.545135498046875 	tau_2: 33.545135498046875
+Train Epoch: 72 	Model: 5 	Training Loss: 27134.85986328125 	Temperature Strategy: exp_decrease 	tau_1: 0.6970465779304504 	tau_2: 0.6970465779304504
+Train Epoch: 72 	Model: 6 	Training Loss: 26569.21796043883 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 72 	Model: 7 	Training Loss: 24841.072816240026 	Temperature Strategy: linear_increase 	tau_1: 73.0 	tau_2: 73.0
+Train Epoch: 72 	Model: 8 	Training Loss: 32139.993060172874 	Temperature Strategy: linear_decrease 	tau_1: 0.42399999499320984 	tau_2: 0.42399999499320984
+Train Epoch: 72 	Model: 9 	Training Loss: 24813.327699052526 	Temperature Strategy: exp_increase 	tau_1: 33.545135498046875 	tau_2: 33.545135498046875
+Epoch: 72 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 33.545135498046875 	Best tau_2: 33.545135498046875
+Train Epoch: 73 	Model: 0 	Training Loss: 26592.257085272606 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 73 	Model: 1 	Training Loss: 26459.47269780585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 73 	Model: 2 	Training Loss: 24813.437822057847 	Temperature Strategy: linear_increase 	tau_1: 74.0 	tau_2: 74.0
+Train Epoch: 73 	Model: 3 	Training Loss: 27655.817060754653 	Temperature Strategy: linear_decrease 	tau_1: 0.41600000858306885 	tau_2: 0.41600000858306885
+Train Epoch: 73 	Model: 4 	Training Loss: 24811.461020611703 	Temperature Strategy: exp_increase 	tau_1: 35.222389221191406 	tau_2: 35.222389221191406
+Train Epoch: 73 	Model: 5 	Training Loss: 27128.97840134641 	Temperature Strategy: exp_decrease 	tau_1: 0.6935613751411438 	tau_2: 0.6935613751411438
+Train Epoch: 73 	Model: 6 	Training Loss: 26569.635575964097 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 73 	Model: 7 	Training Loss: 24839.69854346742 	Temperature Strategy: linear_increase 	tau_1: 74.0 	tau_2: 74.0
+Train Epoch: 73 	Model: 8 	Training Loss: 32137.7158203125 	Temperature Strategy: linear_decrease 	tau_1: 0.41600000858306885 	tau_2: 0.41600000858306885
+Train Epoch: 73 	Model: 9 	Training Loss: 24805.958225980718 	Temperature Strategy: exp_increase 	tau_1: 35.222389221191406 	tau_2: 35.222389221191406
+Best model saved with index: 9 and loss: 24805.958225980718
+Epoch: 73 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 35.222389221191406 	Best tau_2: 35.222389221191406
+Train Epoch: 74 	Model: 0 	Training Loss: 26593.902063248006 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 74 	Model: 1 	Training Loss: 26460.27862159242 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 74 	Model: 2 	Training Loss: 24814.29830867686 	Temperature Strategy: linear_increase 	tau_1: 75.0 	tau_2: 75.0
+Train Epoch: 74 	Model: 3 	Training Loss: 27652.91502867354 	Temperature Strategy: linear_decrease 	tau_1: 0.40799999237060547 	tau_2: 0.40799999237060547
+Train Epoch: 74 	Model: 4 	Training Loss: 24807.00782288896 	Temperature Strategy: exp_increase 	tau_1: 36.9835090637207 	tau_2: 36.9835090637207
+Train Epoch: 74 	Model: 5 	Training Loss: 27139.334711602394 	Temperature Strategy: exp_decrease 	tau_1: 0.6900935769081116 	tau_2: 0.6900935769081116
+Train Epoch: 74 	Model: 6 	Training Loss: 26573.86719788896 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 74 	Model: 7 	Training Loss: 24836.794745262632 	Temperature Strategy: linear_increase 	tau_1: 75.0 	tau_2: 75.0
+Train Epoch: 74 	Model: 8 	Training Loss: 32136.92446185173 	Temperature Strategy: linear_decrease 	tau_1: 0.40799999237060547 	tau_2: 0.40799999237060547
+Train Epoch: 74 	Model: 9 	Training Loss: 24795.0932201629 	Temperature Strategy: exp_increase 	tau_1: 36.9835090637207 	tau_2: 36.9835090637207
+Best model saved with index: 9 and loss: 24795.0932201629
+Epoch: 74 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 36.9835090637207 	Best tau_2: 36.9835090637207
+Train Epoch: 75 	Model: 0 	Training Loss: 26589.06910738032 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 75 	Model: 1 	Training Loss: 26456.03150972407 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 75 	Model: 2 	Training Loss: 24811.554417386968 	Temperature Strategy: linear_increase 	tau_1: 76.0 	tau_2: 76.0
+Train Epoch: 75 	Model: 3 	Training Loss: 27670.68062250665 	Temperature Strategy: linear_decrease 	tau_1: 0.4000000059604645 	tau_2: 0.4000000059604645
+Train Epoch: 75 	Model: 4 	Training Loss: 24802.340570977394 	Temperature Strategy: exp_increase 	tau_1: 38.83268737792969 	tau_2: 38.83268737792969
+Train Epoch: 75 	Model: 5 	Training Loss: 27145.40271775266 	Temperature Strategy: exp_decrease 	tau_1: 0.6866430640220642 	tau_2: 0.6866430640220642
+Train Epoch: 75 	Model: 6 	Training Loss: 26558.70338472407 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 75 	Model: 7 	Training Loss: 24830.481351811835 	Temperature Strategy: linear_increase 	tau_1: 76.0 	tau_2: 76.0
+Train Epoch: 75 	Model: 8 	Training Loss: 32136.760337017953 	Temperature Strategy: linear_decrease 	tau_1: 0.4000000059604645 	tau_2: 0.4000000059604645
+Train Epoch: 75 	Model: 9 	Training Loss: 24795.699166805185 	Temperature Strategy: exp_increase 	tau_1: 38.83268737792969 	tau_2: 38.83268737792969
+Epoch: 75 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 38.83268737792969 	Best tau_2: 38.83268737792969
+Train Epoch: 76 	Model: 0 	Training Loss: 26575.176165641624 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 76 	Model: 1 	Training Loss: 26444.058126246677 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 76 	Model: 2 	Training Loss: 24807.118288730053 	Temperature Strategy: linear_increase 	tau_1: 77.0 	tau_2: 77.0
+Train Epoch: 76 	Model: 3 	Training Loss: 27687.13893159907 	Temperature Strategy: linear_decrease 	tau_1: 0.3919999897480011 	tau_2: 0.3919999897480011
+Train Epoch: 76 	Model: 4 	Training Loss: 24798.511126579124 	Temperature Strategy: exp_increase 	tau_1: 40.77431869506836 	tau_2: 40.77431869506836
+Train Epoch: 76 	Model: 5 	Training Loss: 27144.153268367685 	Temperature Strategy: exp_decrease 	tau_1: 0.6832098960876465 	tau_2: 0.6832098960876465
+Train Epoch: 76 	Model: 6 	Training Loss: 26545.54150390625 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 76 	Model: 7 	Training Loss: 24829.233834773935 	Temperature Strategy: linear_increase 	tau_1: 77.0 	tau_2: 77.0
+Train Epoch: 76 	Model: 8 	Training Loss: 32138.14047955452 	Temperature Strategy: linear_decrease 	tau_1: 0.3919999897480011 	tau_2: 0.3919999897480011
+Train Epoch: 76 	Model: 9 	Training Loss: 24786.29691655585 	Temperature Strategy: exp_increase 	tau_1: 40.77431869506836 	tau_2: 40.77431869506836
+Best model saved with index: 9 and loss: 24786.29691655585
+Epoch: 76 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 40.77431869506836 	Best tau_2: 40.77431869506836
+Train Epoch: 77 	Model: 0 	Training Loss: 26570.50818650266 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 77 	Model: 1 	Training Loss: 26442.077044547874 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 77 	Model: 2 	Training Loss: 24806.823481133644 	Temperature Strategy: linear_increase 	tau_1: 78.0 	tau_2: 78.0
+Train Epoch: 77 	Model: 3 	Training Loss: 27683.89186128657 	Temperature Strategy: linear_decrease 	tau_1: 0.3840000033378601 	tau_2: 0.3840000033378601
+Train Epoch: 77 	Model: 4 	Training Loss: 24795.477902676197 	Temperature Strategy: exp_increase 	tau_1: 42.81303787231445 	tau_2: 42.81303787231445
+Train Epoch: 77 	Model: 5 	Training Loss: 27143.278673537236 	Temperature Strategy: exp_decrease 	tau_1: 0.6797938346862793 	tau_2: 0.6797938346862793
+Train Epoch: 77 	Model: 6 	Training Loss: 26547.998659823803 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 77 	Model: 7 	Training Loss: 24833.11707322141 	Temperature Strategy: linear_increase 	tau_1: 78.0 	tau_2: 78.0
+Train Epoch: 77 	Model: 8 	Training Loss: 32137.04525432181 	Temperature Strategy: linear_decrease 	tau_1: 0.3840000033378601 	tau_2: 0.3840000033378601
+Train Epoch: 77 	Model: 9 	Training Loss: 24782.56562707779 	Temperature Strategy: exp_increase 	tau_1: 42.81303787231445 	tau_2: 42.81303787231445
+Best model saved with index: 9 and loss: 24782.56562707779
+Epoch: 77 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 42.81303787231445 	Best tau_2: 42.81303787231445
+Train Epoch: 78 	Model: 0 	Training Loss: 26563.577428939494 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 78 	Model: 1 	Training Loss: 26435.08995802859 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 78 	Model: 2 	Training Loss: 24799.851146941488 	Temperature Strategy: linear_increase 	tau_1: 79.0 	tau_2: 79.0
+Train Epoch: 78 	Model: 3 	Training Loss: 27705.84518367686 	Temperature Strategy: linear_decrease 	tau_1: 0.37599998712539673 	tau_2: 0.37599998712539673
+Train Epoch: 78 	Model: 4 	Training Loss: 24790.446528008644 	Temperature Strategy: exp_increase 	tau_1: 44.95368957519531 	tau_2: 44.95368957519531
+Train Epoch: 78 	Model: 5 	Training Loss: 27145.98986037234 	Temperature Strategy: exp_decrease 	tau_1: 0.6763948798179626 	tau_2: 0.6763948798179626
+Train Epoch: 78 	Model: 6 	Training Loss: 26536.025411402927 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 78 	Model: 7 	Training Loss: 24820.561627327126 	Temperature Strategy: linear_increase 	tau_1: 79.0 	tau_2: 79.0
+Train Epoch: 78 	Model: 8 	Training Loss: 32135.870522357047 	Temperature Strategy: linear_decrease 	tau_1: 0.37599998712539673 	tau_2: 0.37599998712539673
+Train Epoch: 78 	Model: 9 	Training Loss: 24776.73580867686 	Temperature Strategy: exp_increase 	tau_1: 44.95368957519531 	tau_2: 44.95368957519531
+Best model saved with index: 9 and loss: 24776.73580867686
+Epoch: 78 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 44.95368957519531 	Best tau_2: 44.95368957519531
+Train Epoch: 79 	Model: 0 	Training Loss: 26561.950257646276 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 79 	Model: 1 	Training Loss: 26430.27550490359 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 79 	Model: 2 	Training Loss: 24797.386635638297 	Temperature Strategy: linear_increase 	tau_1: 80.0 	tau_2: 80.0
+Train Epoch: 79 	Model: 3 	Training Loss: 27714.918186918218 	Temperature Strategy: linear_decrease 	tau_1: 0.36800000071525574 	tau_2: 0.36800000071525574
+Train Epoch: 79 	Model: 4 	Training Loss: 24785.84830036569 	Temperature Strategy: exp_increase 	tau_1: 47.20137405395508 	tau_2: 47.20137405395508
+Train Epoch: 79 	Model: 5 	Training Loss: 27146.013765375665 	Temperature Strategy: exp_decrease 	tau_1: 0.673012912273407 	tau_2: 0.673012912273407
+Train Epoch: 79 	Model: 6 	Training Loss: 26534.17259183843 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 79 	Model: 7 	Training Loss: 24819.072369514626 	Temperature Strategy: linear_increase 	tau_1: 80.0 	tau_2: 80.0
+Train Epoch: 79 	Model: 8 	Training Loss: 32140.080441738697 	Temperature Strategy: linear_decrease 	tau_1: 0.36800000071525574 	tau_2: 0.36800000071525574
+Train Epoch: 79 	Model: 9 	Training Loss: 24778.095952460106 	Temperature Strategy: exp_increase 	tau_1: 47.20137405395508 	tau_2: 47.20137405395508
+Epoch: 79 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 47.20137405395508 	Best tau_2: 47.20137405395508
+Train Epoch: 80 	Model: 0 	Training Loss: 26557.347386136968 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 80 	Model: 1 	Training Loss: 26426.293394697474 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 80 	Model: 2 	Training Loss: 24799.687749335106 	Temperature Strategy: linear_increase 	tau_1: 81.0 	tau_2: 81.0
+Train Epoch: 80 	Model: 3 	Training Loss: 27731.545285488697 	Temperature Strategy: linear_decrease 	tau_1: 0.36000001430511475 	tau_2: 0.36000001430511475
+Train Epoch: 80 	Model: 4 	Training Loss: 24783.461114112368 	Temperature Strategy: exp_increase 	tau_1: 49.561439514160156 	tau_2: 49.561439514160156
+Train Epoch: 80 	Model: 5 	Training Loss: 27162.85321434508 	Temperature Strategy: exp_decrease 	tau_1: 0.6696478128433228 	tau_2: 0.6696478128433228
+Train Epoch: 80 	Model: 6 	Training Loss: 26530.998452044547 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 80 	Model: 7 	Training Loss: 24817.791223404256 	Temperature Strategy: linear_increase 	tau_1: 81.0 	tau_2: 81.0
+Train Epoch: 80 	Model: 8 	Training Loss: 32137.947286402927 	Temperature Strategy: linear_decrease 	tau_1: 0.36000001430511475 	tau_2: 0.36000001430511475
+Train Epoch: 80 	Model: 9 	Training Loss: 24775.591890375665 	Temperature Strategy: exp_increase 	tau_1: 49.561439514160156 	tau_2: 49.561439514160156
+Best model saved with index: 9 and loss: 24775.591890375665
+Epoch: 80 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 49.561439514160156 	Best tau_2: 49.561439514160156
+Train Epoch: 81 	Model: 0 	Training Loss: 26548.504706200132 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 81 	Model: 1 	Training Loss: 26420.874407829124 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 81 	Model: 2 	Training Loss: 24796.167064910238 	Temperature Strategy: linear_increase 	tau_1: 82.0 	tau_2: 82.0
+Train Epoch: 81 	Model: 3 	Training Loss: 27744.353640292553 	Temperature Strategy: linear_decrease 	tau_1: 0.35199999809265137 	tau_2: 0.35199999809265137
+Train Epoch: 81 	Model: 4 	Training Loss: 24777.141539228724 	Temperature Strategy: exp_increase 	tau_1: 52.039512634277344 	tau_2: 52.039512634277344
+Train Epoch: 81 	Model: 5 	Training Loss: 27151.335771276597 	Temperature Strategy: exp_decrease 	tau_1: 0.66629958152771 	tau_2: 0.66629958152771
+Train Epoch: 81 	Model: 6 	Training Loss: 26520.149653008644 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 81 	Model: 7 	Training Loss: 24822.7045482879 	Temperature Strategy: linear_increase 	tau_1: 82.0 	tau_2: 82.0
+Train Epoch: 81 	Model: 8 	Training Loss: 32138.509100731382 	Temperature Strategy: linear_decrease 	tau_1: 0.35199999809265137 	tau_2: 0.35199999809265137
+Train Epoch: 81 	Model: 9 	Training Loss: 24764.991190159573 	Temperature Strategy: exp_increase 	tau_1: 52.039512634277344 	tau_2: 52.039512634277344
+Best model saved with index: 9 and loss: 24764.991190159573
+Epoch: 81 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 52.039512634277344 	Best tau_2: 52.039512634277344
+Train Epoch: 82 	Model: 0 	Training Loss: 26540.71357629654 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 82 	Model: 1 	Training Loss: 26411.738561751994 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 82 	Model: 2 	Training Loss: 24792.87128075133 	Temperature Strategy: linear_increase 	tau_1: 83.0 	tau_2: 83.0
+Train Epoch: 82 	Model: 3 	Training Loss: 27749.670981549203 	Temperature Strategy: linear_decrease 	tau_1: 0.3440000116825104 	tau_2: 0.3440000116825104
+Train Epoch: 82 	Model: 4 	Training Loss: 24776.455483294547 	Temperature Strategy: exp_increase 	tau_1: 54.64148712158203 	tau_2: 54.64148712158203
+Train Epoch: 82 	Model: 5 	Training Loss: 27154.606798537236 	Temperature Strategy: exp_decrease 	tau_1: 0.662968099117279 	tau_2: 0.662968099117279
+Train Epoch: 82 	Model: 6 	Training Loss: 26512.780699384974 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 82 	Model: 7 	Training Loss: 24810.93925573471 	Temperature Strategy: linear_increase 	tau_1: 83.0 	tau_2: 83.0
+Train Epoch: 82 	Model: 8 	Training Loss: 32137.38509807181 	Temperature Strategy: linear_decrease 	tau_1: 0.3440000116825104 	tau_2: 0.3440000116825104
+Train Epoch: 82 	Model: 9 	Training Loss: 24761.444917719415 	Temperature Strategy: exp_increase 	tau_1: 54.64148712158203 	tau_2: 54.64148712158203
+Best model saved with index: 9 and loss: 24761.444917719415
+Epoch: 82 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 54.64148712158203 	Best tau_2: 54.64148712158203
+Train Epoch: 83 	Model: 0 	Training Loss: 26534.609063331118 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 83 	Model: 1 	Training Loss: 26411.18765583444 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 83 	Model: 2 	Training Loss: 24787.712724401597 	Temperature Strategy: linear_increase 	tau_1: 84.0 	tau_2: 84.0
+Train Epoch: 83 	Model: 3 	Training Loss: 27765.208329870347 	Temperature Strategy: linear_decrease 	tau_1: 0.335999995470047 	tau_2: 0.335999995470047
+Train Epoch: 83 	Model: 4 	Training Loss: 24773.62319232048 	Temperature Strategy: exp_increase 	tau_1: 57.37356185913086 	tau_2: 57.37356185913086
+Train Epoch: 83 	Model: 5 	Training Loss: 27157.003397190823 	Temperature Strategy: exp_decrease 	tau_1: 0.6596532464027405 	tau_2: 0.6596532464027405
+Train Epoch: 83 	Model: 6 	Training Loss: 26508.379716589097 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 83 	Model: 7 	Training Loss: 24808.26266414561 	Temperature Strategy: linear_increase 	tau_1: 84.0 	tau_2: 84.0
+Train Epoch: 83 	Model: 8 	Training Loss: 32138.592492935506 	Temperature Strategy: linear_decrease 	tau_1: 0.335999995470047 	tau_2: 0.335999995470047
+Train Epoch: 83 	Model: 9 	Training Loss: 24761.28590425532 	Temperature Strategy: exp_increase 	tau_1: 57.37356185913086 	tau_2: 57.37356185913086
+Best model saved with index: 9 and loss: 24761.28590425532
+Epoch: 83 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 57.37356185913086 	Best tau_2: 57.37356185913086
+Train Epoch: 84 	Model: 0 	Training Loss: 26534.102030003323 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 84 	Model: 1 	Training Loss: 26404.727102726065 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 84 	Model: 2 	Training Loss: 24790.316801030585 	Temperature Strategy: linear_increase 	tau_1: 85.0 	tau_2: 85.0
+Train Epoch: 84 	Model: 3 	Training Loss: 27785.244317237368 	Temperature Strategy: linear_decrease 	tau_1: 0.328000009059906 	tau_2: 0.328000009059906
+Train Epoch: 84 	Model: 4 	Training Loss: 24769.45489112367 	Temperature Strategy: exp_increase 	tau_1: 60.24224090576172 	tau_2: 60.24224090576172
+Train Epoch: 84 	Model: 5 	Training Loss: 27154.143243018618 	Temperature Strategy: exp_decrease 	tau_1: 0.6563549637794495 	tau_2: 0.6563549637794495
+Train Epoch: 84 	Model: 6 	Training Loss: 26504.980562250665 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 84 	Model: 7 	Training Loss: 24811.63522273936 	Temperature Strategy: linear_increase 	tau_1: 85.0 	tau_2: 85.0
+Train Epoch: 84 	Model: 8 	Training Loss: 32137.864122755986 	Temperature Strategy: linear_decrease 	tau_1: 0.328000009059906 	tau_2: 0.328000009059906
+Train Epoch: 84 	Model: 9 	Training Loss: 24755.906312333776 	Temperature Strategy: exp_increase 	tau_1: 60.24224090576172 	tau_2: 60.24224090576172
+Best model saved with index: 9 and loss: 24755.906312333776
+Epoch: 84 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 60.24224090576172 	Best tau_2: 60.24224090576172
+Train Epoch: 85 	Model: 0 	Training Loss: 26528.05003324468 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 85 	Model: 1 	Training Loss: 26396.615556432847 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 85 	Model: 2 	Training Loss: 24786.48891497673 	Temperature Strategy: linear_increase 	tau_1: 86.0 	tau_2: 86.0
+Train Epoch: 85 	Model: 3 	Training Loss: 27790.338742519947 	Temperature Strategy: linear_decrease 	tau_1: 0.3199999928474426 	tau_2: 0.3199999928474426
+Train Epoch: 85 	Model: 4 	Training Loss: 24762.303658992685 	Temperature Strategy: exp_increase 	tau_1: 63.25435256958008 	tau_2: 63.25435256958008
+Train Epoch: 85 	Model: 5 	Training Loss: 27157.6010326629 	Temperature Strategy: exp_decrease 	tau_1: 0.6530731916427612 	tau_2: 0.6530731916427612
+Train Epoch: 85 	Model: 6 	Training Loss: 26497.70781042221 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 85 	Model: 7 	Training Loss: 24806.76352642952 	Temperature Strategy: linear_increase 	tau_1: 86.0 	tau_2: 86.0
+Train Epoch: 85 	Model: 8 	Training Loss: 32137.618756233376 	Temperature Strategy: linear_decrease 	tau_1: 0.3199999928474426 	tau_2: 0.3199999928474426
+Train Epoch: 85 	Model: 9 	Training Loss: 24755.27393617021 	Temperature Strategy: exp_increase 	tau_1: 63.25435256958008 	tau_2: 63.25435256958008
+Best model saved with index: 9 and loss: 24755.27393617021
+Epoch: 85 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 63.25435256958008 	Best tau_2: 63.25435256958008
+Train Epoch: 86 	Model: 0 	Training Loss: 26524.21583070146 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 86 	Model: 1 	Training Loss: 26388.856684258644 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 86 	Model: 2 	Training Loss: 24784.62545711436 	Temperature Strategy: linear_increase 	tau_1: 87.0 	tau_2: 87.0
+Train Epoch: 86 	Model: 3 	Training Loss: 27819.374792220744 	Temperature Strategy: linear_decrease 	tau_1: 0.31200000643730164 	tau_2: 0.31200000643730164
+Train Epoch: 86 	Model: 4 	Training Loss: 24767.452169215427 	Temperature Strategy: exp_increase 	tau_1: 66.41706848144531 	tau_2: 66.41706848144531
+Train Epoch: 86 	Model: 5 	Training Loss: 27161.56043259641 	Temperature Strategy: exp_decrease 	tau_1: 0.6498078107833862 	tau_2: 0.6498078107833862
+Train Epoch: 86 	Model: 6 	Training Loss: 26490.497236535903 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 86 	Model: 7 	Training Loss: 24806.804219996677 	Temperature Strategy: linear_increase 	tau_1: 87.0 	tau_2: 87.0
+Train Epoch: 86 	Model: 8 	Training Loss: 32140.144468916224 	Temperature Strategy: linear_decrease 	tau_1: 0.31200000643730164 	tau_2: 0.31200000643730164
+Train Epoch: 86 	Model: 9 	Training Loss: 24752.462319232047 	Temperature Strategy: exp_increase 	tau_1: 66.41706848144531 	tau_2: 66.41706848144531
+Best model saved with index: 9 and loss: 24752.462319232047
+Epoch: 86 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 66.41706848144531 	Best tau_2: 66.41706848144531
+Train Epoch: 87 	Model: 0 	Training Loss: 26522.11354097407 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 87 	Model: 1 	Training Loss: 26388.441946476065 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 87 	Model: 2 	Training Loss: 24780.171210106382 	Temperature Strategy: linear_increase 	tau_1: 88.0 	tau_2: 88.0
+Train Epoch: 87 	Model: 3 	Training Loss: 27814.14321185173 	Temperature Strategy: linear_decrease 	tau_1: 0.30399999022483826 	tau_2: 0.30399999022483826
+Train Epoch: 87 	Model: 4 	Training Loss: 24752.112512466756 	Temperature Strategy: exp_increase 	tau_1: 69.73792266845703 	tau_2: 69.73792266845703
+Train Epoch: 87 	Model: 5 	Training Loss: 27165.81231299867 	Temperature Strategy: exp_decrease 	tau_1: 0.6465588212013245 	tau_2: 0.6465588212013245
+Train Epoch: 87 	Model: 6 	Training Loss: 26483.893720910903 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 87 	Model: 7 	Training Loss: 24800.85348445811 	Temperature Strategy: linear_increase 	tau_1: 88.0 	tau_2: 88.0
+Train Epoch: 87 	Model: 8 	Training Loss: 32138.14254695811 	Temperature Strategy: linear_decrease 	tau_1: 0.30399999022483826 	tau_2: 0.30399999022483826
+Train Epoch: 87 	Model: 9 	Training Loss: 24744.54225191157 	Temperature Strategy: exp_increase 	tau_1: 69.73792266845703 	tau_2: 69.73792266845703
+Best model saved with index: 9 and loss: 24744.54225191157
+Epoch: 87 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 69.73792266845703 	Best tau_2: 69.73792266845703
+Train Epoch: 88 	Model: 0 	Training Loss: 26510.303243434177 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 88 	Model: 1 	Training Loss: 26385.386895362368 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 88 	Model: 2 	Training Loss: 24783.737689079124 	Temperature Strategy: linear_increase 	tau_1: 89.0 	tau_2: 89.0
+Train Epoch: 88 	Model: 3 	Training Loss: 27822.126973902927 	Temperature Strategy: linear_decrease 	tau_1: 0.29600000381469727 	tau_2: 0.29600000381469727
+Train Epoch: 88 	Model: 4 	Training Loss: 24759.63702002992 	Temperature Strategy: exp_increase 	tau_1: 73.22482299804688 	tau_2: 73.22482299804688
+Train Epoch: 88 	Model: 5 	Training Loss: 27160.830639128988 	Temperature Strategy: exp_decrease 	tau_1: 0.6433259844779968 	tau_2: 0.6433259844779968
+Train Epoch: 88 	Model: 6 	Training Loss: 26482.71499958444 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 88 	Model: 7 	Training Loss: 24798.030637051197 	Temperature Strategy: linear_increase 	tau_1: 89.0 	tau_2: 89.0
+Train Epoch: 88 	Model: 8 	Training Loss: 32137.428139544547 	Temperature Strategy: linear_decrease 	tau_1: 0.29600000381469727 	tau_2: 0.29600000381469727
+Train Epoch: 88 	Model: 9 	Training Loss: 24743.491522606382 	Temperature Strategy: exp_increase 	tau_1: 73.22482299804688 	tau_2: 73.22482299804688
+Best model saved with index: 9 and loss: 24743.491522606382
+Epoch: 88 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 73.22482299804688 	Best tau_2: 73.22482299804688
+Train Epoch: 89 	Model: 0 	Training Loss: 26503.22360164561 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 89 	Model: 1 	Training Loss: 26379.294869930185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 89 	Model: 2 	Training Loss: 24776.52704247008 	Temperature Strategy: linear_increase 	tau_1: 90.0 	tau_2: 90.0
+Train Epoch: 89 	Model: 3 	Training Loss: 27844.34862242354 	Temperature Strategy: linear_decrease 	tau_1: 0.2879999876022339 	tau_2: 0.2879999876022339
+Train Epoch: 89 	Model: 4 	Training Loss: 24751.33770362367 	Temperature Strategy: exp_increase 	tau_1: 76.88606262207031 	tau_2: 76.88606262207031
+Train Epoch: 89 	Model: 5 	Training Loss: 27162.16801030585 	Temperature Strategy: exp_decrease 	tau_1: 0.6401093602180481 	tau_2: 0.6401093602180481
+Train Epoch: 89 	Model: 6 	Training Loss: 26476.61820561835 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 89 	Model: 7 	Training Loss: 24797.920462101065 	Temperature Strategy: linear_increase 	tau_1: 90.0 	tau_2: 90.0
+Train Epoch: 89 	Model: 8 	Training Loss: 32136.285862699468 	Temperature Strategy: linear_decrease 	tau_1: 0.2879999876022339 	tau_2: 0.2879999876022339
+Train Epoch: 89 	Model: 9 	Training Loss: 24743.71797082779 	Temperature Strategy: exp_increase 	tau_1: 76.88606262207031 	tau_2: 76.88606262207031
+Epoch: 89 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 76.88606262207031 	Best tau_2: 76.88606262207031
+Train Epoch: 90 	Model: 0 	Training Loss: 26492.14329496343 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 90 	Model: 1 	Training Loss: 26373.133467004653 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 90 	Model: 2 	Training Loss: 24772.17674742354 	Temperature Strategy: linear_increase 	tau_1: 91.0 	tau_2: 91.0
+Train Epoch: 90 	Model: 3 	Training Loss: 27849.73081158577 	Temperature Strategy: linear_decrease 	tau_1: 0.2800000011920929 	tau_2: 0.2800000011920929
+Train Epoch: 90 	Model: 4 	Training Loss: 24751.416670129653 	Temperature Strategy: exp_increase 	tau_1: 80.73036193847656 	tau_2: 80.73036193847656
+Train Epoch: 90 	Model: 5 	Training Loss: 27173.50011427859 	Temperature Strategy: exp_decrease 	tau_1: 0.6369088292121887 	tau_2: 0.6369088292121887
+Train Epoch: 90 	Model: 6 	Training Loss: 26473.084794714097 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 90 	Model: 7 	Training Loss: 24797.274237450132 	Temperature Strategy: linear_increase 	tau_1: 91.0 	tau_2: 91.0
+Train Epoch: 90 	Model: 8 	Training Loss: 32139.159055019947 	Temperature Strategy: linear_decrease 	tau_1: 0.2800000011920929 	tau_2: 0.2800000011920929
+Train Epoch: 90 	Model: 9 	Training Loss: 24739.63634474734 	Temperature Strategy: exp_increase 	tau_1: 80.73036193847656 	tau_2: 80.73036193847656
+Best model saved with index: 9 and loss: 24739.63634474734
+Epoch: 90 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 80.73036193847656 	Best tau_2: 80.73036193847656
+Train Epoch: 91 	Model: 0 	Training Loss: 26498.98421916556 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 91 	Model: 1 	Training Loss: 26362.41222365359 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 91 	Model: 2 	Training Loss: 24782.56565824468 	Temperature Strategy: linear_increase 	tau_1: 92.0 	tau_2: 92.0
+Train Epoch: 91 	Model: 3 	Training Loss: 27864.104886968085 	Temperature Strategy: linear_decrease 	tau_1: 0.2720000147819519 	tau_2: 0.2720000147819519
+Train Epoch: 91 	Model: 4 	Training Loss: 24741.51964552859 	Temperature Strategy: exp_increase 	tau_1: 84.76688385009766 	tau_2: 84.76688385009766
+Train Epoch: 91 	Model: 5 	Training Loss: 27175.273333610374 	Temperature Strategy: exp_decrease 	tau_1: 0.6337242722511292 	tau_2: 0.6337242722511292
+Train Epoch: 91 	Model: 6 	Training Loss: 26467.338441240026 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 91 	Model: 7 	Training Loss: 24792.747797539894 	Temperature Strategy: linear_increase 	tau_1: 92.0 	tau_2: 92.0
+Train Epoch: 91 	Model: 8 	Training Loss: 32138.32206823471 	Temperature Strategy: linear_decrease 	tau_1: 0.2720000147819519 	tau_2: 0.2720000147819519
+Train Epoch: 91 	Model: 9 	Training Loss: 24734.470807014626 	Temperature Strategy: exp_increase 	tau_1: 84.76688385009766 	tau_2: 84.76688385009766
+Best model saved with index: 9 and loss: 24734.470807014626
+Epoch: 91 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 84.76688385009766 	Best tau_2: 84.76688385009766
+Train Epoch: 92 	Model: 0 	Training Loss: 26494.41627534907 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 92 	Model: 1 	Training Loss: 26363.436876662236 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 92 	Model: 2 	Training Loss: 24772.104388297874 	Temperature Strategy: linear_increase 	tau_1: 93.0 	tau_2: 93.0
+Train Epoch: 92 	Model: 3 	Training Loss: 27870.330639128988 	Temperature Strategy: linear_decrease 	tau_1: 0.2639999985694885 	tau_2: 0.2639999985694885
+Train Epoch: 92 	Model: 4 	Training Loss: 24742.80240192819 	Temperature Strategy: exp_increase 	tau_1: 89.0052261352539 	tau_2: 89.0052261352539
+Train Epoch: 92 	Model: 5 	Training Loss: 27193.007459275264 	Temperature Strategy: exp_decrease 	tau_1: 0.6305556893348694 	tau_2: 0.6305556893348694
+Train Epoch: 92 	Model: 6 	Training Loss: 26468.60989444814 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 92 	Model: 7 	Training Loss: 24798.876412898935 	Temperature Strategy: linear_increase 	tau_1: 93.0 	tau_2: 93.0
+Train Epoch: 92 	Model: 8 	Training Loss: 32137.85584275266 	Temperature Strategy: linear_decrease 	tau_1: 0.2639999985694885 	tau_2: 0.2639999985694885
+Train Epoch: 92 	Model: 9 	Training Loss: 24735.91087308843 	Temperature Strategy: exp_increase 	tau_1: 89.0052261352539 	tau_2: 89.0052261352539
+Epoch: 92 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 89.0052261352539 	Best tau_2: 89.0052261352539
+Train Epoch: 93 	Model: 0 	Training Loss: 26481.792241522606 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 93 	Model: 1 	Training Loss: 26354.334399933512 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 93 	Model: 2 	Training Loss: 24768.115774601065 	Temperature Strategy: linear_increase 	tau_1: 94.0 	tau_2: 94.0
+Train Epoch: 93 	Model: 3 	Training Loss: 27894.7406811004 	Temperature Strategy: linear_decrease 	tau_1: 0.25600001215934753 	tau_2: 0.25600001215934753
+Train Epoch: 93 	Model: 4 	Training Loss: 24740.273988115026 	Temperature Strategy: exp_increase 	tau_1: 93.45549011230469 	tau_2: 93.45549011230469
+Train Epoch: 93 	Model: 5 	Training Loss: 27178.00161028923 	Temperature Strategy: exp_decrease 	tau_1: 0.6274029016494751 	tau_2: 0.6274029016494751
+Train Epoch: 93 	Model: 6 	Training Loss: 26460.096918633644 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 93 	Model: 7 	Training Loss: 24788.40320603391 	Temperature Strategy: linear_increase 	tau_1: 94.0 	tau_2: 94.0
+Train Epoch: 93 	Model: 8 	Training Loss: 32137.99677942154 	Temperature Strategy: linear_decrease 	tau_1: 0.25600001215934753 	tau_2: 0.25600001215934753
+Train Epoch: 93 	Model: 9 	Training Loss: 24730.517266456118 	Temperature Strategy: exp_increase 	tau_1: 93.45549011230469 	tau_2: 93.45549011230469
+Best model saved with index: 9 and loss: 24730.517266456118
+Epoch: 93 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 93.45549011230469 	Best tau_2: 93.45549011230469
+Train Epoch: 94 	Model: 0 	Training Loss: 26480.949790142953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 94 	Model: 1 	Training Loss: 26350.2436938996 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 94 	Model: 2 	Training Loss: 24768.66093542221 	Temperature Strategy: linear_increase 	tau_1: 95.0 	tau_2: 95.0
+Train Epoch: 94 	Model: 3 	Training Loss: 27894.182409408244 	Temperature Strategy: linear_decrease 	tau_1: 0.24799999594688416 	tau_2: 0.24799999594688416
+Train Epoch: 94 	Model: 4 	Training Loss: 24737.572400681514 	Temperature Strategy: exp_increase 	tau_1: 98.12826538085938 	tau_2: 98.12826538085938
+Train Epoch: 94 	Model: 5 	Training Loss: 27179.51578083444 	Temperature Strategy: exp_decrease 	tau_1: 0.6242658495903015 	tau_2: 0.6242658495903015
+Train Epoch: 94 	Model: 6 	Training Loss: 26454.749563663565 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 94 	Model: 7 	Training Loss: 24786.31295711436 	Temperature Strategy: linear_increase 	tau_1: 95.0 	tau_2: 95.0
+Train Epoch: 94 	Model: 8 	Training Loss: 32137.96436585771 	Temperature Strategy: linear_decrease 	tau_1: 0.24799999594688416 	tau_2: 0.24799999594688416
+Train Epoch: 94 	Model: 9 	Training Loss: 24730.83608294548 	Temperature Strategy: exp_increase 	tau_1: 98.12826538085938 	tau_2: 98.12826538085938
+Epoch: 94 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 98.12826538085938 	Best tau_2: 98.12826538085938
+Train Epoch: 95 	Model: 0 	Training Loss: 26471.097739361703 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 95 	Model: 1 	Training Loss: 26342.89991273271 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 95 	Model: 2 	Training Loss: 24765.329943068486 	Temperature Strategy: linear_increase 	tau_1: 96.0 	tau_2: 96.0
+Train Epoch: 95 	Model: 3 	Training Loss: 27900.276315242685 	Temperature Strategy: linear_decrease 	tau_1: 0.23999999463558197 	tau_2: 0.23999999463558197
+Train Epoch: 95 	Model: 4 	Training Loss: 24738.53812749335 	Temperature Strategy: exp_increase 	tau_1: 103.03467559814453 	tau_2: 103.03467559814453
+Train Epoch: 95 	Model: 5 	Training Loss: 27186.48928897939 	Temperature Strategy: exp_decrease 	tau_1: 0.6211445331573486 	tau_2: 0.6211445331573486
+Train Epoch: 95 	Model: 6 	Training Loss: 26449.511666805185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 95 	Model: 7 	Training Loss: 24785.919256981382 	Temperature Strategy: linear_increase 	tau_1: 96.0 	tau_2: 96.0
+Train Epoch: 95 	Model: 8 	Training Loss: 32139.918145362368 	Temperature Strategy: linear_decrease 	tau_1: 0.23999999463558197 	tau_2: 0.23999999463558197
+Train Epoch: 95 	Model: 9 	Training Loss: 24724.374449384974 	Temperature Strategy: exp_increase 	tau_1: 103.03467559814453 	tau_2: 103.03467559814453
+Best model saved with index: 9 and loss: 24724.374449384974
+Epoch: 95 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 103.03467559814453 	Best tau_2: 103.03467559814453
+Train Epoch: 96 	Model: 0 	Training Loss: 26470.570676113697 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 96 	Model: 1 	Training Loss: 26341.672799617685 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 96 	Model: 2 	Training Loss: 24765.99977144282 	Temperature Strategy: linear_increase 	tau_1: 97.0 	tau_2: 97.0
+Train Epoch: 96 	Model: 3 	Training Loss: 27916.171449052526 	Temperature Strategy: linear_decrease 	tau_1: 0.23199999332427979 	tau_2: 0.23199999332427979
+Train Epoch: 96 	Model: 4 	Training Loss: 24730.70376911569 	Temperature Strategy: exp_increase 	tau_1: 108.18640899658203 	tau_2: 108.18640899658203
+Train Epoch: 96 	Model: 5 	Training Loss: 27179.003521858376 	Temperature Strategy: exp_decrease 	tau_1: 0.6180388331413269 	tau_2: 0.6180388331413269
+Train Epoch: 96 	Model: 6 	Training Loss: 26450.586550448803 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 96 	Model: 7 	Training Loss: 24784.961789394947 	Temperature Strategy: linear_increase 	tau_1: 97.0 	tau_2: 97.0
+Train Epoch: 96 	Model: 8 	Training Loss: 32137.137290142953 	Temperature Strategy: linear_decrease 	tau_1: 0.23199999332427979 	tau_2: 0.23199999332427979
+Train Epoch: 96 	Model: 9 	Training Loss: 24726.183354803856 	Temperature Strategy: exp_increase 	tau_1: 108.18640899658203 	tau_2: 108.18640899658203
+Epoch: 96 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 108.18640899658203 	Best tau_2: 108.18640899658203
+Train Epoch: 97 	Model: 0 	Training Loss: 26463.559165142953 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 97 	Model: 1 	Training Loss: 26344.132895611703 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 97 	Model: 2 	Training Loss: 24760.221856299868 	Temperature Strategy: linear_increase 	tau_1: 98.0 	tau_2: 98.0
+Train Epoch: 97 	Model: 3 	Training Loss: 27913.169007646276 	Temperature Strategy: linear_decrease 	tau_1: 0.2240000069141388 	tau_2: 0.2240000069141388
+Train Epoch: 97 	Model: 4 	Training Loss: 24732.99135638298 	Temperature Strategy: exp_increase 	tau_1: 113.59573364257812 	tau_2: 113.59573364257812
+Train Epoch: 97 	Model: 5 	Training Loss: 27190.62252742686 	Temperature Strategy: exp_decrease 	tau_1: 0.6149486303329468 	tau_2: 0.6149486303329468
+Train Epoch: 97 	Model: 6 	Training Loss: 26434.256700880986 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 97 	Model: 7 	Training Loss: 24778.994878241356 	Temperature Strategy: linear_increase 	tau_1: 98.0 	tau_2: 98.0
+Train Epoch: 97 	Model: 8 	Training Loss: 32137.854242852394 	Temperature Strategy: linear_decrease 	tau_1: 0.2240000069141388 	tau_2: 0.2240000069141388
+Train Epoch: 97 	Model: 9 	Training Loss: 24721.419942652927 	Temperature Strategy: exp_increase 	tau_1: 113.59573364257812 	tau_2: 113.59573364257812
+Best model saved with index: 9 and loss: 24721.419942652927
+Epoch: 97 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 113.59573364257812 	Best tau_2: 113.59573364257812
+Train Epoch: 98 	Model: 0 	Training Loss: 26463.294817985374 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 98 	Model: 1 	Training Loss: 26341.987626745347 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 98 	Model: 2 	Training Loss: 24762.37635056516 	Temperature Strategy: linear_increase 	tau_1: 99.0 	tau_2: 99.0
+Train Epoch: 98 	Model: 3 	Training Loss: 27939.604284408244 	Temperature Strategy: linear_decrease 	tau_1: 0.2160000056028366 	tau_2: 0.2160000056028366
+Train Epoch: 98 	Model: 4 	Training Loss: 24730.28824177194 	Temperature Strategy: exp_increase 	tau_1: 119.27552032470703 	tau_2: 119.27552032470703
+Train Epoch: 98 	Model: 5 	Training Loss: 27187.789654670876 	Temperature Strategy: exp_decrease 	tau_1: 0.6118738651275635 	tau_2: 0.6118738651275635
+Train Epoch: 98 	Model: 6 	Training Loss: 26431.396120761303 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 98 	Model: 7 	Training Loss: 24782.359925615026 	Temperature Strategy: linear_increase 	tau_1: 99.0 	tau_2: 99.0
+Train Epoch: 98 	Model: 8 	Training Loss: 32136.97262508311 	Temperature Strategy: linear_decrease 	tau_1: 0.2160000056028366 	tau_2: 0.2160000056028366
+Train Epoch: 98 	Model: 9 	Training Loss: 24717.795659491356 	Temperature Strategy: exp_increase 	tau_1: 119.27552032470703 	tau_2: 119.27552032470703
+Best model saved with index: 9 and loss: 24717.795659491356
+Epoch: 98 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 119.27552032470703 	Best tau_2: 119.27552032470703
+Train Epoch: 99 	Model: 0 	Training Loss: 26455.677734375 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 99 	Model: 1 	Training Loss: 26333.73051030585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 99 	Model: 2 	Training Loss: 24761.81363239694 	Temperature Strategy: linear_increase 	tau_1: 100.0 	tau_2: 100.0
+Train Epoch: 99 	Model: 3 	Training Loss: 27943.86299035904 	Temperature Strategy: linear_decrease 	tau_1: 0.20800000429153442 	tau_2: 0.20800000429153442
+Train Epoch: 99 	Model: 4 	Training Loss: 24727.342534491356 	Temperature Strategy: exp_increase 	tau_1: 125.23929595947266 	tau_2: 125.23929595947266
+Train Epoch: 99 	Model: 5 	Training Loss: 27196.569512549868 	Temperature Strategy: exp_decrease 	tau_1: 0.608814537525177 	tau_2: 0.608814537525177
+Train Epoch: 99 	Model: 6 	Training Loss: 26431.6782642121 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 99 	Model: 7 	Training Loss: 24779.755776263297 	Temperature Strategy: linear_increase 	tau_1: 100.0 	tau_2: 100.0
+Train Epoch: 99 	Model: 8 	Training Loss: 32138.31426612367 	Temperature Strategy: linear_decrease 	tau_1: 0.20800000429153442 	tau_2: 0.20800000429153442
+Train Epoch: 99 	Model: 9 	Training Loss: 24711.488374750665 	Temperature Strategy: exp_increase 	tau_1: 125.23929595947266 	tau_2: 125.23929595947266
+Best model saved with index: 9 and loss: 24711.488374750665
+Epoch: 99 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 125.23929595947266 	Best tau_2: 125.23929595947266
+Train Epoch: 100 	Model: 0 	Training Loss: 26454.325610871012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 100 	Model: 1 	Training Loss: 26323.007490442153 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 100 	Model: 2 	Training Loss: 24763.194751496012 	Temperature Strategy: linear_increase 	tau_1: 101.0 	tau_2: 101.0
+Train Epoch: 100 	Model: 3 	Training Loss: 27967.179136884974 	Temperature Strategy: linear_decrease 	tau_1: 0.20000000298023224 	tau_2: 0.20000000298023224
+Train Epoch: 100 	Model: 4 	Training Loss: 24722.4761157746 	Temperature Strategy: exp_increase 	tau_1: 131.50125122070312 	tau_2: 131.50125122070312
+Train Epoch: 100 	Model: 5 	Training Loss: 27189.411267869014 	Temperature Strategy: exp_decrease 	tau_1: 0.6057704091072083 	tau_2: 0.6057704091072083
+Train Epoch: 100 	Model: 6 	Training Loss: 26423.291867519947 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 100 	Model: 7 	Training Loss: 24771.395892204124 	Temperature Strategy: linear_increase 	tau_1: 101.0 	tau_2: 101.0
+Train Epoch: 100 	Model: 8 	Training Loss: 32138.80641206782 	Temperature Strategy: linear_decrease 	tau_1: 0.20000000298023224 	tau_2: 0.20000000298023224
+Train Epoch: 100 	Model: 9 	Training Loss: 24715.52915142952 	Temperature Strategy: exp_increase 	tau_1: 131.50125122070312 	tau_2: 131.50125122070312
+Epoch: 100 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 131.50125122070312 	Best tau_2: 131.50125122070312
+Train Epoch: 101 	Model: 0 	Training Loss: 26443.750997340427 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 101 	Model: 1 	Training Loss: 26331.553627825797 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 101 	Model: 2 	Training Loss: 24751.70571185173 	Temperature Strategy: linear_increase 	tau_1: 102.0 	tau_2: 102.0
+Train Epoch: 101 	Model: 3 	Training Loss: 27953.569408660238 	Temperature Strategy: linear_decrease 	tau_1: 0.19200000166893005 	tau_2: 0.19200000166893005
+Train Epoch: 101 	Model: 4 	Training Loss: 24723.868673121677 	Temperature Strategy: exp_increase 	tau_1: 138.07632446289062 	tau_2: 138.07632446289062
+Train Epoch: 101 	Model: 5 	Training Loss: 27196.042241522606 	Temperature Strategy: exp_decrease 	tau_1: 0.6027415990829468 	tau_2: 0.6027415990829468
+Train Epoch: 101 	Model: 6 	Training Loss: 26425.77854886968 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 101 	Model: 7 	Training Loss: 24777.272076545876 	Temperature Strategy: linear_increase 	tau_1: 102.0 	tau_2: 102.0
+Train Epoch: 101 	Model: 8 	Training Loss: 32136.39614153923 	Temperature Strategy: linear_decrease 	tau_1: 0.19200000166893005 	tau_2: 0.19200000166893005
+Train Epoch: 101 	Model: 9 	Training Loss: 24709.67577086104 	Temperature Strategy: exp_increase 	tau_1: 138.07632446289062 	tau_2: 138.07632446289062
+Best model saved with index: 9 and loss: 24709.67577086104
+Epoch: 101 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 138.07632446289062 	Best tau_2: 138.07632446289062
+Train Epoch: 102 	Model: 0 	Training Loss: 26441.866522606382 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 102 	Model: 1 	Training Loss: 26314.811876662236 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 102 	Model: 2 	Training Loss: 24756.32106050532 	Temperature Strategy: linear_increase 	tau_1: 103.0 	tau_2: 103.0
+Train Epoch: 102 	Model: 3 	Training Loss: 27956.38656291556 	Temperature Strategy: linear_decrease 	tau_1: 0.18400000035762787 	tau_2: 0.18400000035762787
+Train Epoch: 102 	Model: 4 	Training Loss: 24720.454870345744 	Temperature Strategy: exp_increase 	tau_1: 144.98013305664062 	tau_2: 144.98013305664062
+Train Epoch: 102 	Model: 5 	Training Loss: 27210.51697556516 	Temperature Strategy: exp_decrease 	tau_1: 0.5997278690338135 	tau_2: 0.5997278690338135
+Train Epoch: 102 	Model: 6 	Training Loss: 26421.133581283244 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 102 	Model: 7 	Training Loss: 24772.845838181514 	Temperature Strategy: linear_increase 	tau_1: 103.0 	tau_2: 103.0
+Train Epoch: 102 	Model: 8 	Training Loss: 32137.72784034242 	Temperature Strategy: linear_decrease 	tau_1: 0.18400000035762787 	tau_2: 0.18400000035762787
+Train Epoch: 102 	Model: 9 	Training Loss: 24713.911724983376 	Temperature Strategy: exp_increase 	tau_1: 144.98013305664062 	tau_2: 144.98013305664062
+Epoch: 102 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 144.98013305664062 	Best tau_2: 144.98013305664062
+Train Epoch: 103 	Model: 0 	Training Loss: 26443.235902177526 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 103 	Model: 1 	Training Loss: 26310.47754945146 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 103 	Model: 2 	Training Loss: 24754.81444273604 	Temperature Strategy: linear_increase 	tau_1: 104.0 	tau_2: 104.0
+Train Epoch: 103 	Model: 3 	Training Loss: 27974.403081366356 	Temperature Strategy: linear_decrease 	tau_1: 0.17599999904632568 	tau_2: 0.17599999904632568
+Train Epoch: 103 	Model: 4 	Training Loss: 24718.017661236703 	Temperature Strategy: exp_increase 	tau_1: 152.22914123535156 	tau_2: 152.22914123535156
+Train Epoch: 103 	Model: 5 	Training Loss: 27207.969861619014 	Temperature Strategy: exp_decrease 	tau_1: 0.5967292189598083 	tau_2: 0.5967292189598083
+Train Epoch: 103 	Model: 6 	Training Loss: 26407.483034823803 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 103 	Model: 7 	Training Loss: 24772.28782621343 	Temperature Strategy: linear_increase 	tau_1: 104.0 	tau_2: 104.0
+Train Epoch: 103 	Model: 8 	Training Loss: 32137.948304521276 	Temperature Strategy: linear_decrease 	tau_1: 0.17599999904632568 	tau_2: 0.17599999904632568
+Train Epoch: 103 	Model: 9 	Training Loss: 24704.766424950132 	Temperature Strategy: exp_increase 	tau_1: 152.22914123535156 	tau_2: 152.22914123535156
+Best model saved with index: 9 and loss: 24704.766424950132
+Epoch: 103 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 152.22914123535156 	Best tau_2: 152.22914123535156
+Train Epoch: 104 	Model: 0 	Training Loss: 26432.87079247008 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 104 	Model: 1 	Training Loss: 26316.89711810173 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 104 	Model: 2 	Training Loss: 24751.88006981383 	Temperature Strategy: linear_increase 	tau_1: 105.0 	tau_2: 105.0
+Train Epoch: 104 	Model: 3 	Training Loss: 28005.834109042553 	Temperature Strategy: linear_decrease 	tau_1: 0.1679999977350235 	tau_2: 0.1679999977350235
+Train Epoch: 104 	Model: 4 	Training Loss: 24716.231195977394 	Temperature Strategy: exp_increase 	tau_1: 159.84060668945312 	tau_2: 159.84060668945312
+Train Epoch: 104 	Model: 5 	Training Loss: 27211.92191655585 	Temperature Strategy: exp_decrease 	tau_1: 0.5937455892562866 	tau_2: 0.5937455892562866
+Train Epoch: 104 	Model: 6 	Training Loss: 26411.118299119014 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 104 	Model: 7 	Training Loss: 24771.21116605718 	Temperature Strategy: linear_increase 	tau_1: 105.0 	tau_2: 105.0
+Train Epoch: 104 	Model: 8 	Training Loss: 32137.180414727394 	Temperature Strategy: linear_decrease 	tau_1: 0.1679999977350235 	tau_2: 0.1679999977350235
+Train Epoch: 104 	Model: 9 	Training Loss: 24709.232255651597 	Temperature Strategy: exp_increase 	tau_1: 159.84060668945312 	tau_2: 159.84060668945312
+Epoch: 104 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 159.84060668945312 	Best tau_2: 159.84060668945312
+Train Epoch: 105 	Model: 0 	Training Loss: 26424.070634557847 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 105 	Model: 1 	Training Loss: 26306.11846534242 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 105 	Model: 2 	Training Loss: 24750.807980801197 	Temperature Strategy: linear_increase 	tau_1: 106.0 	tau_2: 106.0
+Train Epoch: 105 	Model: 3 	Training Loss: 28058.62867769282 	Temperature Strategy: linear_decrease 	tau_1: 0.1599999964237213 	tau_2: 0.1599999964237213
+Train Epoch: 105 	Model: 4 	Training Loss: 24713.020923371012 	Temperature Strategy: exp_increase 	tau_1: 167.83262634277344 	tau_2: 167.83262634277344
+Train Epoch: 105 	Model: 5 	Training Loss: 27209.26382770944 	Temperature Strategy: exp_decrease 	tau_1: 0.5907768607139587 	tau_2: 0.5907768607139587
+Train Epoch: 105 	Model: 6 	Training Loss: 26408.149829621012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 105 	Model: 7 	Training Loss: 24769.506420378988 	Temperature Strategy: linear_increase 	tau_1: 106.0 	tau_2: 106.0
+Train Epoch: 105 	Model: 8 	Training Loss: 32136.63310339096 	Temperature Strategy: linear_decrease 	tau_1: 0.1599999964237213 	tau_2: 0.1599999964237213
+Train Epoch: 105 	Model: 9 	Training Loss: 24704.80010596742 	Temperature Strategy: exp_increase 	tau_1: 167.83262634277344 	tau_2: 167.83262634277344
+Epoch: 105 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 167.83262634277344 	Best tau_2: 167.83262634277344
+Train Epoch: 106 	Model: 0 	Training Loss: 26420.117062832447 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 106 	Model: 1 	Training Loss: 26311.0912670379 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 106 	Model: 2 	Training Loss: 24754.009557845744 	Temperature Strategy: linear_increase 	tau_1: 107.0 	tau_2: 107.0
+Train Epoch: 106 	Model: 3 	Training Loss: 28052.949987533244 	Temperature Strategy: linear_decrease 	tau_1: 0.15199999511241913 	tau_2: 0.15199999511241913
+Train Epoch: 106 	Model: 4 	Training Loss: 24710.696008560506 	Temperature Strategy: exp_increase 	tau_1: 176.22425842285156 	tau_2: 176.22425842285156
+Train Epoch: 106 	Model: 5 	Training Loss: 27215.10303773271 	Temperature Strategy: exp_decrease 	tau_1: 0.5878229737281799 	tau_2: 0.5878229737281799
+Train Epoch: 106 	Model: 6 	Training Loss: 26407.5 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 106 	Model: 7 	Training Loss: 24764.635949966756 	Temperature Strategy: linear_increase 	tau_1: 107.0 	tau_2: 107.0
+Train Epoch: 106 	Model: 8 	Training Loss: 32137.33695561835 	Temperature Strategy: linear_decrease 	tau_1: 0.15199999511241913 	tau_2: 0.15199999511241913
+Train Epoch: 106 	Model: 9 	Training Loss: 24702.528787815823 	Temperature Strategy: exp_increase 	tau_1: 176.22425842285156 	tau_2: 176.22425842285156
+Best model saved with index: 9 and loss: 24702.528787815823
+Epoch: 106 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 176.22425842285156 	Best tau_2: 176.22425842285156
+Train Epoch: 107 	Model: 0 	Training Loss: 26419.547747672874 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 107 	Model: 1 	Training Loss: 26298.134204621012 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 107 	Model: 2 	Training Loss: 24745.67055560173 	Temperature Strategy: linear_increase 	tau_1: 108.0 	tau_2: 108.0
+Train Epoch: 107 	Model: 3 	Training Loss: 28059.989320146276 	Temperature Strategy: linear_decrease 	tau_1: 0.14399999380111694 	tau_2: 0.14399999380111694
+Train Epoch: 107 	Model: 4 	Training Loss: 24709.581626080453 	Temperature Strategy: exp_increase 	tau_1: 185.0354766845703 	tau_2: 185.0354766845703
+Train Epoch: 107 	Model: 5 	Training Loss: 27217.83560505319 	Temperature Strategy: exp_decrease 	tau_1: 0.5848838686943054 	tau_2: 0.5848838686943054
+Train Epoch: 107 	Model: 6 	Training Loss: 26397.149102393618 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 107 	Model: 7 	Training Loss: 24766.553097988697 	Temperature Strategy: linear_increase 	tau_1: 108.0 	tau_2: 108.0
+Train Epoch: 107 	Model: 8 	Training Loss: 32137.318920378988 	Temperature Strategy: linear_decrease 	tau_1: 0.14399999380111694 	tau_2: 0.14399999380111694
+Train Epoch: 107 	Model: 9 	Training Loss: 24696.497236535903 	Temperature Strategy: exp_increase 	tau_1: 185.0354766845703 	tau_2: 185.0354766845703
+Best model saved with index: 9 and loss: 24696.497236535903
+Epoch: 107 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 185.0354766845703 	Best tau_2: 185.0354766845703
+Train Epoch: 108 	Model: 0 	Training Loss: 26416.74459773936 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 108 	Model: 1 	Training Loss: 26292.015521110374 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 108 	Model: 2 	Training Loss: 24743.297872340427 	Temperature Strategy: linear_increase 	tau_1: 109.0 	tau_2: 109.0
+Train Epoch: 108 	Model: 3 	Training Loss: 28054.54928523936 	Temperature Strategy: linear_decrease 	tau_1: 0.13600000739097595 	tau_2: 0.13600000739097595
+Train Epoch: 108 	Model: 4 	Training Loss: 24710.02128698471 	Temperature Strategy: exp_increase 	tau_1: 194.28724670410156 	tau_2: 194.28724670410156
+Train Epoch: 108 	Model: 5 	Training Loss: 27223.2021484375 	Temperature Strategy: exp_decrease 	tau_1: 0.5819594264030457 	tau_2: 0.5819594264030457
+Train Epoch: 108 	Model: 6 	Training Loss: 26391.837838680185 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 108 	Model: 7 	Training Loss: 24764.59063331117 	Temperature Strategy: linear_increase 	tau_1: 109.0 	tau_2: 109.0
+Train Epoch: 108 	Model: 8 	Training Loss: 32137.414904005986 	Temperature Strategy: linear_decrease 	tau_1: 0.13600000739097595 	tau_2: 0.13600000739097595
+Train Epoch: 108 	Model: 9 	Training Loss: 24701.085386884974 	Temperature Strategy: exp_increase 	tau_1: 194.28724670410156 	tau_2: 194.28724670410156
+Epoch: 108 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 194.28724670410156 	Best tau_2: 194.28724670410156
+Train Epoch: 109 	Model: 0 	Training Loss: 26407.05176820146 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 109 	Model: 1 	Training Loss: 26288.163885887632 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 109 	Model: 2 	Training Loss: 24748.248919547874 	Temperature Strategy: linear_increase 	tau_1: 110.0 	tau_2: 110.0
+Train Epoch: 109 	Model: 3 	Training Loss: 28091.95628324468 	Temperature Strategy: linear_decrease 	tau_1: 0.12800000607967377 	tau_2: 0.12800000607967377
+Train Epoch: 109 	Model: 4 	Training Loss: 24706.773167386968 	Temperature Strategy: exp_increase 	tau_1: 204.00161743164062 	tau_2: 204.00161743164062
+Train Epoch: 109 	Model: 5 	Training Loss: 27220.13180477061 	Temperature Strategy: exp_decrease 	tau_1: 0.5790496468544006 	tau_2: 0.5790496468544006
+Train Epoch: 109 	Model: 6 	Training Loss: 26386.793062250665 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 109 	Model: 7 	Training Loss: 24761.5150951629 	Temperature Strategy: linear_increase 	tau_1: 110.0 	tau_2: 110.0
+Train Epoch: 109 	Model: 8 	Training Loss: 32136.885347406915 	Temperature Strategy: linear_decrease 	tau_1: 0.12800000607967377 	tau_2: 0.12800000607967377
+Train Epoch: 109 	Model: 9 	Training Loss: 24694.396650598403 	Temperature Strategy: exp_increase 	tau_1: 204.00161743164062 	tau_2: 204.00161743164062
+Best model saved with index: 9 and loss: 24694.396650598403
+Epoch: 109 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 204.00161743164062 	Best tau_2: 204.00161743164062
+Train Epoch: 110 	Model: 0 	Training Loss: 26407.437707779256 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 110 	Model: 1 	Training Loss: 26280.385814910238 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 110 	Model: 2 	Training Loss: 24743.403631981382 	Temperature Strategy: linear_increase 	tau_1: 111.0 	tau_2: 111.0
+Train Epoch: 110 	Model: 3 	Training Loss: 28099.023115442153 	Temperature Strategy: linear_decrease 	tau_1: 0.11999999731779099 	tau_2: 0.11999999731779099
+Train Epoch: 110 	Model: 4 	Training Loss: 24710.82925739694 	Temperature Strategy: exp_increase 	tau_1: 214.20169067382812 	tau_2: 214.20169067382812
+Train Epoch: 110 	Model: 5 	Training Loss: 27228.743080950797 	Temperature Strategy: exp_decrease 	tau_1: 0.5761544108390808 	tau_2: 0.5761544108390808
+Train Epoch: 110 	Model: 6 	Training Loss: 26391.92972905585 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 110 	Model: 7 	Training Loss: 24760.04236619016 	Temperature Strategy: linear_increase 	tau_1: 111.0 	tau_2: 111.0
+Train Epoch: 110 	Model: 8 	Training Loss: 32137.021411652262 	Temperature Strategy: linear_decrease 	tau_1: 0.11999999731779099 	tau_2: 0.11999999731779099
+Train Epoch: 110 	Model: 9 	Training Loss: 24694.699769365026 	Temperature Strategy: exp_increase 	tau_1: 214.20169067382812 	tau_2: 214.20169067382812
+Epoch: 110 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 214.20169067382812 	Best tau_2: 214.20169067382812
+Train Epoch: 111 	Model: 0 	Training Loss: 26396.45849609375 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 111 	Model: 1 	Training Loss: 26284.07631732048 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 111 	Model: 2 	Training Loss: 24740.85206117021 	Temperature Strategy: linear_increase 	tau_1: 112.0 	tau_2: 112.0
+Train Epoch: 111 	Model: 3 	Training Loss: 28097.870023686835 	Temperature Strategy: linear_decrease 	tau_1: 0.1120000034570694 	tau_2: 0.1120000034570694
+Train Epoch: 111 	Model: 4 	Training Loss: 24699.89490525266 	Temperature Strategy: exp_increase 	tau_1: 224.91177368164062 	tau_2: 224.91177368164062
+Train Epoch: 111 	Model: 5 	Training Loss: 27230.348612034573 	Temperature Strategy: exp_decrease 	tau_1: 0.5732735991477966 	tau_2: 0.5732735991477966
+Train Epoch: 111 	Model: 6 	Training Loss: 26381.895227310506 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 111 	Model: 7 	Training Loss: 24757.274850398935 	Temperature Strategy: linear_increase 	tau_1: 112.0 	tau_2: 112.0
+Train Epoch: 111 	Model: 8 	Training Loss: 32137.90895113032 	Temperature Strategy: linear_decrease 	tau_1: 0.1120000034570694 	tau_2: 0.1120000034570694
+Train Epoch: 111 	Model: 9 	Training Loss: 24698.97578332779 	Temperature Strategy: exp_increase 	tau_1: 224.91177368164062 	tau_2: 224.91177368164062
+Epoch: 111 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 224.91177368164062 	Best tau_2: 224.91177368164062
+Train Epoch: 112 	Model: 0 	Training Loss: 26399.9560546875 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 112 	Model: 1 	Training Loss: 26283.030844830453 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 112 	Model: 2 	Training Loss: 24741.25453997673 	Temperature Strategy: linear_increase 	tau_1: 113.0 	tau_2: 113.0
+Train Epoch: 112 	Model: 3 	Training Loss: 28116.449571974736 	Temperature Strategy: linear_decrease 	tau_1: 0.10400000214576721 	tau_2: 0.10400000214576721
+Train Epoch: 112 	Model: 4 	Training Loss: 24704.313570063165 	Temperature Strategy: exp_increase 	tau_1: 236.15736389160156 	tau_2: 236.15736389160156
+Train Epoch: 112 	Model: 5 	Training Loss: 27230.7201732879 	Temperature Strategy: exp_decrease 	tau_1: 0.5704072713851929 	tau_2: 0.5704072713851929
+Train Epoch: 112 	Model: 6 	Training Loss: 26383.35985289229 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 112 	Model: 7 	Training Loss: 24757.890988613697 	Temperature Strategy: linear_increase 	tau_1: 113.0 	tau_2: 113.0
+Train Epoch: 112 	Model: 8 	Training Loss: 32137.03026304854 	Temperature Strategy: linear_decrease 	tau_1: 0.10400000214576721 	tau_2: 0.10400000214576721
+Train Epoch: 112 	Model: 9 	Training Loss: 24687.476094996677 	Temperature Strategy: exp_increase 	tau_1: 236.15736389160156 	tau_2: 236.15736389160156
+Best model saved with index: 9 and loss: 24687.476094996677
+Epoch: 112 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 236.15736389160156 	Best tau_2: 236.15736389160156
+Train Epoch: 113 	Model: 0 	Training Loss: 26405.99366273271 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 113 	Model: 1 	Training Loss: 26276.40595910904 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 113 	Model: 2 	Training Loss: 24738.067289311835 	Temperature Strategy: linear_increase 	tau_1: 114.0 	tau_2: 114.0
+Train Epoch: 113 	Model: 3 	Training Loss: 28206.41534034242 	Temperature Strategy: linear_decrease 	tau_1: 0.09600000083446503 	tau_2: 0.09600000083446503
+Train Epoch: 113 	Model: 4 	Training Loss: 24697.199582363697 	Temperature Strategy: exp_increase 	tau_1: 247.96524047851562 	tau_2: 247.96524047851562
+Train Epoch: 113 	Model: 5 	Training Loss: 27234.47298869681 	Temperature Strategy: exp_decrease 	tau_1: 0.5675552487373352 	tau_2: 0.5675552487373352
+Train Epoch: 113 	Model: 6 	Training Loss: 26380.055975731382 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 113 	Model: 7 	Training Loss: 24754.707581865026 	Temperature Strategy: linear_increase 	tau_1: 114.0 	tau_2: 114.0
+Train Epoch: 113 	Model: 8 	Training Loss: 32138.01697556516 	Temperature Strategy: linear_decrease 	tau_1: 0.09600000083446503 	tau_2: 0.09600000083446503
+Train Epoch: 113 	Model: 9 	Training Loss: 24687.44463721742 	Temperature Strategy: exp_increase 	tau_1: 247.96524047851562 	tau_2: 247.96524047851562
+Best model saved with index: 9 and loss: 24687.44463721742
+Epoch: 113 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 247.96524047851562 	Best tau_2: 247.96524047851562
+Train Epoch: 114 	Model: 0 	Training Loss: 26387.510960355718 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 114 	Model: 1 	Training Loss: 26275.187520777927 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 114 	Model: 2 	Training Loss: 24739.11668882979 	Temperature Strategy: linear_increase 	tau_1: 115.0 	tau_2: 115.0
+Train Epoch: 114 	Model: 3 	Training Loss: 28165.955846908244 	Temperature Strategy: linear_decrease 	tau_1: 0.08799999952316284 	tau_2: 0.08799999952316284
+Train Epoch: 114 	Model: 4 	Training Loss: 24701.782922623006 	Temperature Strategy: exp_increase 	tau_1: 260.3634948730469 	tau_2: 260.3634948730469
+Train Epoch: 114 	Model: 5 	Training Loss: 27243.50218168218 	Temperature Strategy: exp_decrease 	tau_1: 0.5647174715995789 	tau_2: 0.5647174715995789
+Train Epoch: 114 	Model: 6 	Training Loss: 26373.420534823803 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 114 	Model: 7 	Training Loss: 24755.03467835771 	Temperature Strategy: linear_increase 	tau_1: 115.0 	tau_2: 115.0
+Train Epoch: 114 	Model: 8 	Training Loss: 32137.611733294547 	Temperature Strategy: linear_decrease 	tau_1: 0.08799999952316284 	tau_2: 0.08799999952316284
+Train Epoch: 114 	Model: 9 	Training Loss: 24694.445489112368 	Temperature Strategy: exp_increase 	tau_1: 260.3634948730469 	tau_2: 260.3634948730469
+Epoch: 114 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 260.3634948730469 	Best tau_2: 260.3634948730469
+Train Epoch: 115 	Model: 0 	Training Loss: 26383.849526263297 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 115 	Model: 1 	Training Loss: 26276.27376994681 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 115 	Model: 2 	Training Loss: 24732.41600523604 	Temperature Strategy: linear_increase 	tau_1: 116.0 	tau_2: 116.0
+Train Epoch: 115 	Model: 3 	Training Loss: 28261.432689910238 	Temperature Strategy: linear_decrease 	tau_1: 0.07999999821186066 	tau_2: 0.07999999821186066
+Train Epoch: 115 	Model: 4 	Training Loss: 24704.47343542221 	Temperature Strategy: exp_increase 	tau_1: 273.3816833496094 	tau_2: 273.3816833496094
+Train Epoch: 115 	Model: 5 	Training Loss: 27248.19072057846 	Temperature Strategy: exp_decrease 	tau_1: 0.561893880367279 	tau_2: 0.561893880367279
+Train Epoch: 115 	Model: 6 	Training Loss: 26363.264326379653 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 115 	Model: 7 	Training Loss: 24754.46957072806 	Temperature Strategy: linear_increase 	tau_1: 116.0 	tau_2: 116.0
+Train Epoch: 115 	Model: 8 	Training Loss: 32136.99623919548 	Temperature Strategy: linear_decrease 	tau_1: 0.07999999821186066 	tau_2: 0.07999999821186066
+Train Epoch: 115 	Model: 9 	Training Loss: 24682.81686336436 	Temperature Strategy: exp_increase 	tau_1: 273.3816833496094 	tau_2: 273.3816833496094
+Best model saved with index: 9 and loss: 24682.81686336436
+Epoch: 115 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 273.3816833496094 	Best tau_2: 273.3816833496094
+Train Epoch: 116 	Model: 0 	Training Loss: 26385.601843001994 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 116 	Model: 1 	Training Loss: 26269.07339802194 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 116 	Model: 2 	Training Loss: 24739.05586145279 	Temperature Strategy: linear_increase 	tau_1: 117.0 	tau_2: 117.0
+Train Epoch: 116 	Model: 3 	Training Loss: 28253.09178648604 	Temperature Strategy: linear_decrease 	tau_1: 0.07199999690055847 	tau_2: 0.07199999690055847
+Train Epoch: 116 	Model: 4 	Training Loss: 24693.73832280585 	Temperature Strategy: exp_increase 	tau_1: 287.0507507324219 	tau_2: 287.0507507324219
+Train Epoch: 116 	Model: 5 	Training Loss: 27246.350866439494 	Temperature Strategy: exp_decrease 	tau_1: 0.559084415435791 	tau_2: 0.559084415435791
+Train Epoch: 116 	Model: 6 	Training Loss: 26370.779203374335 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 116 	Model: 7 	Training Loss: 24748.08037940492 	Temperature Strategy: linear_increase 	tau_1: 117.0 	tau_2: 117.0
+Train Epoch: 116 	Model: 8 	Training Loss: 32135.731362200797 	Temperature Strategy: linear_decrease 	tau_1: 0.07199999690055847 	tau_2: 0.07199999690055847
+Train Epoch: 116 	Model: 9 	Training Loss: 24688.111795628323 	Temperature Strategy: exp_increase 	tau_1: 287.0507507324219 	tau_2: 287.0507507324219
+Epoch: 116 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 287.0507507324219 	Best tau_2: 287.0507507324219
+Train Epoch: 117 	Model: 0 	Training Loss: 26385.6650390625 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 117 	Model: 1 	Training Loss: 26258.28482380319 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 117 	Model: 2 	Training Loss: 24732.382157995347 	Temperature Strategy: linear_increase 	tau_1: 118.0 	tau_2: 118.0
+Train Epoch: 117 	Model: 3 	Training Loss: 28296.812936336435 	Temperature Strategy: linear_decrease 	tau_1: 0.06400000303983688 	tau_2: 0.06400000303983688
+Train Epoch: 117 	Model: 4 	Training Loss: 24691.839760638297 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Train Epoch: 117 	Model: 5 	Training Loss: 27262.11294880319 	Temperature Strategy: exp_decrease 	tau_1: 0.5562889575958252 	tau_2: 0.5562889575958252
+Train Epoch: 117 	Model: 6 	Training Loss: 26358.149133560506 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 117 	Model: 7 	Training Loss: 24748.943141206782 	Temperature Strategy: linear_increase 	tau_1: 118.0 	tau_2: 118.0
+Train Epoch: 117 	Model: 8 	Training Loss: 32137.13460979056 	Temperature Strategy: linear_decrease 	tau_1: 0.06400000303983688 	tau_2: 0.06400000303983688
+Train Epoch: 117 	Model: 9 	Training Loss: 24681.374002659573 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Best model saved with index: 9 and loss: 24681.374002659573
+Epoch: 117 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 300.0 	Best tau_2: 300.0
+Train Epoch: 118 	Model: 0 	Training Loss: 26379.53469913564 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 118 	Model: 1 	Training Loss: 26260.54249085771 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 118 	Model: 2 	Training Loss: 24732.769063746677 	Temperature Strategy: linear_increase 	tau_1: 119.0 	tau_2: 119.0
+Train Epoch: 118 	Model: 3 	Training Loss: 28356.852133892953 	Temperature Strategy: linear_decrease 	tau_1: 0.0560000017285347 	tau_2: 0.0560000017285347
+Train Epoch: 118 	Model: 4 	Training Loss: 24690.259786402927 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Train Epoch: 118 	Model: 5 	Training Loss: 27250.98847864029 	Temperature Strategy: exp_decrease 	tau_1: 0.5535075068473816 	tau_2: 0.5535075068473816
+Train Epoch: 118 	Model: 6 	Training Loss: 26358.69483460771 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 118 	Model: 7 	Training Loss: 24748.57098778258 	Temperature Strategy: linear_increase 	tau_1: 119.0 	tau_2: 119.0
+Train Epoch: 118 	Model: 8 	Training Loss: 32137.696642287236 	Temperature Strategy: linear_decrease 	tau_1: 0.0560000017285347 	tau_2: 0.0560000017285347
+Train Epoch: 118 	Model: 9 	Training Loss: 24680.368184840427 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Best model saved with index: 9 and loss: 24680.368184840427
+Epoch: 118 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 300.0 	Best tau_2: 300.0
+Train Epoch: 119 	Model: 0 	Training Loss: 26373.40498254654 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 119 	Model: 1 	Training Loss: 26254.57421875 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 119 	Model: 2 	Training Loss: 24730.94215425532 	Temperature Strategy: linear_increase 	tau_1: 120.0 	tau_2: 120.0
+Train Epoch: 119 	Model: 3 	Training Loss: 28411.19189453125 	Temperature Strategy: linear_decrease 	tau_1: 0.04800000041723251 	tau_2: 0.04800000041723251
+Train Epoch: 119 	Model: 4 	Training Loss: 24691.014025099736 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Train Epoch: 119 	Model: 5 	Training Loss: 27253.892640458776 	Temperature Strategy: exp_decrease 	tau_1: 0.5507400035858154 	tau_2: 0.5507400035858154
+Train Epoch: 119 	Model: 6 	Training Loss: 26356.218085106382 	Temperature Strategy: fixed 	tau_1: 1.0 	tau_2: 1.0
+Train Epoch: 119 	Model: 7 	Training Loss: 24746.888941988032 	Temperature Strategy: linear_increase 	tau_1: 120.0 	tau_2: 120.0
+Train Epoch: 119 	Model: 8 	Training Loss: 32137.712163397606 	Temperature Strategy: linear_decrease 	tau_1: 0.04800000041723251 	tau_2: 0.04800000041723251
+Train Epoch: 119 	Model: 9 	Training Loss: 24680.32456158577 	Temperature Strategy: exp_increase 	tau_1: 300.0 	tau_2: 300.0
+Best model saved with index: 9 and loss: 24680.32456158577
+Epoch: 119 	Best Model Index: 9 	Best Temperature Strategy: exp_increase 	Best tau_1: 300.0 	Best tau_2: 300.0
+Epoch: 0, Best Tau 1: 1.0, Best Tau 2: 1.0
+Epoch: 1, Best Tau 1: 2.0, Best Tau 2: 2.0
+Epoch: 2, Best Tau 1: 3.0, Best Tau 2: 3.0
+Epoch: 3, Best Tau 1: 4.0, Best Tau 2: 4.0
+Epoch: 4, Best Tau 1: 5.0, Best Tau 2: 5.0
+Epoch: 5, Best Tau 1: 6.0, Best Tau 2: 6.0
+Epoch: 6, Best Tau 1: 7.0, Best Tau 2: 7.0
+Epoch: 7, Best Tau 1: 8.0, Best Tau 2: 8.0
+Epoch: 8, Best Tau 1: 9.0, Best Tau 2: 9.0
+Epoch: 9, Best Tau 1: 10.0, Best Tau 2: 10.0
+Epoch: 10, Best Tau 1: 11.0, Best Tau 2: 11.0
+Epoch: 11, Best Tau 1: 12.0, Best Tau 2: 12.0
+Epoch: 12, Best Tau 1: 13.0, Best Tau 2: 13.0
+Epoch: 13, Best Tau 1: 14.0, Best Tau 2: 14.0
+Epoch: 14, Best Tau 1: 15.0, Best Tau 2: 15.0
+Epoch: 15, Best Tau 1: 16.0, Best Tau 2: 16.0
+Epoch: 16, Best Tau 1: 17.0, Best Tau 2: 17.0
+Epoch: 17, Best Tau 1: 18.0, Best Tau 2: 18.0
+Epoch: 18, Best Tau 1: 19.0, Best Tau 2: 19.0
+Epoch: 19, Best Tau 1: 20.0, Best Tau 2: 20.0
+Epoch: 20, Best Tau 1: 21.0, Best Tau 2: 21.0
+Epoch: 21, Best Tau 1: 22.0, Best Tau 2: 22.0
+Epoch: 22, Best Tau 1: 23.0, Best Tau 2: 23.0
+Epoch: 23, Best Tau 1: 24.0, Best Tau 2: 24.0
+Epoch: 24, Best Tau 1: 25.0, Best Tau 2: 25.0
+Epoch: 25, Best Tau 1: 26.0, Best Tau 2: 26.0
+Epoch: 26, Best Tau 1: 27.0, Best Tau 2: 27.0
+Epoch: 27, Best Tau 1: 28.0, Best Tau 2: 28.0
+Epoch: 28, Best Tau 1: 29.0, Best Tau 2: 29.0
+Epoch: 29, Best Tau 1: 30.0, Best Tau 2: 30.0
+Epoch: 30, Best Tau 1: 31.0, Best Tau 2: 31.0
+Epoch: 31, Best Tau 1: 32.0, Best Tau 2: 32.0
+Epoch: 32, Best Tau 1: 33.0, Best Tau 2: 33.0
+Epoch: 33, Best Tau 1: 34.0, Best Tau 2: 34.0
+Epoch: 34, Best Tau 1: 35.0, Best Tau 2: 35.0
+Epoch: 35, Best Tau 1: 36.0, Best Tau 2: 36.0
+Epoch: 36, Best Tau 1: 37.0, Best Tau 2: 37.0
+Epoch: 37, Best Tau 1: 38.0, Best Tau 2: 38.0
+Epoch: 38, Best Tau 1: 39.0, Best Tau 2: 39.0
+Epoch: 39, Best Tau 1: 40.0, Best Tau 2: 40.0
+Epoch: 40, Best Tau 1: 41.0, Best Tau 2: 41.0
+Epoch: 41, Best Tau 1: 42.0, Best Tau 2: 42.0
+Epoch: 42, Best Tau 1: 43.0, Best Tau 2: 43.0
+Epoch: 43, Best Tau 1: 44.0, Best Tau 2: 44.0
+Epoch: 44, Best Tau 1: 45.0, Best Tau 2: 45.0
+Epoch: 45, Best Tau 1: 46.0, Best Tau 2: 46.0
+Epoch: 46, Best Tau 1: 47.0, Best Tau 2: 47.0
+Epoch: 47, Best Tau 1: 48.0, Best Tau 2: 48.0
+Epoch: 48, Best Tau 1: 49.0, Best Tau 2: 49.0
+Epoch: 49, Best Tau 1: 50.0, Best Tau 2: 50.0
+Epoch: 50, Best Tau 1: 51.0, Best Tau 2: 51.0
+Epoch: 51, Best Tau 1: 52.0, Best Tau 2: 52.0
+Epoch: 52, Best Tau 1: 53.0, Best Tau 2: 53.0
+Epoch: 53, Best Tau 1: 54.0, Best Tau 2: 54.0
+Epoch: 54, Best Tau 1: 55.0, Best Tau 2: 55.0
+Epoch: 55, Best Tau 1: 56.0, Best Tau 2: 56.0
+Epoch: 56, Best Tau 1: 57.0, Best Tau 2: 57.0
+Epoch: 57, Best Tau 1: 58.0, Best Tau 2: 58.0
+Epoch: 58, Best Tau 1: 59.0, Best Tau 2: 59.0
+Epoch: 59, Best Tau 1: 60.0, Best Tau 2: 60.0
+Epoch: 60, Best Tau 1: 61.0, Best Tau 2: 61.0
+Epoch: 61, Best Tau 1: 62.0, Best Tau 2: 62.0
+Epoch: 62, Best Tau 1: 63.0, Best Tau 2: 63.0
+Epoch: 63, Best Tau 1: 64.0, Best Tau 2: 64.0
+Epoch: 64, Best Tau 1: 65.0, Best Tau 2: 65.0
+Epoch: 65, Best Tau 1: 66.0, Best Tau 2: 66.0
+Epoch: 66, Best Tau 1: 67.0, Best Tau 2: 67.0
+Epoch: 67, Best Tau 1: 68.0, Best Tau 2: 68.0
+Epoch: 68, Best Tau 1: 27.597665786743164, Best Tau 2: 27.597665786743164
+Epoch: 69, Best Tau 1: 70.0, Best Tau 2: 70.0
+Epoch: 70, Best Tau 1: 30.42642593383789, Best Tau 2: 30.42642593383789
+Epoch: 71, Best Tau 1: 31.94774627685547, Best Tau 2: 31.94774627685547
+Epoch: 72, Best Tau 1: 33.545135498046875, Best Tau 2: 33.545135498046875
+Epoch: 73, Best Tau 1: 35.222389221191406, Best Tau 2: 35.222389221191406
+Epoch: 74, Best Tau 1: 36.9835090637207, Best Tau 2: 36.9835090637207
+Epoch: 75, Best Tau 1: 38.83268737792969, Best Tau 2: 38.83268737792969
+Epoch: 76, Best Tau 1: 40.77431869506836, Best Tau 2: 40.77431869506836
+Epoch: 77, Best Tau 1: 42.81303787231445, Best Tau 2: 42.81303787231445
+Epoch: 78, Best Tau 1: 44.95368957519531, Best Tau 2: 44.95368957519531
+Epoch: 79, Best Tau 1: 47.20137405395508, Best Tau 2: 47.20137405395508
+Epoch: 80, Best Tau 1: 49.561439514160156, Best Tau 2: 49.561439514160156
+Epoch: 81, Best Tau 1: 52.039512634277344, Best Tau 2: 52.039512634277344
+Epoch: 82, Best Tau 1: 54.64148712158203, Best Tau 2: 54.64148712158203
+Epoch: 83, Best Tau 1: 57.37356185913086, Best Tau 2: 57.37356185913086
+Epoch: 84, Best Tau 1: 60.24224090576172, Best Tau 2: 60.24224090576172
+Epoch: 85, Best Tau 1: 63.25435256958008, Best Tau 2: 63.25435256958008
+Epoch: 86, Best Tau 1: 66.41706848144531, Best Tau 2: 66.41706848144531
+Epoch: 87, Best Tau 1: 69.73792266845703, Best Tau 2: 69.73792266845703
+Epoch: 88, Best Tau 1: 73.22482299804688, Best Tau 2: 73.22482299804688
+Epoch: 89, Best Tau 1: 76.88606262207031, Best Tau 2: 76.88606262207031
+Epoch: 90, Best Tau 1: 80.73036193847656, Best Tau 2: 80.73036193847656
+Epoch: 91, Best Tau 1: 84.76688385009766, Best Tau 2: 84.76688385009766
+Epoch: 92, Best Tau 1: 89.0052261352539, Best Tau 2: 89.0052261352539
+Epoch: 93, Best Tau 1: 93.45549011230469, Best Tau 2: 93.45549011230469
+Epoch: 94, Best Tau 1: 98.12826538085938, Best Tau 2: 98.12826538085938
+Epoch: 95, Best Tau 1: 103.03467559814453, Best Tau 2: 103.03467559814453
+Epoch: 96, Best Tau 1: 108.18640899658203, Best Tau 2: 108.18640899658203
+Epoch: 97, Best Tau 1: 113.59573364257812, Best Tau 2: 113.59573364257812
+Epoch: 98, Best Tau 1: 119.27552032470703, Best Tau 2: 119.27552032470703
+Epoch: 99, Best Tau 1: 125.23929595947266, Best Tau 2: 125.23929595947266
+Epoch: 100, Best Tau 1: 131.50125122070312, Best Tau 2: 131.50125122070312
+Epoch: 101, Best Tau 1: 138.07632446289062, Best Tau 2: 138.07632446289062
+Epoch: 102, Best Tau 1: 144.98013305664062, Best Tau 2: 144.98013305664062
+Epoch: 103, Best Tau 1: 152.22914123535156, Best Tau 2: 152.22914123535156
+Epoch: 104, Best Tau 1: 159.84060668945312, Best Tau 2: 159.84060668945312
+Epoch: 105, Best Tau 1: 167.83262634277344, Best Tau 2: 167.83262634277344
+Epoch: 106, Best Tau 1: 176.22425842285156, Best Tau 2: 176.22425842285156
+Epoch: 107, Best Tau 1: 185.0354766845703, Best Tau 2: 185.0354766845703
+Epoch: 108, Best Tau 1: 194.28724670410156, Best Tau 2: 194.28724670410156
+Epoch: 109, Best Tau 1: 204.00161743164062, Best Tau 2: 204.00161743164062
+Epoch: 110, Best Tau 1: 214.20169067382812, Best Tau 2: 214.20169067382812
+Epoch: 111, Best Tau 1: 224.91177368164062, Best Tau 2: 224.91177368164062
+Epoch: 112, Best Tau 1: 236.15736389160156, Best Tau 2: 236.15736389160156
+Epoch: 113, Best Tau 1: 247.96524047851562, Best Tau 2: 247.96524047851562
+Epoch: 114, Best Tau 1: 260.3634948730469, Best Tau 2: 260.3634948730469
+Epoch: 115, Best Tau 1: 273.3816833496094, Best Tau 2: 273.3816833496094
+Epoch: 116, Best Tau 1: 287.0507507324219, Best Tau 2: 287.0507507324219
+Epoch: 117, Best Tau 1: 300.0, Best Tau 2: 300.0
+Epoch: 118, Best Tau 1: 300.0, Best Tau 2: 300.0
+Epoch: 119, Best Tau 1: 300.0, Best Tau 2: 300.0
